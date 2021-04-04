@@ -1,8 +1,8 @@
-import { addProduct, removeProduct } from '../action/storageAction'
+import { addState, removeState } from '../actions/storageAction'
 
 export const stateLocalStorage = store => next => action => {
 
-    if ([addProduct.type, removeProduct.type].includes(action.type)) {
+    if ([addState.type, removeState.type].includes(action.type)) {
         next(action);
         const nextState = store.getState();
         try {

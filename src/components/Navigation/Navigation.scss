@@ -1,0 +1,62 @@
+@import "../../utilities/variables";
+
+.navigation {
+    z-index: 1;
+    position: fixed;
+    height: 100vh;
+    background-image: $bacgroundNavigation;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+
+    &__top-svg {
+        position: fixed;
+        left: 28px;
+        top: 20px;
+        width: 42px;
+        height: 42px;
+    }
+
+    &__svg {
+        cursor: pointer;
+        width: 32px;
+        height: 32px;
+    }
+
+    & ul {
+        :nth-child(4) {
+            margin-top: 25px;
+        }
+    }
+    
+    &__li {
+        position: relative;
+        margin-bottom: 20px;
+        &::after {
+            content: "";
+            position: absolute;
+            left: -5px;
+            right: -5px;
+            bottom: 0px;
+            height: 3px;
+            background-color: gainsboro;
+            transform: scaleX(0);
+            transition: transform 0.25s ease;
+        }
+        &:hover {
+            &::after {
+                content: "";
+                position: absolute;
+                left: -5px;
+                right: -5px;
+                bottom: 0px;
+                height: 3px;
+                background-color: gainsboro;
+                transform: scaleX(1);
+                transition: transform 0.25s ease;
+            }
+        }
+        
+    }
+}

@@ -1,5 +1,6 @@
 import { createReducer } from "@reduxjs/toolkit";
-import { } from '../action/interfaceAction'
+import { setTypesInterface } from "../actions/interfaceAction";
+
 
 const initialState = {
     loading: false,
@@ -7,7 +8,7 @@ const initialState = {
 };
 
 const interfaceStore = createReducer(initialState, {
-    [fetchPictures.type]: (state, action) => {
+    [setTypesInterface.type]: (state, action) => {
         state.data = action.payload;
     },
 });
