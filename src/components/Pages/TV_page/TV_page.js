@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useSelector } from 'react-redux'
 import { useParams } from 'react-router'
 import { getStateNav } from '../../../redux/selectors/mainStateSelector'
+import {FormattedMessage} from 'react-intl';
 import './TV_page.scss'
 
 export const TV_Page = () => {
@@ -29,19 +30,19 @@ export const TV_Page = () => {
                     <h1>Телевидение</h1>
                     </center>
                 <ul>
-                    <li>Все</li>
-                    <li>Домашние</li>
-                    <li>Спортивные</li>
-                    <li>Детские</li>
-                    <li>Образовательные</li>
-                    <li>Музыкальные</li>
-                    <li>Новостные</li>
+                    <li> <FormattedMessage id="app.tv.everything"/> </li>
+                    <li> <FormattedMessage id="app.tv.home"/> </li>
+                    <li> <FormattedMessage id="app.tv.sports"/> </li>
+                    <li> <FormattedMessage id="app.tv.childrens"/> </li>
+                    <li> <FormattedMessage id="app.tv.educational"/></li>
+                    <li> <FormattedMessage id="app.tv.musical"/></li>
+                    <li> <FormattedMessage id="app.tv.news"/> </li>
                     <li>HD</li>
                 </ul>
                 <hr/>
                 <ul>
-                    <li>Любимые</li>
-                    <li>В записи</li>
+                    <li><FormattedMessage id="app.tv.likes"/> </li>
+                    <li><FormattedMessage id="app.tv.recorders"/> </li>
                 </ul>
             </div>
             <div className="tv-page__list-chanals">

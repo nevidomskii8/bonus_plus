@@ -4,11 +4,12 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './css/normalize.css';
 import './css/index.css';
+import Wrapper from './Wrapper/Wrapper';
 
 ReactDOM.render(
-  <React.StrictMode>
+  <Wrapper>
     <App />
-  </React.StrictMode>,
+  </Wrapper>,
   document.getElementById('root')
 );
 

@@ -29,7 +29,7 @@
             margin-top: 25px;
         }
     }
-    
+
     &__li {
         position: relative;
         margin-bottom: 20px;
@@ -58,5 +58,9 @@
             }
         }
         
+    }
+    &__lang {
+        position: absolute;
+        bottom: 0;
     }
 }
