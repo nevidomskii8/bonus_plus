@@ -5,32 +5,41 @@ import { Info_Page } from './components/Pages/Info_page/Info_page'
 import { Records_Page } from './components/Pages/Records_page/Records_page'
 import { SetUp_Page } from './components/Pages/SetUp_page/SetUp_page'
 import { TV_Page } from './components/Pages/TV_page/TV_page'
+import { useEffect } from 'react';
+import { fetchState } from './redux/actions/mainStateActions';
+import { useDispatch } from 'react-redux'
 
 
 export default function Routes() {
 
+    const dispatch = useDispatch()
+
+    useEffect(() => {
+        dispatch(fetchState())
+    }, [])
+
     return (
         <Router>
             <div className='main'>
-            <Navigation />
-            <Switch>
-                <Route path="/info">
-                    <Info_Page />
-                </Route>
-                <Route path="/tv/:nav">
-                    <TV_Page />
-                </Route>
-                <Route exact path="/tv">
-                    <TV_Page />
-                </Route>
-                <Route path="/setup">
-                    <SetUp_Page />
-                </Route>
-                <Route path="/records">
-                    <Records_Page />
-                </Route>
-                <Redirect to='/tv' />
-            </Switch>
+                <Navigation />
+                <Switch>
+                    <Route path="/info">
+                        <Info_Page />
+                    </Route>
+                    <Route path="/tv/:nav">
+                        <TV_Page />
+                    </Route>
+                    <Route exact path="/tv">
+                        <TV_Page />
+                    </Route>
+                    <Route path="/setup">
+                        <SetUp_Page />
+                    </Route>
+                    <Route path="/records">
+                        <Records_Page />
+                    </Route>
+                    <Redirect to='/tv' />
+                </Switch>
             </div>
         </Router>
     )

@@ -1,55 +1,51 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useSelector } from 'react-redux'
-import { useParams } from 'react-router'
-import { getStateNav } from '../../../redux/selectors/mainStateSelector'
-import {FormattedMessage} from 'react-intl';
+import { getChanals, getStateNav } from '../../../redux/selectors/mainStateSelector'
 import './TV_page.scss'
+import { Genre } from './Genre/Genre';
+import { ListGanres } from './ListGanres';
 
 export const TV_Page = () => {
     const stateReduxNav = useSelector(getStateNav)
-    const { nav } = useParams();
-    const [openTypeOfChanals, setOpenTypeOfChanals] = useState (false)
+    const chanals = useSelector(getChanals)
+    const [stateGenres, setStateGenres] = useState([])
+    const [activeListGenres, setActiveListGenres] = useState(7)
+    const [openTypeOfChanals, setOpenTypeOfChanals] = useState(false)
 
-    
+
     useEffect(() => {
         setOpenTypeOfChanals(true)
-        console.log(nav)
-    },[])
+    }, [])
+
+    useEffect(() => {
+        setStateGenres(chanals)
+    }, [chanals])
+
     useEffect(() => {
         if (stateReduxNav !== 'tv') {
             setOpenTypeOfChanals(false)
         }
-    },[stateReduxNav])
+    }, [stateReduxNav])
 
-    
+
+    const handleChooseGenres = (genres) => {
+
+        setStateGenres(chanals.filter(item => item.genres[0].includes(genres)))
+    }
 
     return (
         <div className="tv-page">
-            <div className={`tv-page__typeof-chanals${openTypeOfChanals ? '--open': ''}`}>
-                <center>
-                    <h1>Телевидение</h1>
-                    </center>
-                <ul>
-                    <li> <FormattedMessage id="app.tv.everything"/> </li>
-                    <li> <FormattedMessage id="app.tv.home"/> </li>
-                    <li> <FormattedMessage id="app.tv.sports"/> </li>
-                    <li> <FormattedMessage id="app.tv.childrens"/> </li>
-                    <li> <FormattedMessage id="app.tv.educational"/></li>
-                    <li> <FormattedMessage id="app.tv.musical"/></li>
-                    <li> <FormattedMessage id="app.tv.news"/> </li>
-                    <li>HD</li>
-                </ul>
-                <hr/>
-                <ul>
-                    <li><FormattedMessage id="app.tv.likes"/> </li>
-                    <li><FormattedMessage id="app.tv.recorders"/> </li>
-                </ul>
-            </div>
-            <div className="tv-page__list-chanals">
+            <ListGanres
+                handleChooseGenres={handleChooseGenres}
+                openTypeOfChanals={openTypeOfChanals}
+                activeListGenres={activeListGenres}
+            />
+            <div className="tv-page__genres">
+                {stateGenres && <Genre genres={stateGenres} />}
             </div>
             <div className="tv-page__schedule">
             </div>
-        </div>
+        </div >
     )
 
 }

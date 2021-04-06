@@ -1,0 +1,5389 @@
+[
+   {
+      "id": 43,
+      "ch_altname": "1+1",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.207:9900\/tv\/606b1116efdbe215b348edd6-344516-43.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            2,
+            1,
+            8
+         ]
+      ],
+      "type": "standard",
+      "in_archive": true,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 642,
+      "ch_altname": "12 \u043a\u0430\u043d\u0430\u043b",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.206:9900\/tv\/606b1116efdbe215b348edd7-344516-642.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            9
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 69,
+      "ch_altname": "2+2",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.208:9900\/tv\/606b1116efdbe215b348edd8-344516-69.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            2,
+            1,
+            8
+         ]
+      ],
+      "type": "standard",
+      "in_archive": true,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 554,
+      "ch_altname": "34",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.210:9900\/tv\/606b1116efdbe215b348edd9-344516-554.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            9
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 655,
+      "ch_altname": "36.6",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.208:9900\/tv\/606b1116efdbe215b348edda-344516-655.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            5
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 651,
+      "ch_altname": "4ever Music",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.208:9900\/tv\/606b1116efdbe215b348eddb-344516-651.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            6
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 419,
+      "ch_altname": "8 \u043a\u0430\u043d\u0430\u043b",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.210:9900\/tv\/606b1116efdbe215b348eddc-344516-419.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            1,
+            9
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 551,
+      "ch_altname": "AMC",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.206:9900\/tv\/606b1116efdbe215b348ede0-344516-551.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            8
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 418,
+      "ch_altname": "ATR",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.210:9899\/tv\/606b1116efdbe215b348ede2-344516-418.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            2,
+            9,
+            1
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 310,
+      "ch_altname": "Al Jazeera",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.211:9900\/tv\/606b1116efdbe215b348eddd-344516-310.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            7
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 308,
+      "ch_altname": "Al Jazeera Doc.",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.208:9899\/tv\/606b1116efdbe215b348edde-344516-308.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            7,
+            8
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 309,
+      "ch_altname": "Al Jazeera Mubasher",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.212:9900\/tv\/606b1116efdbe215b348eddf-344516-309.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            7,
+            9
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 91,
+      "ch_altname": "Animal Planet",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.211:9899\/tv\/606b1116efdbe215b348ede1-344516-91.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            5
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 63,
+      "ch_altname": "BBC World News",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.212:9899\/tv\/606b1116efdbe215b348ede3-344516-63.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            9
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 560,
+      "ch_altname": "BOLT",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.212:9899\/tv\/606b1116efdbe215b348ede4-344516-560.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            8
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 593,
+      "ch_altname": "BOUTIQUETV",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.211:9900\/tv\/606b1116efdbe215b348ede5-344516-593.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            1
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 222,
+      "ch_altname": "BVN",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.212:9900\/tv\/606b1116efdbe215b348ede6-344516-222.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            7
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 493,
+      "ch_altname": "CNL Europe",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.211:9900\/tv\/606b1116efdbe215b348edea-344516-493.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            7
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 21,
+      "ch_altname": "Cartoon Network",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.209:9899\/tv\/606b1116efdbe215b348ede7-344516-21.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            4
+         ]
+      ],
+      "type": "standard",
+      "in_archive": true,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 335,
+      "ch_altname": "China CCTV News",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.210:9899\/tv\/606b1116efdbe215b348ede8-344516-335.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            7
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 227,
+      "ch_altname": "China CCTV4",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.206:9900\/tv\/606b1116efdbe215b348ede9-344516-227.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            7
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 246,
+      "ch_altname": "Da Vinci",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.209:9899\/tv\/606b1116efdbe215b348edeb-344516-246.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            5,
+            1,
+            4
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 25,
+      "ch_altname": "Discovery Channel",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.209:9899\/tv\/606b1116efdbe215b348edec-344516-25.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            5,
+            1
+         ]
+      ],
+      "type": "standard",
+      "in_archive": true,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 26,
+      "ch_altname": "Discovery Science",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.211:9900\/tv\/606b1116efdbe215b348eded-344516-26.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            5
+         ]
+      ],
+      "type": "standard",
+      "in_archive": true,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 500,
+      "ch_altname": "Discovery TLC",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.208:9900\/tv\/606b1116efdbe215b348edee-344516-500.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            5
+         ]
+      ],
+      "type": "standard",
+      "in_archive": true,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 119,
+      "ch_altname": "Disney channel",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.206:9899\/tv\/606b1116efdbe215b348edef-344516-119.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            4
+         ]
+      ],
+      "type": "standard",
+      "in_archive": true,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 2,
+      "ch_altname": "EU Music",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.206:9900\/tv\/606b1116efdbe215b348edf4-344516-2.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            6,
+            2
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 39,
+      "ch_altname": "English Club TV",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.208:9899\/tv\/606b1116efdbe215b348edf0-344516-39.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            8,
+            7
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 13,
+      "ch_altname": "Enter-\u0444\u0438\u043b\u044c\u043c",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.212:9899\/tv\/606b1116efdbe215b348edf1-344516-13.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            8,
+            2
+         ]
+      ],
+      "type": "standard",
+      "in_archive": true,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 561,
+      "ch_altname": "Epoque",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.210:9900\/tv\/606b1116efdbe215b348edf2-344516-561.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            5
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 307,
+      "ch_altname": "Espreso TV",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.207:9900\/tv\/606b1116efdbe215b348edf3-344516-307.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            9,
+            2
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 24,
+      "ch_altname": "Euronews",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.211:9900\/tv\/606b1116efdbe215b348edf5-344516-24.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            9,
+            2
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 16,
+      "ch_altname": "Eurosport",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.212:9899\/tv\/606b1116efdbe215b348edf6-344516-16.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            3
+         ]
+      ],
+      "type": "standard",
+      "in_archive": true,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 407,
+      "ch_altname": "FOX",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.210:9900\/tv\/606b1116efdbe215b348edf9-344516-407.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            8
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 17,
+      "ch_altname": "Fashion TV",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.206:9899\/tv\/606b1116efdbe215b348edf7-344516-17.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            1,
+            2
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 535,
+      "ch_altname": "FilmBox",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.212:9899\/tv\/606b1116efdbe215b348edf8-344516-535.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            8
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 658,
+      "ch_altname": "GenuineTV",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.211:9899\/tv\/606b1116efdbe215b348edfa-344516-658.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            1
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 479,
+      "ch_altname": "Gulli",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.210:9900\/tv\/606b1116efdbe215b348edfb-344516-479.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            8,
+            1,
+            2,
+            4
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 661,
+      "ch_altname": "HD 1+1",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.208:9899\/tv\/606b1116efdbe215b348edfc-344516-661.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            10,
+            8,
+            9,
+            1
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 663,
+      "ch_altname": "HD 2+2",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.209:9900\/tv\/606b1116efdbe215b348edfd-344516-663.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            10,
+            8,
+            1
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 540,
+      "ch_altname": "HD 360 TuneBox",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.207:9900\/tv\/606b1116efdbe215b348edfe-344516-540.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            6,
+            10
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 650,
+      "ch_altname": "HD 4ever Music",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.207:9900\/tv\/606b1116efdbe215b348edff-344516-650.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            10,
+            6
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 12,
+      "ch_altname": "HD 5 \u041a\u0430\u043d\u0430\u043b (\u0423\u043a\u0440\u0430\u0438\u043d\u0430)",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.207:9899\/tv\/606b1116efdbe215b348ee00-344516-12.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            9,
+            2,
+            10
+         ]
+      ],
+      "type": "standard",
+      "in_archive": true,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 666,
+      "ch_altname": "HD ATR",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.206:9899\/tv\/606b1116efdbe215b348ee03-344516-666.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            10,
+            2,
+            9,
+            1
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 574,
+      "ch_altname": "HD Amedia Premium",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.212:9899\/tv\/606b1116efdbe215b348ee01-344516-574.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            10,
+            8
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 445,
+      "ch_altname": "HD Animal planet",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.212:9900\/tv\/606b1116efdbe215b348ee02-344516-445.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            10,
+            5
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 580,
+      "ch_altname": "HD BRIDGE",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.206:9900\/tv\/606b1116efdbe215b348ee06-344516-580.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            10,
+            6
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 576,
+      "ch_altname": "HD Bollywood",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.206:9900\/tv\/606b1116efdbe215b348ee04-344516-576.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            10,
+            8
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 625,
+      "ch_altname": "HD Bolt",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.211:9899\/tv\/606b1116efdbe215b348ee05-344516-625.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            10,
+            8
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 637,
+      "ch_altname": "HD Chelsea TV",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.207:9899\/tv\/606b1116efdbe215b348ee07-344516-637.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            10,
+            3
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 423,
+      "ch_altname": "HD Discovery Channel",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.208:9899\/tv\/606b1116efdbe215b348ee08-344516-423.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            10,
+            5
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 534,
+      "ch_altname": "HD DocuBox",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.206:9900\/tv\/606b1116efdbe215b348ee09-344516-534.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            5,
+            1,
+            10
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 511,
+      "ch_altname": "HD English Club TV",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.207:9900\/tv\/606b1116efdbe215b348ee0a-344516-511.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            10,
+            2,
+            8,
+            5
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 135,
+      "ch_altname": "HD Eurosport",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.212:9900\/tv\/606b1116efdbe215b348ee0b-344516-135.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            3,
+            10
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 588,
+      "ch_altname": "HD Eurosport 2",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.209:9899\/tv\/606b1116efdbe215b348ee0c-344516-588.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            10,
+            3
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 567,
+      "ch_altname": "HD FOX",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.209:9899\/tv\/606b1116efdbe215b348ee11-344516-567.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            10,
+            8
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 264,
+      "ch_altname": "HD FTV",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.212:9900\/tv\/606b1116efdbe215b348ee13-344516-264.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            1,
+            6,
+            10
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 539,
+      "ch_altname": "HD FashionBox",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.210:9900\/tv\/606b1116efdbe215b348ee0d-344516-539.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            1,
+            10
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 536,
+      "ch_altname": "HD Fast&FunBox",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.212:9900\/tv\/606b1116efdbe215b348ee0e-344516-536.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            3,
+            10
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 537,
+      "ch_altname": "HD FightBox",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.206:9900\/tv\/606b1116efdbe215b348ee0f-344516-537.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            3,
+            10
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 538,
+      "ch_altname": "HD FilmBox Art House",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.208:9900\/tv\/606b1116efdbe215b348ee10-344516-538.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            8,
+            10
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 200,
+      "ch_altname": "HD France 24",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.208:9900\/tv\/606b1116efdbe215b348ee12-344516-200.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            7,
+            9,
+            10
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 432,
+      "ch_altname": "HD Hollywood",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.209:9900\/tv\/606b1116efdbe215b348ee14-344516-432.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            10,
+            8
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 670,
+      "ch_altname": "HD InRating TV",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.209:9899\/tv\/606b1116efdbe215b348ee15-344516-670.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            6,
+            1
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 138,
+      "ch_altname": "HD MTV Live",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.209:9899\/tv\/606b1116efdbe215b348ee17-344516-138.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            6,
+            10,
+            2
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 545,
+      "ch_altname": "HD MostVideo TV",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.211:9900\/tv\/606b1116efdbe215b348ee16-344516-545.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            2,
+            3
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 608,
+      "ch_altname": "HD NIKI JUNIOR",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.209:9899\/tv\/606b1116efdbe215b348ee1c-344516-608.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            10,
+            4
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 609,
+      "ch_altname": "HD NIKI KIDS",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.208:9900\/tv\/606b1116efdbe215b348ee1d-344516-609.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            10,
+            4
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 521,
+      "ch_altname": "HD Nat Geo Wild",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.210:9900\/tv\/606b1116efdbe215b348ee18-344516-521.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            10,
+            5
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 136,
+      "ch_altname": "HD National Geographic",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.206:9900\/tv\/606b1116efdbe215b348ee19-344516-136.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            5,
+            10
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 315,
+      "ch_altname": "HD Nature\/History",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.211:9899\/tv\/606b1116efdbe215b348ee1a-344516-315.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            10,
+            5
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 413,
+      "ch_altname": "HD Nickelodeon",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.211:9899\/tv\/606b1116efdbe215b348ee1b-344516-413.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            4,
+            10,
+            2
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 610,
+      "ch_altname": "HD OBOZ TV",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.211:9900\/tv\/606b1116efdbe215b348ee1e-344516-610.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            10,
+            9
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 660,
+      "ch_altname": "HD Paramount Channel",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.208:9899\/tv\/606b1116efdbe215b348ee1f-344516-660.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            10,
+            8,
+            1
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 598,
+      "ch_altname": "HD SEA TV",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.211:9899\/tv\/606b1116efdbe215b348ee20-344516-598.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            10,
+            5
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 654,
+      "ch_altname": "HD Setanta Sports",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.211:9899\/tv\/606b1116efdbe215b348ee21-344516-654.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            10,
+            3
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 573,
+      "ch_altname": "HD TLC",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.212:9900\/tv\/606b1116efdbe215b348ee22-344516-573.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            10,
+            5,
+            1
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 648,
+      "ch_altname": "HD TRAVEL GUIDE-TV",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.209:9900\/tv\/606b1116efdbe215b348ee24-344516-648.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            10,
+            6,
+            1
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 93,
+      "ch_altname": "HD TV1000",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.207:9900\/tv\/606b1116efdbe215b348ee25-344516-93.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            1,
+            8,
+            10
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 94,
+      "ch_altname": "HD TV1000 Action",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.206:9899\/tv\/606b1116efdbe215b348ee26-344516-94.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            1,
+            8,
+            2,
+            10
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 388,
+      "ch_altname": "HD Travel Channel",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.210:9900\/tv\/606b1116efdbe215b348ee23-344516-388.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            10,
+            5
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 630,
+      "ch_altname": "HD UA:\u041f\u0435\u0440\u0448\u0438\u0439",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.212:9900\/tv\/606b1116efdbe215b348ee27-344516-630.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            10,
+            1,
+            7
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 467,
+      "ch_altname": "HD ViP Comedy",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.209:9899\/tv\/606b1116efdbe215b348ee29-344516-467.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            10,
+            1,
+            8
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 568,
+      "ch_altname": "HD ViP Megahit",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.212:9899\/tv\/606b1116efdbe215b348ee2a-344516-568.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            10,
+            8,
+            1
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 569,
+      "ch_altname": "HD ViP Premiere",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.209:9900\/tv\/606b1116efdbe215b348ee2b-344516-569.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            10,
+            8,
+            1
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 570,
+      "ch_altname": "HD Viasat Sport",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.208:9899\/tv\/606b1116efdbe215b348ee28-344516-570.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            10,
+            3
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 258,
+      "ch_altname": "HD ZDF Germany",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.211:9899\/tv\/606b1116efdbe215b348ee2c-344516-258.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            7,
+            10
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 257,
+      "ch_altname": "HD ZDF Neo",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.212:9899\/tv\/606b1116efdbe215b348ee2d-344516-257.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            7,
+            1,
+            10
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 668,
+      "ch_altname": "HD \u0406\u043d\u0448\u0438\u0439",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.208:9899\/tv\/606b1116efdbe215b348ee2e-344516-668.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            10,
+            1
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 178,
+      "ch_altname": "HD \u0410\u043a\u0430\u0434\u0435\u043c\u0438\u044f",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.211:9900\/tv\/606b1116efdbe215b348ee2f-344516-178.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            10,
+            9
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 585,
+      "ch_altname": "HD \u0414\u0430\u0447\u0430",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.212:9899\/tv\/606b1116efdbe215b348ee30-344516-585.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            10,
+            5
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 578,
+      "ch_altname": "HD \u0414\u043e\u043c \u041a\u0438\u043d\u043e \u041f\u0440\u0435\u043c\u0438\u0443\u043c",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.212:9900\/tv\/606b1116efdbe215b348ee31-344516-578.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            10,
+            8
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 527,
+      "ch_altname": "HD \u0415\u0442\u043d\u043e \u043a\u0430\u043d\u0430\u043b",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.212:9899\/tv\/606b1116efdbe215b348ee32-344516-527.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            2,
+            7,
+            10,
+            6
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 579,
+      "ch_altname": "HD \u041a\u043e\u043d\u043d\u044b\u0439 \u043c\u0438\u0440",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.208:9899\/tv\/606b1116efdbe215b348ee33-344516-579.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            10,
+            3
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 428,
+      "ch_altname": "HD \u041c\u0430\u0442\u0447! \u0410\u0440\u0435\u043d\u0430",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.210:9899\/tv\/606b1116efdbe215b348ee34-344516-428.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            10,
+            3
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 141,
+      "ch_altname": "HD \u041c\u0430\u0442\u0447! \u0418\u0433\u0440\u0430",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.208:9900\/tv\/606b1116efdbe215b348ee35-344516-141.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            3,
+            10
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 446,
+      "ch_altname": "HD \u041c\u0430\u0442\u0447! \u0424\u0443\u0442\u0431\u043e\u043b 1",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.209:9900\/tv\/606b1116efdbe215b348ee36-344516-446.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            10,
+            3
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 571,
+      "ch_altname": "HD \u041c\u0430\u0442\u0447! \u0424\u0443\u0442\u0431\u043e\u043b 2",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.210:9899\/tv\/606b1116efdbe215b348ee37-344516-571.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            10,
+            3
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 572,
+      "ch_altname": "HD \u041c\u0430\u0442\u0447! \u0424\u0443\u0442\u0431\u043e\u043b 3",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.208:9899\/tv\/606b1116efdbe215b348ee38-344516-572.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            10,
+            3
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 528,
+      "ch_altname": "HD \u041d\u0430\u0448\u0435 Music",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.211:9899\/tv\/606b1116efdbe215b348ee39-344516-528.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            2,
+            6,
+            1,
+            10
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 604,
+      "ch_altname": "HD \u041e\u0434\u0435\u0441\u0441\u0430 7 \u043a\u0430\u043d\u0430\u043b",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.207:9900\/tv\/606b1116efdbe215b348ee3a-344516-604.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            10,
+            9,
+            1
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 322,
+      "ch_altname": "HD \u041e\u0434\u0435\u0441\u0441\u0430 \u0414\u0443\u043c\u0441\u043a\u0430\u044f.TV",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.209:9900\/tv\/606b1116efdbe215b348ee3b-344516-322.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            9,
+            1,
+            10,
+            2
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 618,
+      "ch_altname": "HD \u041e\u0434\u0435\u0441\u0441\u0430 \u041f\u0435\u0440\u0432\u044b\u0439",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.206:9900\/tv\/606b1116efdbe215b348ee3c-344516-618.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            10,
+            9
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 381,
+      "ch_altname": "HD \u041f\u0440\u044f\u043c\u0438\u0439",
+      "liked": true,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.206:9899\/tv\/606b1116efdbe215b348ee3d-344516-381.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            10,
+            2
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 669,
+      "ch_altname": "HD \u0420\u044b\u0431\u0430\u043b\u043a\u0430 \u0422\u0412",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.212:9899\/tv\/606b1116efdbe215b348ee3e-344516-669.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            10,
+            5,
+            1,
+            3
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 664,
+      "ch_altname": "HD \u0422\u0415\u0422",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.207:9900\/tv\/606b1116efdbe215b348ee3f-344516-664.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            10,
+            8,
+            1
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 515,
+      "ch_altname": "HD \u0422\u0440\u043e\u0444\u0435\u0439",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.207:9900\/tv\/606b1116efdbe215b348ee40-344516-515.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            10,
+            5,
+            1,
+            2
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 495,
+      "ch_altname": "HD \u0424\u0443\u0442\u0431\u043e\u043b 1",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.209:9900\/tv\/606b1116efdbe215b348ee41-344516-495.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            3,
+            10,
+            2
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 496,
+      "ch_altname": "HD \u0424\u0443\u0442\u0431\u043e\u043b 2",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.212:9899\/tv\/606b1116efdbe215b348ee42-344516-496.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            3,
+            10,
+            2
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 14,
+      "ch_altname": "HD \u042e\u0436\u043d\u0430\u044f \u0432\u043e\u043b\u043d\u0430",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.209:9900\/tv\/606b1116efdbe215b348ee43-344516-14.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            10,
+            9,
+            7
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 38,
+      "ch_altname": "ICTV",
+      "liked": true,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.206:9900\/tv\/606b1116efdbe215b348ee44-344516-38.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            1,
+            2
+         ]
+      ],
+      "type": "standard",
+      "in_archive": true,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 242,
+      "ch_altname": "ID Xtra",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.211:9899\/tv\/606b1116efdbe215b348ee45-344516-242.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            5
+         ]
+      ],
+      "type": "standard",
+      "in_archive": true,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 465,
+      "ch_altname": "Lale",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.209:9900\/tv\/606b1116efdbe215b348ee46-344516-465.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            2,
+            4
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 7,
+      "ch_altname": "MCM TOP",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.206:9900\/tv\/606b1116efdbe215b348ee47-344516-7.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            6,
+            2,
+            7
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 191,
+      "ch_altname": "MTV 80s",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.207:9899\/tv\/606b1116efdbe215b348ee4a-344516-191.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            6
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 565,
+      "ch_altname": "MTV 90s",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.211:9900\/tv\/606b1116efdbe215b348ee4b-344516-565.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            6
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 193,
+      "ch_altname": "MTV Club",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.210:9900\/tv\/606b1116efdbe215b348ee4c-344516-193.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            6
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 564,
+      "ch_altname": "MTV Hits",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.211:9900\/tv\/606b1116efdbe215b348ee4d-344516-564.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            6
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 203,
+      "ch_altname": "Mezzo (Muzzik)",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.209:9899\/tv\/606b1116efdbe215b348ee48-344516-203.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            6,
+            2
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 67,
+      "ch_altname": "Milady TV",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.212:9900\/tv\/606b1116efdbe215b348ee49-344516-67.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            1,
+            2,
+            8
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 174,
+      "ch_altname": "MusicBox UA",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.209:9900\/tv\/606b1116efdbe215b348ee4e-344516-174.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            6,
+            2
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 653,
+      "ch_altname": "NIKI JUNIOR",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.209:9900\/tv\/606b1116efdbe215b348ee54-344516-653.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            4
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 652,
+      "ch_altname": "NIKI KIDS",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.207:9900\/tv\/606b1116efdbe215b348ee55-344516-652.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            4
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 27,
+      "ch_altname": "Nat Geo Wild",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.206:9899\/tv\/606b1116efdbe215b348ee4f-344516-27.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            5
+         ]
+      ],
+      "type": "standard",
+      "in_archive": true,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 28,
+      "ch_altname": "National Geographic",
+      "liked": true,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.208:9900\/tv\/606b1116efdbe215b348ee50-344516-28.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            5,
+            2
+         ]
+      ],
+      "type": "standard",
+      "in_archive": true,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 566,
+      "ch_altname": "Nick Jr.",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.210:9899\/tv\/606b1116efdbe215b348ee51-344516-566.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            4
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 667,
+      "ch_altname": "Nick Toons",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.208:9899\/tv\/606b1116efdbe215b348ee52-344516-667.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            4
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 22,
+      "ch_altname": "Nickelodeon",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.208:9900\/tv\/606b1116efdbe215b348ee53-344516-22.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            4
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 66,
+      "ch_altname": "OTV Music",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.211:9900\/tv\/606b1116efdbe215b348ee56-344516-66.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            6,
+            2
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 575,
+      "ch_altname": "Paramount Comedy",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.206:9899\/tv\/606b1116efdbe215b348ee57-344516-575.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            8,
+            1
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 644,
+      "ch_altname": "QuizTV",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.208:9900\/tv\/606b1116efdbe215b348ee58-344516-644.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            1
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 498,
+      "ch_altname": "RABINOVICH TV",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.207:9900\/tv\/606b1116efdbe215b348ee59-344516-498.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            9
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 619,
+      "ch_altname": "RTVD",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.207:9899\/tv\/606b1116efdbe215b348ee5a-344516-619.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            9
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 671,
+      "ch_altname": "Shakhtar TV",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.206:9900\/tv\/606b1116efdbe215b348ee5b-344516-671.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            3
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 592,
+      "ch_altname": "Sony Channel",
+      "liked": true,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.208:9900\/tv\/606b1116efdbe215b348ee5c-344516-592.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            8,
+            1
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 526,
+      "ch_altname": "Sony Sci-Fi",
+      "liked": true,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.207:9900\/tv\/606b1116efdbe215b348ee5d-344516-526.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            2,
+            8,
+            1
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 525,
+      "ch_altname": "Sony Turbo",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.209:9900\/tv\/606b1116efdbe215b348ee5e-344516-525.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            1,
+            2,
+            8
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 606,
+      "ch_altname": "Spike",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.206:9900\/tv\/606b1116efdbe215b348ee5f-344516-606.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            1
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 635,
+      "ch_altname": "Sport 1 Baltic",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.212:9899\/tv\/606b1116efdbe215b348ee60-344516-635.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            3
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 636,
+      "ch_altname": "Sport 2 Baltic",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.211:9899\/tv\/606b1116efdbe215b348ee61-344516-636.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            3
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 657,
+      "ch_altname": "Star Family",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.206:9899\/tv\/606b1116efdbe215b348ee62-344516-657.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            1
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 324,
+      "ch_altname": "TV XXI",
+      "liked": true,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.208:9900\/tv\/606b1116efdbe215b348ee66-344516-324.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            8
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 92,
+      "ch_altname": "TV1000 World Kino",
+      "liked": true,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.210:9899\/tv\/606b1116efdbe215b348ee67-344516-92.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            1,
+            8
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 480,
+      "ch_altname": "TiJi",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.208:9899\/tv\/606b1116efdbe215b348ee63-344516-480.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            1,
+            2,
+            4
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 550,
+      "ch_altname": "Travel Channel",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.206:9900\/tv\/606b1116efdbe215b348ee64-344516-550.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            5,
+            1
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 232,
+      "ch_altname": "Tunisia",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.206:9900\/tv\/606b1116efdbe215b348ee65-344516-232.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            7
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 176,
+      "ch_altname": "UA: \u0417\u0430\u043a\u0430\u0440\u043f\u0430\u0442\u0442\u044f",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.209:9899\/tv\/606b1116efdbe215b348ee68-344516-176.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            1,
+            7
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 594,
+      "ch_altname": "UA:\u0414\u043e\u043d\u0431\u0430\u0441",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.207:9900\/tv\/606b1116efdbe215b348ee69-344516-594.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            9,
+            7,
+            2
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 440,
+      "ch_altname": "UA:\u041a\u0440\u0438\u043c",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.212:9900\/tv\/606b1116efdbe215b348ee6a-344516-440.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            9,
+            7,
+            2
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 146,
+      "ch_altname": "UA:\u041a\u0443\u043b\u044c\u0442\u0443\u0440\u0430",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.206:9900\/tv\/606b1116efdbe215b348ee6b-344516-146.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            1,
+            2,
+            7
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 459,
+      "ch_altname": "UA:\u041e\u0434\u0435\u0441\u0441\u0430",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.210:9900\/tv\/606b1116efdbe215b348ee6c-344516-459.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            2,
+            9
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 64,
+      "ch_altname": "UA:\u041f\u0435\u0440\u0448\u0438\u0439",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.207:9899\/tv\/606b1116efdbe215b348ee6d-344516-64.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            2,
+            1,
+            7
+         ]
+      ],
+      "type": "standard",
+      "in_archive": true,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 282,
+      "ch_altname": "VH1 European",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.208:9899\/tv\/606b1116efdbe215b348ee6e-344516-282.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            6
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 95,
+      "ch_altname": "Viasat Explore",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.208:9900\/tv\/606b1116efdbe215b348ee6f-344516-95.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            5,
+            2
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 96,
+      "ch_altname": "Viasat History",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.211:9899\/tv\/606b1116efdbe215b348ee70-344516-96.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            5,
+            2
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 245,
+      "ch_altname": "Viasat Nature",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.208:9900\/tv\/606b1116efdbe215b348ee71-344516-245.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            5,
+            2
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 97,
+      "ch_altname": "Viasat Sport",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.208:9899\/tv\/606b1116efdbe215b348ee72-344516-97.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            3,
+            2
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 9,
+      "ch_altname": "World Fashion",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.210:9900\/tv\/606b1116efdbe215b348ee73-344516-9.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            1,
+            2
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 633,
+      "ch_altname": "XXX Barely Legal",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.210:9899\/tv\/606b1116efdbe215b348ee74-344516-633.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            1
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 632,
+      "ch_altname": "XXX Blue Hustler",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.212:9899\/tv\/606b1116efdbe215b348ee75-344516-632.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            1
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 541,
+      "ch_altname": "XXX HD Erox",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.207:9900\/tv\/606b1116efdbe215b348ee76-344516-541.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": 0,
+      "allowed_time_periods_stop": 35959,
+      "genres": [
+         [
+            1,
+            10
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 638,
+      "ch_altname": "XXX Kino1",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.211:9900\/tv\/606b1116efdbe215b348ee77-344516-638.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            1
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 8,
+      "ch_altname": "ZOOM",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.212:9899\/tv\/606b1116efdbe215b348ee78-344516-8.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            1,
+            6,
+            2
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 328,
+      "ch_altname": "\u0410\u043d\u0438\u043c\u0435 \u0422\u0412",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.211:9899\/tv\/606b1116efdbe215b348ee79-344516-328.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            4,
+            8
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 614,
+      "ch_altname": "\u0411\u0435\u043b\u0430\u0440\u0443\u0441\u044c 24",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.211:9899\/tv\/606b1116efdbe215b348ee7a-344516-614.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            9
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 175,
+      "ch_altname": "\u0411\u0438\u0433\u0443\u0434\u0438",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.210:9900\/tv\/606b1116efdbe215b348ee7b-344516-175.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            1,
+            2
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 583,
+      "ch_altname": "\u0412 \u0433\u043e\u0441\u0442\u044f\u0445 \u0443 \u0441\u043a\u0430\u0437\u043a\u0438",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.208:9900\/tv\/606b1116efdbe215b348ee7c-344516-583.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            4
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 543,
+      "ch_altname": "\u0412\u043e\u0437\u0440\u043e\u0436\u0434\u0435\u043d\u0438\u0435",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.211:9900\/tv\/606b1116efdbe215b348ee7e-344516-543.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            2,
+            7
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 581,
+      "ch_altname": "\u0412\u0456\u043d\u0442\u0430\u0436 \u0422\u0412",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.207:9899\/tv\/606b1116efdbe215b348ee7d-344516-581.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            8,
+            1
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 82,
+      "ch_altname": "\u0413\u043b\u0430\u0441",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.209:9900\/tv\/606b1116efdbe215b348ee7f-344516-82.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            7,
+            2
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 359,
+      "ch_altname": "\u0413\u043e\u043d\u0434\u0443\u0440\u0430\u0441 \u0422\u0412",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.206:9899\/tv\/606b1116efdbe215b348ee80-344516-359.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            8
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 416,
+      "ch_altname": "\u0413\u043e\u0440\u0438\u0437\u043e\u043d\u0442",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.209:9899\/tv\/606b1116efdbe215b348ee81-344516-416.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            1
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 552,
+      "ch_altname": "\u0414\u0430\u0447\u0430",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.211:9900\/tv\/606b1116efdbe215b348ee82-344516-552.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            5
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 199,
+      "ch_altname": "\u0414\u0435\u0442\u0441\u043a\u0438\u0439 \u043c\u0438\u0440",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.207:9899\/tv\/606b1116efdbe215b348ee83-344516-199.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            4,
+            2
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 542,
+      "ch_altname": "\u0414\u0438\u0442\u0438\u043d\u0435\u0446\u044c",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.210:9900\/tv\/606b1116efdbe215b348ee84-344516-542.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            2,
+            1
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 344,
+      "ch_altname": "\u0414\u043e\u043c\u0430\u0448\u043d\u0438\u0439",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.209:9900\/tv\/606b1116efdbe215b348ee85-344516-344.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            8
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 620,
+      "ch_altname": "\u0414\u043e\u0440\u0430\u043c\u0430",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.210:9899\/tv\/606b1116efdbe215b348ee86-344516-620.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            8
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 476,
+      "ch_altname": "\u0417\u0430\u0433\u043e\u0440\u043e\u0434\u043d\u0430\u044f \u0436\u0438\u0437\u043d\u044c",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.210:9899\/tv\/606b1116efdbe215b348ee87-344516-476.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            5,
+            1,
+            2
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 492,
+      "ch_altname": "\u0417\u0434\u043e\u0440\u043e\u0432\u044c\u0435",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.210:9900\/tv\/606b1116efdbe215b348ee88-344516-492.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            5
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 510,
+      "ch_altname": "\u0418\u043d\u0434\u0438\u0433\u043e \u0422\u0412",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.210:9900\/tv\/606b1116efdbe215b348ee89-344516-510.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            1
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 142,
+      "ch_altname": "\u0418\u043d\u0442\u0435\u0440",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.210:9899\/tv\/606b1116efdbe215b348ee8a-344516-142.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            2,
+            9
+         ]
+      ],
+      "type": "standard",
+      "in_archive": true,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 45,
+      "ch_altname": "\u041a1",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.210:9900\/tv\/606b1116efdbe215b348ee8b-344516-45.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            2,
+            1
+         ]
+      ],
+      "type": "standard",
+      "in_archive": true,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 47,
+      "ch_altname": "\u041a2",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.211:9900\/tv\/606b1116efdbe215b348ee8c-344516-47.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            2,
+            1
+         ]
+      ],
+      "type": "standard",
+      "in_archive": true,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 656,
+      "ch_altname": "\u041a\u0423\u0421-\u041a\u0423\u0421",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.210:9900\/tv\/606b1116efdbe215b348ee93-344516-656.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            5
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 188,
+      "ch_altname": "\u041a\u0430\u043d\u0430\u043b \u042e",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.206:9899\/tv\/606b1116efdbe215b348ee8d-344516-188.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            1
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 553,
+      "ch_altname": "\u041a\u0432\u0430\u0440\u0442\u0430\u043b \u0422\u0412",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.208:9899\/tv\/606b1116efdbe215b348ee8e-344516-553.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            1
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 472,
+      "ch_altname": "\u041a\u0438\u043d\u043e\u043c\u0438\u043a\u0441",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.208:9899\/tv\/606b1116efdbe215b348ee90-344516-472.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            8,
+            1,
+            2
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 194,
+      "ch_altname": "\u041a\u0438\u043d\u043e\u0441\u0435\u043c\u044c\u044f",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.209:9899\/tv\/606b1116efdbe215b348ee91-344516-194.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            4,
+            8
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 469,
+      "ch_altname": "\u041a\u0438\u043d\u043e\u0445\u0438\u0442",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.208:9900\/tv\/606b1116efdbe215b348ee92-344516-469.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            8,
+            1,
+            2
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 436,
+      "ch_altname": "\u041a\u0438\u0457\u0432 \u0422\u0411",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.210:9899\/tv\/606b1116efdbe215b348ee8f-344516-436.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            9
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 166,
+      "ch_altname": "\u041c1",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.210:9899\/tv\/606b1116efdbe215b348ee94-344516-166.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            1,
+            6,
+            2
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 169,
+      "ch_altname": "\u041c2",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.212:9899\/tv\/606b1116efdbe215b348ee95-344516-169.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            1,
+            6,
+            2
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 46,
+      "ch_altname": "\u041c\u0415\u0413\u0410",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.211:9900\/tv\/606b1116efdbe215b348ee9b-344516-46.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            1,
+            3,
+            2
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 143,
+      "ch_altname": "\u041c\u0430\u043b\u044f\u0442\u043a\u043e TV",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.210:9899\/tv\/606b1116efdbe215b348ee96-344516-143.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            4,
+            2
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 243,
+      "ch_altname": "\u041c\u0430\u0442\u0447! \u041f\u043b\u0430\u043d\u0435\u0442\u0430",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.211:9899\/tv\/606b1116efdbe215b348ee97-344516-243.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            3
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 112,
+      "ch_altname": "\u041c\u0430\u0442\u0447! \u0422\u0412",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.207:9899\/tv\/606b1116efdbe215b348ee98-344516-112.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            3
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 396,
+      "ch_altname": "\u041c\u0430\u0442\u0447! \u0424\u0443\u0442\u0431\u043e\u043b 1",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.207:9899\/tv\/606b1116efdbe215b348ee99-344516-396.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            3
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 494,
+      "ch_altname": "\u041c\u0430\u0442\u0447! \u0424\u0443\u0442\u0431\u043e\u043b 3",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.206:9899\/tv\/606b1116efdbe215b348ee9a-344516-494.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            3
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 289,
+      "ch_altname": "\u041c\u0443\u0436\u0441\u043a\u043e\u0435 \u043a\u0438\u043d\u043e",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.209:9900\/tv\/606b1116efdbe215b348ee9c-344516-289.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            1,
+            8
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 421,
+      "ch_altname": "\u041d\u041b\u041e",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.206:9900\/tv\/606b1116efdbe215b348eea1-344516-421.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            2,
+            1
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 44,
+      "ch_altname": "\u041d\u0422\u041d",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.212:9899\/tv\/606b1116efdbe215b348eea4-344516-44.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            2,
+            9
+         ]
+      ],
+      "type": "standard",
+      "in_archive": true,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 457,
+      "ch_altname": "\u041d\u0430\u0434\u0438\u044f",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.206:9900\/tv\/606b1116efdbe215b348ee9d-344516-457.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            2,
+            9,
+            1
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 491,
+      "ch_altname": "\u041d\u0430\u0442\u0430\u043b\u0456",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.207:9900\/tv\/606b1116efdbe215b348ee9e-344516-491.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            2,
+            1
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 587,
+      "ch_altname": "\u041d\u0430\u0443\u043a\u0430",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.211:9900\/tv\/606b1116efdbe215b348ee9f-344516-587.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            5
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 613,
+      "ch_altname": "\u041d\u0430\u0448\u0435 \u043b\u044e\u0431\u0438\u043c\u043e\u0435 \u043a\u0438\u043d\u043e",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.211:9900\/tv\/606b1116efdbe215b348eea0-344516-613.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            8
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 173,
+      "ch_altname": "\u041d\u043e\u0432\u043e\u0441\u0442\u0438 24",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.208:9899\/tv\/606b1116efdbe215b348eea2-344516-173.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            9,
+            2
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 10,
+      "ch_altname": "\u041d\u043e\u0432\u044b\u0439 \u041a\u0430\u043d\u0430\u043b",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.209:9899\/tv\/606b1116efdbe215b348eea3-344516-10.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            2,
+            1,
+            8
+         ]
+      ],
+      "type": "standard",
+      "in_archive": true,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 586,
+      "ch_altname": "\u041e\u0422\u0411 \u0413\u0430\u043b\u0438\u0447\u0438\u043d\u0430",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.209:9900\/tv\/606b1116efdbe215b348eeb4-344516-586.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            9,
+            7
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 367,
+      "ch_altname": "\u041e\u0434\u0435\u0441\u0441\u0430 100% News",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.206:9900\/tv\/606b1116efdbe215b348eea5-344516-367.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            9,
+            2
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 447,
+      "ch_altname": "\u041e\u0434\u0435\u0441\u0441\u0430 A1",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.209:9899\/tv\/606b1116efdbe215b348eea6-344516-447.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            2,
+            1
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 450,
+      "ch_altname": "\u041e\u0434\u0435\u0441\u0441\u0430 GTV",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.208:9899\/tv\/606b1116efdbe215b348eea7-344516-450.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            2,
+            8
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 584,
+      "ch_altname": "\u041e\u0434\u0435\u0441\u0441\u0430 Int",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.207:9900\/tv\/606b1116efdbe215b348eea8-344516-584.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            7
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 485,
+      "ch_altname": "\u041e\u0434\u0435\u0441\u0441\u0430 \u0413\u043b\u0430\u0441",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.206:9899\/tv\/606b1116efdbe215b348eea9-344516-485.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            2,
+            1
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 483,
+      "ch_altname": "\u041e\u0434\u0435\u0441\u0441\u0430 \u0413\u0440\u0430\u0434",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.206:9899\/tv\/606b1116efdbe215b348eeaa-344516-483.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            2,
+            9
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 323,
+      "ch_altname": "\u041e\u0434\u0435\u0441\u0441\u0430 \u041a\u0440\u0443\u0433",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.211:9899\/tv\/606b1116efdbe215b348eeab-344516-323.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            2,
+            9
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 646,
+      "ch_altname": "\u041e\u0434\u0435\u0441\u0441\u0430 \u041c\u0435\u0434\u0456\u0430-\u0406\u043d\u0444\u043e\u0440\u043c",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.209:9899\/tv\/606b1116efdbe215b348eeac-344516-646.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            9
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 179,
+      "ch_altname": "\u041e\u0434\u0435\u0441\u0441\u0430 \u041e\u041d\u0422",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.211:9900\/tv\/606b1116efdbe215b348eead-344516-179.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            2,
+            9
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 486,
+      "ch_altname": "\u041e\u0434\u0435\u0441\u0441\u0430 \u041f\u043b\u044e\u0441",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.206:9899\/tv\/606b1116efdbe215b348eeae-344516-486.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            2,
+            1
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 473,
+      "ch_altname": "\u041e\u0434\u0435\u0441\u0441\u0430 \u0420\u0435\u043d\u043e\u043c\u0435",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.206:9899\/tv\/606b1116efdbe215b348eeaf-344516-473.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            1,
+            2
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 320,
+      "ch_altname": "\u041e\u0434\u0435\u0441\u0441\u0430 \u0420\u0435\u043f\u043e\u0440\u0442\u0435\u0440",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.207:9899\/tv\/606b1116efdbe215b348eeb0-344516-320.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            9,
+            2
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 180,
+      "ch_altname": "\u041e\u0434\u0435\u0441\u0441\u0430 \u0420\u0438\u0430\u043a 7",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.206:9900\/tv\/606b1116efdbe215b348eeb1-344516-180.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            2,
+            9
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 487,
+      "ch_altname": "\u041e\u0434\u0435\u0441\u0441\u0430 \u0421\u0442\u0440\u0430\u043d\u0430 \u0441\u043e\u0432\u0435\u0442\u043e\u0432",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.210:9899\/tv\/606b1116efdbe215b348eeb2-344516-487.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            9,
+            1
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 482,
+      "ch_altname": "\u041e\u0434\u0435\u0441\u0441\u0430 \u0422\u0440\u0435\u0442\u0438\u0439",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.211:9899\/tv\/606b1116efdbe215b348eeb3-344516-482.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            9,
+            2
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 171,
+      "ch_altname": "\u041e\u0446\u0435",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.210:9899\/tv\/606b1116efdbe215b348eeb5-344516-171.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            1,
+            2
+         ]
+      ],
+      "type": "standard",
+      "in_archive": true,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 170,
+      "ch_altname": "\u041f\u0435\u0440\u0432\u044b\u0439 \u0434\u0435\u043b\u043e\u0432\u043e\u0439",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.208:9899\/tv\/606b1116efdbe215b348eeb6-344516-170.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            2,
+            9
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 29,
+      "ch_altname": "\u041f\u0435\u0440\u0448\u0438\u0439 \u0430\u0432\u0442\u043e\u043c\u043e\u0431i\u043b\u044c\u043d\u0438\u0439",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.206:9900\/tv\/606b1116efdbe215b348eeb7-344516-29.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            5,
+            1,
+            2
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 262,
+      "ch_altname": "\u041f\u0435\u0440\u0448\u0438\u0439 \u0437\u0430\u0445\u0456\u0434\u043d\u0438\u0439",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.206:9899\/tv\/606b1116efdbe215b348eeb8-344516-262.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            1,
+            9
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 177,
+      "ch_altname": "\u041f\u0438\u043a\u0441\u0435\u043b\u044c \u0422\u0412",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.210:9900\/tv\/606b1116efdbe215b348eeb9-344516-177.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            4,
+            2
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 172,
+      "ch_altname": "\u041f\u043b\u044e\u0441 \u043f\u043b\u044e\u0441",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.211:9900\/tv\/606b1116efdbe215b348eeba-344516-172.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            2,
+            4,
+            1
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 612,
+      "ch_altname": "\u041f\u0440\u0430\u0432\u0434\u0430\u0422\u0423\u0422",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.208:9900\/tv\/606b1116efdbe215b348eebb-344516-612.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            9
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 167,
+      "ch_altname": "\u041f\u0440\u044f\u043c\u0438\u0439",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.207:9899\/tv\/606b1116efdbe215b348eebc-344516-167.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            1,
+            2
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 139,
+      "ch_altname": "\u041f\u044f\u0442\u043d\u0438\u0446\u0430!",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.206:9900\/tv\/606b1116efdbe215b348eebd-344516-139.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            1
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 546,
+      "ch_altname": "\u0420\u0410I",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.211:9900\/tv\/606b1116efdbe215b348eebe-344516-546.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            2,
+            7
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 84,
+      "ch_altname": "\u0420\u0430\u0434\u0430",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.212:9900\/tv\/606b1116efdbe215b348eebf-344516-84.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            9,
+            2
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 348,
+      "ch_altname": "\u0420\u043e\u0434\u043d\u043e\u0435 \u043a\u0438\u043d\u043e",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.209:9899\/tv\/606b1116efdbe215b348eec0-344516-348.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            2,
+            8
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 165,
+      "ch_altname": "\u0421\u0422\u0411",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.209:9899\/tv\/606b1116efdbe215b348eec4-344516-165.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            1,
+            2,
+            8
+         ]
+      ],
+      "type": "standard",
+      "in_archive": true,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 464,
+      "ch_altname": "\u0421\u043e\u043d\u0446\u0435",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.206:9899\/tv\/606b1116efdbe215b348eec1-344516-464.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            1
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 455,
+      "ch_altname": "\u0421\u043f\u043e\u0440\u0442 1 \u0423\u043a\u0440\u0430\u0438\u043d\u0430",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.206:9899\/tv\/606b1116efdbe215b348eec2-344516-455.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            3,
+            2
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 456,
+      "ch_altname": "\u0421\u043f\u043e\u0440\u0442 2 \u0423\u043a\u0440\u0430\u0438\u043d\u0430",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.210:9899\/tv\/606b1116efdbe215b348eec3-344516-456.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            3,
+            2
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 280,
+      "ch_altname": "\u0422\u0415\u0422",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.212:9899\/tv\/606b1116efdbe215b348eec7-344516-280.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            2,
+            1
+         ]
+      ],
+      "type": "standard",
+      "in_archive": true,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 544,
+      "ch_altname": "\u0422\u0435\u043b\u0435\u0432\u0441\u0435\u0441\u0432i\u0442",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.210:9900\/tv\/606b1116efdbe215b348eec5-344516-544.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            2,
+            1
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 50,
+      "ch_altname": "\u0422\u0435\u0440\u0440\u0430",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.209:9899\/tv\/606b1116efdbe215b348eec6-344516-50.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            5
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 514,
+      "ch_altname": "\u0422\u0440\u043e\u0444\u0435\u0439",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.210:9899\/tv\/606b1116efdbe215b348eec8-344516-514.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            5,
+            1,
+            2
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 168,
+      "ch_altname": "\u0423\u041d\u0418\u0410\u041d-\u0422\u0412",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.208:9899\/tv\/606b1116efdbe215b348eecb-344516-168.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            9,
+            2
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 35,
+      "ch_altname": "\u0423\u043a\u0440\u0430\u0438\u043d\u0430",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.208:9900\/tv\/606b1116efdbe215b348eec9-344516-35.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            2,
+            1,
+            8
+         ]
+      ],
+      "type": "standard",
+      "in_archive": true,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 662,
+      "ch_altname": "\u0423\u043a\u0440\u0430\u0438\u043d\u0430 24",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.210:9899\/tv\/606b1116efdbe215b348eeca-344516-662.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            9
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 463,
+      "ch_altname": "\u0423\u0441\u043f\u0435\u0445",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.211:9899\/tv\/606b1116efdbe215b348eecc-344516-463.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            2,
+            5
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 557,
+      "ch_altname": "\u0424\u0430\u0443\u043d\u0430",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.207:9900\/tv\/606b1116efdbe215b348eecd-344516-557.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            5
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 37,
+      "ch_altname": "\u0424\u0443\u0442\u0431\u043e\u043b 1",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.209:9900\/tv\/606b1116efdbe215b348eece-344516-37.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            3,
+            2
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 305,
+      "ch_altname": "\u0424\u0443\u0442\u0431\u043e\u043b 2",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.212:9899\/tv\/606b1116efdbe215b348eecf-344516-305.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            3,
+            2
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 316,
+      "ch_altname": "\u0425Sport",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.209:9899\/tv\/606b1116efdbe215b348eed0-344516-316.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            3
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 49,
+      "ch_altname": "\u0427\u0435",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.211:9899\/tv\/606b1116efdbe215b348eed1-344516-49.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            1,
+            8
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 549,
+      "ch_altname": "\u0427\u0435\u0440\u043d\u043e\u043c\u043e\u0440\u0441\u043a\u0430\u044f \u0422\u0420\u041a",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.210:9899\/tv\/606b1116efdbe215b348eed2-344516-549.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            2,
+            9,
+            7
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 458,
+      "ch_altname": "\u042d\u043a\u043e \u0422\u0412",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.208:9900\/tv\/606b1116efdbe215b348eed3-344516-458.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            5,
+            2
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 631,
+      "ch_altname": "\u042f \u0441\u043c\u043e\u0442\u0440\u044e: \u0411\u043e\u0435\u0432\u0438\u043a\u0438",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.208:9900\/tv\/606b1116efdbe215b348eed4-344516-631.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            8
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 629,
+      "ch_altname": "\u042f \u0441\u043c\u043e\u0442\u0440\u044e: \u041a\u043e\u043c\u0435\u0434\u0438\u0438",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.210:9900\/tv\/606b1116efdbe215b348eed5-344516-629.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            8
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   },
+   {
+      "id": 626,
+      "ch_altname": "\u042f \u0441\u043c\u043e\u0442\u0440\u044e: \u041c\u0443\u043b\u044c\u0442\u0444\u0438\u043b\u044c\u043c\u044b",
+      "liked": false,
+      "not_working": 0,
+      "aspect": "asis",
+      "ch_url": "http:\/\/195.78.244.212:9899\/tv\/606b1116efdbe215b348eed6-344516-626.ts",
+      "mode_3D": false,
+      "allowed_time_periods_start": null,
+      "allowed_time_periods_stop": null,
+      "genres": [
+         [
+            4
+         ]
+      ],
+      "type": "standard",
+      "in_archive": false,
+      "expire_at": "2021-04-06T16:31:01.687+03:00",
+      "user_is": 0
+   }
+]

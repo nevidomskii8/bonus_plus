@@ -4,6 +4,23 @@
   box-sizing: border-box;
 }
 
+html, body , div, ul, li{
+  scrollbar-color: #458245 ;/* «цвет ползунка» «цвет полосы скроллбара» */
+  scrollbar-width:  thin ;  /* толщина */
+}
+
+::-webkit-scrollbar {
+  width: 4px; /* ширина для вертикального скролла */
+  height: 8px; /* высота для горизонтального скролла */
+  background-color: #458245 ;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #843465;
+  border-radius: 9em;
+  box-shadow: inset 1px 1px 10px #f3faf7;
+}
+
 ul[class],
 ol[class] {
   padding: 0;

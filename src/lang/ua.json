@@ -1,11 +1,13 @@
 {
-    "app.tv.everything": "Всі",
-    "app.tv.home": "Домашні",
+    "app.tv.funny": "Розважальні",
     "app.tv.sports": "Спортивні",
     "app.tv.childrens": "Дитячі",
     "app.tv.educational": "Oсвітні",
     "app.tv.musical": "Музичні",
+    "app.tv.movies": "Кіно та серiали",
     "app.tv.news": "Новинні",
     "app.tv.likes": "Улюблені",
-    "app.tv.recorders": "У записі"
+    "app.tv.recorders": "У записі",
+    "app.tv.users": "Користувач",
+    "app.tv.find": "Пошук"
 }

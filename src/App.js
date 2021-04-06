@@ -1,15 +1,14 @@
 import { Provider } from 'react-redux'
-import createStore from './redux/createStore'
 import Routes from './Routes';
 import './App.scss';
-
-const store = createStore();
+import store from './redux/rootReducer';
 
 
 function App() {
+
   return (
     <Provider store={store}>
-      <Routes/>
+      <Routes />
     </Provider>
   );
 }

@@ -8,7 +8,7 @@
         background-image: $bacgroundTypeOfList;
         display: flex;
         flex-direction: column;
-        width: 28%;
+        width: 20%;
         color: floralwhite;
         height: 100vh;
         transform: translateX(-100%);
@@ -24,7 +24,7 @@
             background-image: $bacgroundTypeOfList;
             display: flex;
             flex-direction: column;
-            width: 28%;
+            width: 20%;
             color: floralwhite;
             height: 100vh;
             & ul {
@@ -40,11 +40,22 @@
         }
     }
 
+    &__genres {
+        overflow: auto;
+        margin-left: 100px;
+        width: 30%;
+        font-size: x-large;
+        color: floralwhite;
+    }
+    
     &__list-chanals {
         display: flex;
     }
 
+
     &__schedule {
         display: flex;
     }
+
+
 }
