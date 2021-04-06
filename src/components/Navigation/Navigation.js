@@ -11,7 +11,7 @@ import { ReactComponent as Youtube } from '../../assets/svg/youtube.svg'
 import { useDispatch } from 'react-redux'
 import { setNav } from '../../redux/actions/mainStateActions'
 import { Context } from '../../Wrapper/Wrapper'
-import { Wrapper, Button, Menu, MenuItem } from 'react-aria-menubutton';
+// import { Wrapper, Button, Menu, MenuItem } from 'react-aria-menubutton';
 
 import './Navigation.scss'
 import useInitialfocus from './helpers/helpers'
@@ -23,7 +23,7 @@ export const Navigation = () => {
     const dispatch = useDispatch()
     const context = useContext(Context);
     const mainRef = useRef(null);
-
+    const refUl = useRef(null)
     const timeOut = (refTo) => {
         const time = setTimeout(() => {
             push(`/${refTo}`)
@@ -31,12 +31,25 @@ export const Navigation = () => {
         }, 500)
     }
 
+    const focusNext = () => {
+        if (document.activeElement.tabIndex === 7) {
+        }
+    }
+
     const handleKeyDown = (event) => {
         if (event.key === 'ArrowDown') {
-            console.dir(document.activeElement)
-            console.log('arrow')
-            window.tabIndex++
+            if (document.activeElement.tabIndex !== 7) {
+                   return refUl.current.children[document.activeElement.tabIndex].focus()
+            }
+            refUl.current.children[0].focus()
         }
+        if (event.key === 'ArrowUp') {
+            if (document.activeElement.tabIndex !== 7) {
+                   return refUl.current.children[--document.activeElement.tabIndex].focus()
+            }
+            refUl.current.children[0].focus()
+        }
+
     };
 
     React.useEffect(() => {
@@ -46,7 +59,7 @@ export const Navigation = () => {
         };
     }, []);
 
-    useInitialfocus(mainRef, 'Hello World');
+    useInitialfocus(mainRef, 'Hello World', refUl);
 
     const handleRef = (refTo) => {
         switch (refTo) {
@@ -95,57 +108,36 @@ export const Navigation = () => {
     }
 
     return (
-        // <Wrapper onSelection={handleSelection} >
         <nav className="navigation">
-            {/* <Button > */}
             <TV className="navigation__top-svg" />
-            {/* </Button > */}
-            <ul className="navigation__ul">
-                {/* <Menu> */}
+            <ul className="navigation__ul" ref={refUl}>
 
                 <li ref={mainRef} tabIndex="1" className="navigation__li" >
-                    {/* <MenuItem> */}
                     <TVSVG onClick={() => handleRef('tv')} onFocus={() => console.log('hello)))')} className="navigation__svg navigation__svg--tv" />
-                    {/* </MenuItem> */}
                 </li>
                 <li tabIndex="2" className="navigation__li">
                     <PlaySVG onClick={() => handleRef('records')} className="navigation__svg navigation__svg--records" />
-                    {/* <MenuItem>
-                            </MenuItem> */}
                 </li>
                 <li tabIndex="3" className="navigation__li">
                     <Serialize onClick={() => handleRef('records')} className="navigation__svg navigation__svg--records" />
-                    {/* <MenuItem> */}
-                    {/* </MenuItem> */}
                 </li>
-                <hr />
                 <li tabIndex="4" className="navigation__li">
                     <SettingSVG onClick={() => handleRef('setup')} className="navigation__svg navigation__svg--setup" />
-                    {/* <MenuItem>
-                            </MenuItem> */}
                 </li>
                 <li tabIndex="5" className="navigation__li">
                     <InfoSVG onClick={() => handleRef('info')} className="navigation__svg navigation__svg--info" />
-                    {/* <MenuItem>
-                            </MenuItem> */}
                 </li>
                 <li tabIndex="6" className="navigation__li">
                     <PayCard onClick={() => handleRef('info')} className="navigation__svg navigation__svg--info" />
-                    {/* <MenuItem>
-                            </MenuItem> */}
                 </li>
                 <li tabIndex="7" className="navigation__li">
                     <Youtube onClick={() => handleRef('info')} className="navigation__svg navigation__svg--info" />
-                    {/* <MenuItem>
-                            </MenuItem> */}
                 </li>
-                {/* </Menu> */}
             </ul>
             <select className="navigation__lang" value={context.locale} onChange={context.selectLanguage}>
                 <option value='ru'>Русский</option>
                 <option value='uk'>Украинский</option>
             </select>
         </nav >
-        // </Wrapper >
     )
 }
