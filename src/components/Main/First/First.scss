@@ -1,0 +1,6 @@
+.main-container__first.active {
+    background-color: greenyellow;
+    & ul > li.focused {
+        background-color: gold;
+    }
+}

@@ -1,0 +1,48 @@
+.main-container {
+    position: relative;
+    display: flex;
+    width: 100vw;
+
+    &__first {
+        width: 10%;
+        height: 100vh;
+        color: red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__first.active {
+        border: solid 1px red
+    }
+
+    &__second {
+        
+        width: 25%;
+        height: 100vh;
+        color: red;
+    }
+    &__second.active {
+        border: solid 1px red
+    }
+    
+    &__third {
+        width: 25%;
+        height: 100vh;
+        color: red;
+    }
+    
+    &__third.active {
+        border: solid 1px red
+    }
+    
+    &__fourth {
+        width: 40%;
+        height: 100vh;
+        color: red;
+    }
+    &__fourth.active {
+        border: solid 1px red
+    }
+    
+}

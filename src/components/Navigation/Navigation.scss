@@ -59,6 +59,11 @@
         }
         
     }
+
+    &__li.focused {
+        background-color: red;
+    }
+    
     &__lang {
         position: absolute;
         bottom: 0;

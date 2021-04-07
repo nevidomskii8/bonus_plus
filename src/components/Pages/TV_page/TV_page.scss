@@ -36,6 +36,9 @@
                         transform: scale(1.1);
                     }
                 }
+                & li.focused {
+                    background-color: red;
+                }
             }
         }
     }
