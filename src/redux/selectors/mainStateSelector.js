@@ -9,3 +9,12 @@ export const getChanals = createSelector(
   state => state.mainState.data,
   data => data
 )
+
+export const getFocusSection = createSelector(
+  state => state.mainState.focusSection,
+  focusSection => focusSection
+)
+export const getFocusActive = createSelector(
+  state => state.mainState.focusActive,
+  focusActive => focusActive
+)

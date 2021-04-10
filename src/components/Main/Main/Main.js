@@ -1,84 +1,82 @@
-import React, { useRef } from 'react'
+import React from 'react'
 import { Second } from '../Second/Second'
 import { First } from '../First/First'
 import { Third } from '../Third/Third'
 import { Fourth } from '../Fourths/Fourths'
 import './Main.scss'
+import { useDispatch } from 'react-redux'
+import { setFocusActive, setFocusSection } from '../../../redux/actions/mainStateActions'
 
 
 export const Main = () => {
-
-    const mainRef = useRef(null);
+    const dispatch = useDispatch()
 
     const handleKeyDown = (event) => {
-        const focusable = document.querySelectorAll('.focusable')
-        const focused = document.querySelectorAll('.focused')
-        const active = document.querySelector('.active')
+        const focus = document.querySelectorAll('.focusable')
 
         if (event.key === 'ArrowDown') {
-            if (active.classList.contains('main-container__first')) {
-                if (focused[0].nextElementSibling) {
-                    focused[0].classList.remove('focused')
-                    focused[0].nextElementSibling.classList.add('focused')
-                }
-            }
-            if (active.classList.contains('main-container__second')) {
-                if (focused[1].nextElementSibling) {
-                    focused[1].classList.remove('focused')
-                    focused[1].nextElementSibling.classList.add('focused')
-                }
-            }
-            if (active.classList.contains('main-container__third')) {
-                if (focused[2].nextElementSibling) {
-                    focused[2].classList.remove('focused')
-                    focused[2].nextElementSibling.classList.add('focused')
-                }
-            }
-            if (active.classList.contains('main-container__fourth')) {
-                if (focused.nextElementSibling) {
-                    focused.classList.remove('focused')
-                    focused.nextElementSibling.classList.add('focused')
-                }
-            }
+            focus.forEach(section => {
+                section.classList.contains('focus')
+                    && section.childNodes.forEach(child => child.nodeName === 'UL'
+                        ? child.childNodes.forEach(li => {
+                            if (li?.classList.contains('active')) {
+                                if (li.nextSibling) {
+                                    dispatch(setFocusActive(li.nextSibling?.className))
+                                } else {
+                                    dispatch(setFocusActive(child.childNodes[0].className))
+                                }
+                                return
+                            }
+                        }
+                        )
+                        : null
+                    )
+            })
         }
 
         if (event.key === 'ArrowUp') {
-            if (active.classList.contains('main-container__first')) {
-                if (focused[0].previousElementSibling) {
-                    focused[0].classList.remove('focused')
-                    focused[0].previousElementSibling.classList.add('focused')
-                }
-            }
-            if (active.classList.contains('main-container__second')) {
-                if (focused[1].previousElementSibling) {
-                    focused[1].classList.remove('focused')
-                    focused[1].previousElementSibling.classList.add('focused')
-                }
-            }
-            if (active.classList.contains('main-container__third')) {
-                if (focused[2].previousElementSibling) {
-                    focused[2].classList.remove('focused')
-                    focused[2].previousElementSibling.classList.add('focused')
-                }
-            }
+            focus.forEach(section => {
+                section.classList.contains('focus')
+                    && section.childNodes.forEach(child => child.nodeName === 'UL'
+                        ? child.childNodes.forEach(li => {
+                            if (li?.classList.contains('active')) {
+                                if (li.previousSibling) {
+                                    dispatch(setFocusActive(li.previousSibling?.className))
+                                } else {
+                                    dispatch(setFocusActive(child.childNodes[child.childNodes.length-1].className))
+                                }
+                                return
+                            }
+                        }
+                        )
+                        : null
+                    )
+            })
+
         }
 
         if (event.key === 'ArrowLeft') {
-            if (active.previousElementSibling) {
-                active.classList.remove('active')
-                active.previousElementSibling.classList.add('active')
-            }
+            focus.forEach(section => {
+                if (section.classList.contains('focus')) {
+                    section.previousSibling?.classList[0] === 'focusable'
+                        ? dispatch(setFocusSection(section.previousSibling.classList[1]))
+                        : dispatch(setFocusSection(focus[focus.length - 1].classList[1]))
+                }
+            })
         }
 
         if (event.key === 'ArrowRight') {
-            if (active.nextElementSibling) {
-                active.classList.remove('active')
-                active.nextElementSibling.classList.add('active')
-            }
+            focus.forEach(section => {
+                if (section.classList.contains('focus')) {
+                    section.nextSibling?.classList[0] === 'focusable'
+                        ? dispatch(setFocusSection(section.nextSibling.classList[1]))
+                        : dispatch(setFocusSection(focus[0].classList[1]))
+                }
+            })
         }
 
         if (event.key === 'Enter') {
-
+            console.dir(focus)
         }
     };
 
