@@ -4,6 +4,7 @@ import axios from "axios";
 export const setNav = createAction('SET_NAV')
 export const setFocusSection = createAction('SET_FOCUS_SECTION')
 export const setFocusActive = createAction('SET_FOCUS_ACTIVE')
+export const setChooseNav = createAction('SET_CHOOSE_NAV')
 
 export const fetchState = createAsyncThunk('getState', async () => {
 

@@ -4,3 +4,11 @@
     width: 100vw;
     height: 100vh;
 }
+
+.focused {
+    border: 1px solid #000;
+}
+
+.active {
+    background-color: red;
+}

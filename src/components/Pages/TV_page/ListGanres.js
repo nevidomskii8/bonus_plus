@@ -1,75 +1,60 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { FormattedMessage } from 'react-intl';
+import { useSelector } from 'react-redux';
+import { getFocusActive, getFocusSection } from '../../../redux/selectors/mainStateSelector';
 
-export const ListGanres = ({ mainRef, handleChooseGenres, openTypeOfChanals, activeListGenres }) => (
-    <div className={`tv-page__typeof-chanals${openTypeOfChanals ? '--open' : ''}`}>
-        <center>
-            <h1>Телевидение</h1>
-        </center>
-        <ul ref={mainRef} className='focusable'>
-            <li
-                tabIndex='8'
-                onClick={() => handleChooseGenres(7)}
-                className={`tv-page_list${activeListGenres === 7 ? '--active' : ''} 7`}
-            >
-                <FormattedMessage id="app.tv.funny" />
-            </li>
-            <li
-                tabIndex='9'
-                onClick={() => handleChooseGenres(3)}
-                className={`tv-page_list${activeListGenres === 3 ? '--active' : ''} 3`}
-            >
-                <FormattedMessage id="app.tv.sports" />
-            </li>
-            <li
-                tabIndex='10'
-                onClick={() => handleChooseGenres(4)}
-                className={`tv-page_list${activeListGenres === 4 ? '--active' : ''} 4`}
-            >
-                <FormattedMessage id="app.tv.childrens" />
-            </li>
-            <li
-                tabIndex='11'
-                onClick={() => handleChooseGenres(5)}
-                className={`tv-page_list${activeListGenres === 5 ? '--active' : ''} 5`}
-            >
-                <FormattedMessage id="app.tv.educational" />
-            </li>
-            <li
-                tabIndex='12'
-                onClick={() => handleChooseGenres(6)}
-                className={`tv-page_list${activeListGenres === 6 ? '--active' : ''} 6`}
-            >
-                <FormattedMessage id="app.tv.musical" />
-            </li>
-            <li
-                tabIndex='13'
-                onClick={() => handleChooseGenres(8)}
-                className={`tv-page_list${activeListGenres === 8 ? '--active' : ''} 8`}
-            >
-                <FormattedMessage id="app.tv.movies" />
-            </li>
-            <li
-                tabIndex='14'
-                onClick={() => handleChooseGenres(10)}
-                className={`tv-page_list${activeListGenres === 10 ? '--active' : ''} 10`}
-            >
-                <FormattedMessage id="app.tv.news" />
-            </li>
-            <li
-                tabIndex='15'
-                onClick={() => handleChooseGenres(9)}
-                className={`tv-page_list${activeListGenres === 9 ? '--active' : ''} 9`}
-            >
-                HD
-                    </li>
-            <li tabIndex='16'><FormattedMessage id="app.tv.likes" /> </li>
-            <li tabIndex='17'><FormattedMessage id="app.tv.recorders" /> </li>
-            <li tabIndex='18'><FormattedMessage id="app.tv.users" /> </li>
-            <li tabIndex='19'><FormattedMessage id="app.tv.find" /> </li>
-        </ul>
+export const ListGanres = () => {
+    const focusSection = useSelector(getFocusSection)
+    const active = useSelector(getFocusActive)
+    const [isActive, setIsActive] = useState(false)
+    const [currentChoose, setCurrentChoose] = useState('7')
 
-        <ul>
-        </ul>
-    </div>
-)
+    useEffect(() => {
+        focusSection === 'tv-page__list-genres' ?  setIsActive(true) : setIsActive(false)
+    },[focusSection])
+
+    useEffect(() => {
+        isActive &&  setCurrentChoose(active) 
+    },[active])
+
+    return (
+        <div>
+            <center>
+                <h1>Телевидение</h1>
+            </center>
+            <ul >
+                <li className={`tv-page_list 7 ${(currentChoose === '7' && isActive)? 'active' : ''}`}>
+                    <FormattedMessage id="app.tv.funny" />
+                </li>
+                <li className={`tv-page_list 3 ${(currentChoose === '3' && isActive)? 'active' : ''}`} >
+                    <FormattedMessage id="app.tv.sports" />
+                </li>
+                <li className={`tv-page_list 4 ${(currentChoose === '4' && isActive)? 'active' : ''}`} >
+                    <FormattedMessage id="app.tv.childrens" />
+                </li>
+                <li className={`tv-page_list 5 ${(currentChoose === '5' && isActive)? 'active' : ''}`} >
+                    <FormattedMessage id="app.tv.educational" />
+                </li>
+                <li className={`tv-page_list 6 ${(currentChoose === '6' && isActive)? 'active' : ''}`} >
+                    <FormattedMessage id="app.tv.musical" />
+                </li>
+                <li className={`tv-page_list 8 ${(currentChoose === '8' && isActive)? 'active' : ''}`} >
+                    <FormattedMessage id="app.tv.movies" />
+                </li>
+                <li className={`tv-page_list 10 ${(currentChoose === '10' && isActive)? 'active' : ''}`} >
+                    <FormattedMessage id="app.tv.news" />
+                </li>
+                <li className={`tv-page_list 9 ${(currentChoose === '9' && isActive)? 'active' : ''}`} >
+                    HD
+            </li>
+                <li><FormattedMessage id="app.tv.likes" /> </li>
+                <li><FormattedMessage id="app.tv.recorders" /> </li>
+                <li><FormattedMessage id="app.tv.users" /> </li>
+                <li><FormattedMessage id="app.tv.find" /> </li>
+            </ul>
+
+            <ul>
+            </ul>
+        </div>
+    )
+}

@@ -8,20 +8,24 @@ import { TV_Page } from './components/Pages/TV_page/TV_page'
 import { useEffect } from 'react';
 import { fetchState } from './redux/actions/mainStateActions';
 import { useDispatch } from 'react-redux'
+import { useKeyDown } from './helpers/useKeyListener'
 
 
 export default function Routes() {
-
+    const handleKeyDown = useKeyDown()
     const dispatch = useDispatch()
 
     useEffect(() => {
         dispatch(fetchState())
+        window.addEventListener('keydown', handleKeyDown)
+        return () => {
+            window.removeEventListener('keydown', handleKeyDown)
+        }
     }, [])
 
     return (
         <Router>
             <div className='main'>
-                <Navigation />
                 <Switch>
                     <Route path="/info">
                         <Info_Page />
