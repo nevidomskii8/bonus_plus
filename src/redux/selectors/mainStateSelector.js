@@ -18,3 +18,11 @@ export const getFocusActive = createSelector(
   state => state.mainState.focusActive,
   focusActive => focusActive
 )
+export const getChooseNav = createSelector(
+  state => state.mainState.chooseNav,
+  chooseNav => chooseNav
+)
+export const getChooseGenre = createSelector(
+  state => state.mainState.choosedGenre,
+  chooseGenre => chooseGenre
+)

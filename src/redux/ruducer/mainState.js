@@ -1,5 +1,5 @@
 import { createReducer } from "@reduxjs/toolkit";
-import { fetchState, setChooseNav, setFocusActive, setFocusSection, setNav } from "../actions/mainStateActions";
+import { fetchState, setChooseNav, setFocusActive, setFocusSection, setNav , setChooseGanre} from "../actions/mainStateActions";
 
 
 const initialState = {
@@ -9,7 +9,8 @@ const initialState = {
     error: null,
     focusSection: 'navigation',
     focusActive: 'tv',
-    chooseNav: ''
+    chooseNav: '',
+    choosedGenre: ''
 };
 
 const mainState = createReducer(initialState, {
@@ -36,6 +37,9 @@ const mainState = createReducer(initialState, {
     },
     [setChooseNav.type]: (state, action) => {
         state.chooseNav = action.payload
+    },
+    [setChooseGanre.type]: (state, action) => {
+        state.choosedGenre = action.payload
     }
 });
 

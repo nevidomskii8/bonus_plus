@@ -1,5 +1,5 @@
 import { useDispatch } from "react-redux"
-import { setFocusActive, setFocusSection } from "../redux/actions/mainStateActions";
+import { setFocusActive, setFocusSection, setChooseNav, setChooseGanre } from "../redux/actions/mainStateActions";
 
 
 export const useKeyDown = () => {
@@ -9,10 +9,10 @@ export const useKeyDown = () => {
 
         const focused = document.querySelectorAll('.focused')
         const focusable = document.querySelectorAll('.focusable')
+        const activeLi = document.querySelector('.active')
 
         if (event.key === 'ArrowDown') {
             for (let i = 0 ; i <= focused[0].children.length; i++ ) {
-                console.log(focused[0].children[i])
                 if (focused[0].children[i]?.nodeName === 'UL') {    
                     for (let li = 0; li <= focused[0].children[i].children.length ; li++) {
                         if (focused[0].children[i].children[li]?.classList.contains('active')) {
@@ -58,20 +58,22 @@ export const useKeyDown = () => {
         }
 
         if (event.key === 'Enter') {
-            // switch (activeFocus.classList[activeFocus.classList.length -1 ]) {
-            //     case 'nav-menu' :
-            //         consle.log('nav-menu')
-            //         return
-            //     case 'nav-genres' :
-            //         console.log('nav-genres')
-            //         return
-            //     case 'item-genres': 
-            //         console.log('item-genres')
-            //         return
-            //     case 'item-genres-detail': 
-            //         console.log('item-genres-detail')
-            //         return
-            // }
+            switch (focused[0].classList[0]) {
+                case 'navigation' :
+                    dispatch(setChooseNav(activeLi.classList[1]))
+                    return
+                case 'tv-page__list-genres' :
+                    // можно диспачить focusative при смещении стрелками вверх/вниз 
+                    // но тогда жанры будут сортироваться сразу
+                    dispatch(setChooseGanre(activeLi.classList[1]))
+                    return
+                case 'item-genres': 
+                    console.log('item-genres')
+                    return
+                case 'item-genres-detail': 
+                    console.log('item-genres-detail')
+                    return
+            }
 
         }
     };

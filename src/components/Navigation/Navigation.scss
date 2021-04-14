@@ -1,7 +1,7 @@
 @import "../../utilities/variables";
 
-$widthNav : 150px;
-$marginLeftSvg: 24%; 
+$widthNav: 150px;
+$marginLeftSvg: 24%;
 
 .navigation {
     position: relative;
@@ -18,9 +18,9 @@ $marginLeftSvg: 24%;
         border: 1px solid #000;
         border-top: none;
         border-bottom: none;
-        
+
         .navigation__top-svg {
-         margin-left: calc(#{$marginLeftSvg} - 10%);;
+            margin-left: calc(#{$marginLeftSvg} - 10%);
         }
     }
 
@@ -46,10 +46,8 @@ $marginLeftSvg: 24%;
             margin-top: 10px;
         }
         & > li {
-            transform: scaleX(1);
-            transition:  transform 500ms ease-in;
             & span.hidden {
-                transform: scaleX(0);
+                display: none;
             }
         }
     }
@@ -86,7 +84,7 @@ $marginLeftSvg: 24%;
     &__li.focused {
         background-color: red;
     }
-    
+
     &__lang {
         position: absolute;
         bottom: 0;
