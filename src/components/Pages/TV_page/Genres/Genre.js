@@ -1,6 +1,6 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
-import { getFocusSection } from '../../../redux/selectors/mainStateSelector'
+import { getFocusSection } from '../../../../redux/selectors/mainStateSelector'
 
 
 export const Genre = () => {

@@ -1,18 +1,32 @@
 @import "../../utilities/variables";
 
+$widthNav : 150px;
+$marginLeftSvg: 24%; 
+
 .navigation {
+    position: relative;
     z-index: 1;
-    position: fixed;
     height: 100vh;
     background-image: $bacgroundNavigation;
-    width: 100px;
+    width: $widthNav;
     display: flex;
     justify-content: center;
     padding-top: 10%;
 
+    &.focused {
+        width: calc(#{$widthNav} * 2);
+        border: 1px solid #000;
+        border-top: none;
+        border-bottom: none;
+        
+        .navigation__top-svg {
+         margin-left: calc(#{$marginLeftSvg} - 10%);;
+        }
+    }
+
     &__top-svg {
-        position: fixed;
-        left: 28px;
+        position: absolute;
+        left: $marginLeftSvg;
         top: 20px;
         width: 42px;
         height: 42px;
@@ -25,8 +39,18 @@
     }
 
     & ul {
+        :nth-child(3) {
+            position: relative;
+        }
         :nth-child(4) {
-            margin-top: 25px;
+            margin-top: 10px;
+        }
+        & > li {
+            transform: scaleX(1);
+            transition:  transform 500ms ease-in;
+            & span.hidden {
+                transform: scaleX(0);
+            }
         }
     }
 
@@ -57,7 +81,6 @@
                 transition: transform 0.25s ease;
             }
         }
-        
     }
 
     &__li.focused {

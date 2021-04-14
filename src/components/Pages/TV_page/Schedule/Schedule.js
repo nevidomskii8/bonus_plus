@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useSelector } from 'react-redux'
-import { getFocusSection } from '../../../redux/selectors/mainStateSelector'
-
+import { getFocusSection } from '../../../../redux/selectors/mainStateSelector'
+import './Schedule.scss'
 
 export const Schedule = () => {
     const focusSection = useSelector(getFocusSection)

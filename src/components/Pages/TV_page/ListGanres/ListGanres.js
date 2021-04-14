@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { FormattedMessage } from 'react-intl';
 import { useSelector } from 'react-redux';
-import { getFocusActive, getFocusSection } from '../../../redux/selectors/mainStateSelector';
+import { getFocusActive, getFocusSection } from '../../../../redux/selectors/mainStateSelector';
 
 export const ListGanres = () => {
     const focusSection = useSelector(getFocusSection)
@@ -14,14 +14,11 @@ export const ListGanres = () => {
     },[focusSection])
 
     useEffect(() => {
+        console.log(active)
         isActive &&  setCurrentChoose(active) 
     },[active])
 
     return (
-        <div>
-            <center>
-                <h1>Телевидение</h1>
-            </center>
             <ul >
                 <li className={`tv-page_list 7 ${(currentChoose === '7' && isActive)? 'active' : ''}`}>
                     <FormattedMessage id="app.tv.funny" />
@@ -47,14 +44,11 @@ export const ListGanres = () => {
                 <li className={`tv-page_list 9 ${(currentChoose === '9' && isActive)? 'active' : ''}`} >
                     HD
             </li>
-                <li><FormattedMessage id="app.tv.likes" /> </li>
+                {/* <li><FormattedMessage id="app.tv.likes" /> </li>
                 <li><FormattedMessage id="app.tv.recorders" /> </li>
                 <li><FormattedMessage id="app.tv.users" /> </li>
-                <li><FormattedMessage id="app.tv.find" /> </li>
+                <li><FormattedMessage id="app.tv.find" /> </li> */}
             </ul>
 
-            <ul>
-            </ul>
-        </div>
     )
 }

@@ -12,7 +12,8 @@ export const useKeyDown = () => {
 
         if (event.key === 'ArrowDown') {
             for (let i = 0 ; i <= focused[0].children.length; i++ ) {
-                if (focused[0].children[i]?.nodeName === 'UL') {
+                console.log(focused[0].children[i])
+                if (focused[0].children[i]?.nodeName === 'UL') {    
                     for (let li = 0; li <= focused[0].children[i].children.length ; li++) {
                         if (focused[0].children[i].children[li]?.classList.contains('active')) {
                             focused[0].children[i].children[li].nextSibling

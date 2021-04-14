@@ -5,10 +5,22 @@
     height: 100vh;
 }
 
-.focused {
-    border: 1px solid #000;
-}
 
 .active {
-    background-color: red;
+    position: relative;
+    &::after {
+        content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 2px;
+    border-color: firebrick;
+    bottom: 0;
+    border-top: none;
+    border-left: none;
+    left: -16px;
+    height: 10px;
+    top: 7px;
+    width: 10px;
+    transform: rotate(-45deg);
+    }
 }
