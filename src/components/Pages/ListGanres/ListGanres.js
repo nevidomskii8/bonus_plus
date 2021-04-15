@@ -10,7 +10,7 @@ export const ListGanres = () => {
     const [currentChoose, setCurrentChoose] = useState('7')
 
     useEffect(() => {
-        focusSection === 'tv-page__list-genres' ? setIsActive(true) : setIsActive(false)
+        focusSection === 'list-genres' ? setIsActive(true) : setIsActive(false)
     }, [focusSection])
 
     useEffect(() => {
@@ -18,7 +18,7 @@ export const ListGanres = () => {
     }, [active])
 
     return (
-        <div className={`tv-page__list-genres focusable ${focusSection === 'tv-page__list-genres' ? 'focused' : ''}`}>
+        <div className={`list-genres focusable ${focusSection === 'list-genres' ? 'focused' : ''}`}>
             <center>
                 <h1>Телевидение</h1>
             </center>

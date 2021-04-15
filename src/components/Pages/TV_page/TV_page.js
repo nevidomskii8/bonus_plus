@@ -13,12 +13,12 @@ export const TV_Page = () => {
     
 
     return (
-        <>
+        <div className='tv-page'>
             <Navigation />
             { menu === 'tv' && <ListGanres /> }
             { menu === 'tv' && <Genre /> }
             { menu === 'tv' && <Schedule /> }
-        </ >
+        </ div>
     )
 
 }

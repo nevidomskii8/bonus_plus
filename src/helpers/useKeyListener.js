@@ -6,7 +6,6 @@ export const useKeyDown = () => {
     const dispatch = useDispatch()
 
     const handleKeyDown = (event) => {
-
         const focused = document.querySelectorAll('.focused')
         const focusable = document.querySelectorAll('.focusable')
         const activeLi = document.querySelector('.active')
@@ -40,6 +39,7 @@ export const useKeyDown = () => {
         }
 
         if (event.keyCode === 37) {
+           
             for (let i = 0; i < focusable.length; i++) {
                 if (focusable[i].classList.contains('focused') && focusable[i].previousElementSibling) {
                     dispatch(setFocusSection(focusable[i].previousElementSibling.classList[0]))

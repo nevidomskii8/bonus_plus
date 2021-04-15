@@ -1,3 +1,4 @@
+import React from 'react'
 import { Redirect, Route, Switch, BrowserRouter as Router } from "react-router-dom"
 import { Records_Page } from './components/Pages/Records_page/Records_page'
 import { TV_Page } from './components/Pages/TV_page/TV_page'

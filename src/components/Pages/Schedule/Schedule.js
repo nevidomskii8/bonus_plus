@@ -13,7 +13,7 @@ export const Schedule = () => {
 
 
     return (
-        <div className={`tv-page__schedule focusable ${focusSection === 'tv-page__schedule' ? 'focused' : ''}`}>
+        <div className={`schedule focusable ${focusSection === 'schedule' ? 'focused' : ''}`}>
             <ul className={`schedule`}>
                 <span>здесь будет расписание</span>
                 {/* {genres.genres.map((item, i) => <li tabIndex={`${20 + i}`} key={item.id}><i> {i + 1} </i> &nbsp; <span> {item.ch_altname} </span>   &#x20;</li>)} */}
