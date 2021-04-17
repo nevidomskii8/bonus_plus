@@ -1,16 +1,34 @@
 @import "../../../utilities/variables";
+@import "../../../utilities/corners";
 
 .tv-page {
     display: flex;
     width: 100%;
+    color: floralwhite;
+    
+    & .list-genres {
 
-    // & .list-genres {
-    // }
+        &.focused {
+            border-top: $focusedBorder;
+        }
+        
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+        font-size: 24px;
+        
+    }
     
     & .genres {
+        
+        &.focused {
+            border-top: $focusedBorder;
+        }
+        
+        display: flex;
+        font-size: 24px;
+        width: 27%;
         overflow: auto;
-        font-size: x-large;
-        color: floralwhite;
     }
     
     // & .schedule {

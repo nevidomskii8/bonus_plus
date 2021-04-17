@@ -1,0 +1,22 @@
+
+
+@mixin activeLi {
+    position: relative;
+    border-radius: 5px;
+    background-color: $activeLi;
+    &::after{
+        left: -16px;
+        height: 10px;
+        top: 12px;
+        width: 10px;
+        content: '';
+        border-color: firebrick;
+        position: absolute;
+        border-style: solid;
+        border-width: 2px;
+        bottom: 0;
+        border-top: none;
+        transform: rotate(-45deg);
+        border-left: none;   
+    }
+}

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { FormattedMessage } from 'react-intl';
 import { useSelector } from 'react-redux';
 import { getFocusActive, getFocusSection } from '../../../redux/selectors/mainStateSelector';
+import './ListGanres.scss'
 
 export const ListGanres = () => {
     const focusSection = useSelector(getFocusSection)
@@ -20,7 +21,7 @@ export const ListGanres = () => {
     return (
         <div className={`list-genres focusable ${focusSection === 'list-genres' ? 'focused' : ''}`}>
             <center>
-                <h1>Телевидение</h1>
+                <h2>Телевидение</h2>
             </center>
             <ul >
                 <li className={`tv-page_list 7 ${(currentChoose === '7' && isActive) ? 'active' : ''}`}>

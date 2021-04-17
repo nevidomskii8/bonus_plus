@@ -1,0 +1,10 @@
+@import "../../../utilities/variables";
+@import "../../../utilities/corners";
+
+
+.tv-page_list {
+    &.active {
+        @include activeLi;
+    }
+
+}

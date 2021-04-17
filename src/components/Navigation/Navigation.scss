@@ -1,6 +1,8 @@
 @import "../../utilities/variables";
+@import '../../utilities/corners';
 
-$widthNav: 120px;
+
+$widthNav: 70px;
 $marginLeftSvg: 25%;
 
 .navigation {
@@ -14,11 +16,8 @@ $marginLeftSvg: 25%;
     padding-top: 10%;
 
     &.focused {
-        width: calc(#{$widthNav} * 2);
-        border: 1px solid #000;
-        border-top: none;
-        border-bottom: none;
-
+        border-top: $focusedBorder;
+        width: calc(#{$widthNav} * 2.8);
         .navigation__top-svg {
             margin-left: calc(#{$marginLeftSvg} - 10%);
         }
@@ -46,47 +45,34 @@ $marginLeftSvg: 25%;
             margin-top: 10px;
         }
         & > li {
+            display: flex;
+            align-items: center;
+            font-size: 20px;
+            margin-bottom: 20px;
+            & svg {
+                margin-right: 10px;
+            }
             & span.hidden {
                 display: none;
             }
-        }
-    }
 
-    &__li {
-        position: relative;
-        margin-bottom: 20px;
-        &::after {
-            content: "";
-            position: absolute;
-            left: -5px;
-            right: -5px;
-            bottom: 0px;
-            height: 3px;
-            background-color: gainsboro;
-            transform: scaleX(0);
-            transition: transform 0.25s ease;
-        }
-        &:hover {
-            &::after {
-                content: "";
-                position: absolute;
-                left: -5px;
-                right: -5px;
-                bottom: 0px;
-                height: 3px;
-                background-color: gainsboro;
-                transform: scaleX(1);
-                transition: transform 0.25s ease;
+            &.active {
+                @include activeLi;
             }
         }
-    }
-
-    &__li.focused {
-        background-color: red;
     }
 
     &__lang {
         position: absolute;
         bottom: 0;
+    }
+
+    &__logo {
+        position: absolute;
+        top: 10px;
+        background-image: url('../../assets/images/menu-logo.png');
+        background-repeat: no-repeat;
+        width: 54px;
+        height: 54px;
     }
 }
