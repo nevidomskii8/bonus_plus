@@ -6,6 +6,7 @@ export const setFocusSection = createAction('SET_FOCUS_SECTION')
 export const setFocusActive = createAction('SET_FOCUS_ACTIVE')
 export const setChooseNav = createAction('SET_CHOOSE_NAV')
 export const setChooseGanre = createAction('SET_CHOOSE_GANRE')
+export const setScheduleState = createAction('SET_SCHEDULE_STATE')
 
 export const fetchState = createAsyncThunk('getState', async () => {
 

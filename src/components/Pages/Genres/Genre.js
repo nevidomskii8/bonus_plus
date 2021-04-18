@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
-import { useSelector } from 'react-redux'
+import { useDispatch, useSelector } from 'react-redux'
+import { setScheduleState } from '../../../redux/actions/mainStateActions'
 import { getChanals, getChooseGenre, getFocusActive, getFocusSection } from '../../../redux/selectors/mainStateSelector'
 import './Genres.scss'
 
@@ -9,6 +10,7 @@ export const Genre = () => {
     const active = useSelector(getFocusActive)
     const chanals = useSelector(getChanals)
     const defineGanre = useSelector(getChooseGenre)
+    const dispatch = useDispatch()
     const focusRef = useRef(null)
     const ulRef = useRef(null)
     const [isActive, setIsActive] = useState(false)
@@ -21,6 +23,7 @@ export const Genre = () => {
 
     const logger = () => {
         setCurrentChoose(+stateChanals[0].id)
+         dispatch(setScheduleState(stateChanals[0].ch_altname))
     }
 
     useEffect(() => {
@@ -38,7 +41,11 @@ export const Genre = () => {
 
     useEffect(() => {
         isActive && setCurrentChoose(active)
+
         if (isActive) {
+            focusRef.current.nextSibling              
+            ? dispatch(setScheduleState(focusRef.current.nextSibling.innerText.split(' ').slice(1).join(' ')))            
+            :  dispatch(setScheduleState(stateChanals[0].ch_altname))
             ulRef.current.scrollTo(0, focusRef.current.offsetTop)
         }
     }, [active])

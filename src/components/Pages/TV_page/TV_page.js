@@ -5,6 +5,8 @@ import { Genre } from '../Genres/Genre'
 import { ListGanres } from '../ListGanres/ListGanres'
 import { Navigation } from '../../Navigation/Navigation'
 import { Schedule } from '../Schedule/Schedule'
+import { MovieTypes } from '../MovieClass/MovieTypes'
+import { Films } from '../Films/Films'
 
 
 export const TV_Page = () => {
@@ -18,6 +20,9 @@ export const TV_Page = () => {
             { menu === 'tv' && <ListGanres /> }
             { menu === 'tv' && <Genre /> }
             { menu === 'tv' && <Schedule /> }
+        
+            { menu === 'movies' && <MovieTypes/>}
+            { menu === 'movies' && <Films/>}
         </ div>
     )
 

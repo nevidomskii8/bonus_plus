@@ -7,19 +7,15 @@
     color: floralwhite;
     
     & .list-genres {
-
         &.focused {
             border-top: $focusedBorder;
             background-color: $focusedBackgraund;
         }
-        
         display: flex;
         flex-direction: column;
         width: 25%;
-        font-size: 24px;
-        
+        font-size: 24px;        
     }
-    
     & .genres {
         
         &.focused {
@@ -41,6 +37,4 @@
             border-top: $focusedBorder;
         }
     }
-
-
 }

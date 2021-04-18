@@ -26,3 +26,7 @@ export const getChooseGenre = createSelector(
   state => state.mainState.choosedGenre,
   chooseGenre => chooseGenre
 )
+export const getScheduleState = createSelector(
+  state => state.mainState.scheduleState,
+  scheduleState => scheduleState
+)

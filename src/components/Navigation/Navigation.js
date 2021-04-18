@@ -36,7 +36,7 @@ export const Navigation = () => {
                     <TVSVG className="navigation__svg navigation__svg--tv" />
                     <span className={`${focusSection === 'navigation' ? 'show' : 'hidden'}`}>Телевиденье</span>
                 </li>
-                <li className={`navigation__item-nav records ${currentChoose === 'records' && isActive ? 'active' : ''}`}>
+                <li className={`navigation__item-nav movies ${currentChoose === 'movies' && isActive ? 'active' : ''}`}>
                     <PlaySVG className="navigation__svg navigation__svg--records" />
                     <span className={`${focusSection === 'navigation' ? 'show' : 'hidden'}`}>Кино</span>
                 </li>
