@@ -1,7 +1,6 @@
 import { useDispatch } from "react-redux"
 import { setFocusActive, setFocusSection, setChooseNav, setChooseGanre } from "../redux/actions/mainStateActions";
 
-
 export const useKeyDown = () => {
     const dispatch = useDispatch()
 
@@ -39,7 +38,6 @@ export const useKeyDown = () => {
         }
 
         if (event.keyCode === 37) {
-           
             for (let i = 0; i < focusable.length; i++) {
                 if (focusable[i].classList.contains('focused') && focusable[i].previousElementSibling) {
                     dispatch(setFocusSection(focusable[i].previousElementSibling.classList[0]))
@@ -47,7 +45,7 @@ export const useKeyDown = () => {
                 }
             }
         }
-
+        
         if (event.keyCode === 39) {
             for (let i = 0; i < focusable.length; i++) {
                 if (focusable[i].classList.contains('focused') && focusable[i].nextElementSibling) {
@@ -56,15 +54,17 @@ export const useKeyDown = () => {
                 }
             }
         }
-
+        
         if (event.key === 'Enter') {
             switch (focused[0].classList[0]) {
                 case 'navigation' :
                     dispatch(setChooseNav(activeLi.classList[1]))
                     return
-                case 'tv-page__list-genres' :
+                case 'list-genres' :
                     // можно диспачить focusative при смещении стрелками вверх/вниз 
                     // но тогда жанры будут сортироваться сразу
+                    console.log(activeLi.classList[1])
+                    dispatch(setFocusSection('genres'))
                     dispatch(setChooseGanre(activeLi.classList[1]))
                     return
                 case 'item-genres': 

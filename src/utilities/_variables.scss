@@ -29,5 +29,6 @@ $bacgroundNavigation: linear-gradient(
     #24243e
 );
 
-$focusedBorder:  #2A93D6 10px solid;
-$activeLi:  #2a93d6
+$focusedBorder:  #2A93D6 4px solid;
+$activeLi:  #2a93d6;
+$focusedBackgraund: rgba($color: #fff, $alpha: .1)

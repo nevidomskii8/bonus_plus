@@ -10,6 +10,7 @@
 
         &.focused {
             border-top: $focusedBorder;
+            background-color: $focusedBackgraund;
         }
         
         display: flex;
@@ -22,6 +23,7 @@
     & .genres {
         
         &.focused {
+            background-color: $focusedBackgraund;
             border-top: $focusedBorder;
         }
         
@@ -31,8 +33,14 @@
         overflow: auto;
     }
     
-    // & .schedule {
-    // }
+    & .schedule {
+        padding: 20px;
+        width: 45%  ;
+        &.focused {
+            background-color: $focusedBackgraund;
+            border-top: $focusedBorder;
+        }
+    }
 
 
 }

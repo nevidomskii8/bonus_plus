@@ -1,42 +1,53 @@
 import { useEffect, useRef, useState } from 'react'
 import { useSelector } from 'react-redux'
-import { getChanals, getFocusActive, getFocusSection } from '../../../redux/selectors/mainStateSelector'
+import { getChanals, getChooseGenre, getFocusActive, getFocusSection } from '../../../redux/selectors/mainStateSelector'
 import './Genres.scss'
+
 
 export const Genre = () => {
     const focusSection = useSelector(getFocusSection)
     const active = useSelector(getFocusActive)
     const chanals = useSelector(getChanals)
+    const defineGanre = useSelector(getChooseGenre)
     const focusRef = useRef(null)
+    const ulRef = useRef(null)
     const [isActive, setIsActive] = useState(false)
-    const [currentChoose, setCurrentChoose] = useState(chanals[0].id)
-    const [stateChanals, setStateChanals]= useState(null)
+    const [stateChanals, setStateChanals] = useState(null)
+    const [currentChoose, setCurrentChoose] = useState()
+
+    useEffect(() => {
+        setStateChanals([...chanals.filter(chan => chan.genres[0].includes(+defineGanre))])
+    }, [defineGanre])
+
+    const logger = () => {
+        setCurrentChoose(+stateChanals[0].id)
+    }
+
+    useEffect(() => {
+        stateChanals && stateChanals.length > 0 && logger()
+    }, [stateChanals])
 
     const handleAtive = () => {
         setIsActive(true)
-        setStateChanals(chanals)
-    }
-
-    const setOfActive = () => {
-        setIsActive(false)
+        !defineGanre && setStateChanals(chanals)
     }
 
     useEffect(() => {
-        focusSection === 'genres' ? handleAtive() : setOfActive()
+        focusSection === 'genres' ? handleAtive() : setIsActive(false)
     }, [focusSection])
-    
+
     useEffect(() => {
-        focusSection === 'list-genres' &&  setStateChanals([...chanals.filter(chan => chan.genres[0].includes(+active))])
         isActive && setCurrentChoose(active)
-        isActive && focusRef.current.focus()
+        if (isActive) {
+            ulRef.current.scrollTo(0, focusRef.current.offsetTop)
+        }
     }, [active])
 
     return (
-        <div className={`genres focusable ${focusSection === 'genres' ? 'focused' : ''}`}>
-            <ul tabIndex="0">
+        <div ref={ulRef} className={`genres focusable ${focusSection === 'genres' ? 'focused' : ''}`}>
+            <ul tabIndex="0" className="gentes__ul">
                 {stateChanals?.map((item, i) =>
-                    <li tabIndex='-1' 
-                        ref={+currentChoose === +item.id ? focusRef: null}
+                    <li ref={+currentChoose === +item.id ? focusRef : null}
                         className={`tv-page_chanal ${item.id} 
                         ${(+currentChoose === +item.id && isActive) ? 'active' : ''}`}
                         key={item.id}

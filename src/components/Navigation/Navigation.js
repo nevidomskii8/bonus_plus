@@ -1,5 +1,4 @@
 import { useContext, useEffect, useState } from 'react'
-import logo from '../../assets/images/menu-logo.png'
 import { ReactComponent as TVSVG } from '../../assets/svg/tv-monitor.svg'
 import { ReactComponent as PlaySVG } from '../../assets/svg/play-button.svg'
 import { ReactComponent as Serialize } from '../../assets/svg/serialize.svg'
@@ -32,33 +31,32 @@ export const Navigation = () => {
     return (
         <div className={`navigation focusable ${focusSection === 'navigation' ? 'focused' : ''}`}>
             <div className="navigation__logo"/>
-            {/* <img className='navigation__logo' src={logo} alt='logo' /> */}
-            <ul className={`menu`} >
-                <li className={`item-nav tv ${currentChoose === 'tv' && isActive ? 'active' : ''}`} >
+            <ul className={`navigation__menu`} >
+                <li className={`navigation__item-nav tv ${currentChoose === 'tv' && isActive ? 'active' : ''}`} >
                     <TVSVG className="navigation__svg navigation__svg--tv" />
                     <span className={`${focusSection === 'navigation' ? 'show' : 'hidden'}`}>Телевиденье</span>
                 </li>
-                <li className={`item-nav records ${currentChoose === 'records' && isActive ? 'active' : ''}`}>
+                <li className={`navigation__item-nav records ${currentChoose === 'records' && isActive ? 'active' : ''}`}>
                     <PlaySVG className="navigation__svg navigation__svg--records" />
                     <span className={`${focusSection === 'navigation' ? 'show' : 'hidden'}`}>Кино</span>
                 </li>
-                <li className={`item-nav serialize ${currentChoose === 'serialize' && isActive ? 'active' : ''}`}>
+                <li className={`navigation__item-nav serialize ${currentChoose === 'serialize' && isActive ? 'active' : ''}`}>
                     <Serialize className="navigation__svg navigation__svg--records" />
                     <span className={`${focusSection === 'navigation' ? 'show' : 'hidden'}`}>Сериалы</span>
                 </li>
-                <li className={`item-nav setup ${currentChoose === 'setup' && isActive ? 'active' : ''}`}>
+                <li className={`navigation__item-nav setup ${currentChoose === 'setup' && isActive ? 'active' : ''}`}>
                     <SettingSVG className="navigation__svg navigation__svg--setup" />
                     <span className={`${focusSection === 'navigation' ? 'show' : 'hidden'}`}>Настройки</span>
                 </li>
-                <li className={`item-nav paycard ${currentChoose === 'paycard' && isActive ? 'active' : ''}`}>
+                <li className={`navigation__item-nav paycard ${currentChoose === 'paycard' && isActive ? 'active' : ''}`}>
                     <PayCard className="navigation__svg navigation__svg--info" />
                     <span className={`${focusSection === 'navigation' ? 'show' : 'hidden'}`}>Оплата услуг</span>
                 </li>
-                <li className={`item-nav youtube ${currentChoose === 'youtube' && isActive ? 'active' : ''}`}>
+                <li className={`navigation__item-nav youtube ${currentChoose === 'youtube' && isActive ? 'active' : ''}`}>
                     <Youtube className="navigation__svg navigation__svg--info" />
                     <span className={`${focusSection === 'navigation' ? 'show' : 'hidden'}`}>Youtube</span>
                 </li>
-                <li className={`item-nav info ${currentChoose === 'info' && isActive ? 'active' : ''}`}>
+                <li className={`navigation__item-nav info ${currentChoose === 'info' && isActive ? 'active' : ''}`}>
                     <InfoSVG className="navigation__svg navigation__svg--info" />
                     <span className={`${focusSection === 'navigation' ? 'show' : 'hidden'}`}>Радио</span>
                 </li>

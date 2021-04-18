@@ -1,11 +1,13 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { FormattedMessage } from 'react-intl';
-import { useSelector } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
+import { setFocusSection } from '../../../redux/actions/mainStateActions';
 import { getFocusActive, getFocusSection } from '../../../redux/selectors/mainStateSelector';
 import './ListGanres.scss'
 
 export const ListGanres = () => {
     const focusSection = useSelector(getFocusSection)
+    const dispatch = useDispatch()
     const active = useSelector(getFocusActive)
     const [isActive, setIsActive] = useState(false)
     const [currentChoose, setCurrentChoose] = useState('7')
@@ -17,6 +19,12 @@ export const ListGanres = () => {
     useEffect(() => {
         isActive && setCurrentChoose(active)
     }, [active])
+
+    useEffect(() => {
+        setIsActive(true)
+        setCurrentChoose('7')
+        dispatch(setFocusSection('list-genres'))
+    }, [])
 
     return (
         <div className={`list-genres focusable ${focusSection === 'list-genres' ? 'focused' : ''}`}>
@@ -47,6 +55,18 @@ export const ListGanres = () => {
                 </li>
                 <li className={`tv-page_list 9 ${(currentChoose === '9' && isActive) ? 'active' : ''}`} >
                     HD
+            </li>
+                <li className={`tv-page_list favorite ${(currentChoose === 'favorite' && isActive) ? 'active' : ''}`} >
+                    Любимые
+            </li>
+                <li className={`tv-page_list records ${(currentChoose === 'records' && isActive) ? 'active' : ''}`} >
+                    В записи
+            </li>
+                <li className={`tv-page_list custom ${(currentChoose === 'custom' && isActive) ? 'active' : ''}`} >
+                    Пользовательские 
+            </li>
+                <li className={`tv-page_list home ${(currentChoose === 'home' && isActive) ? 'active' : ''}`} >
+                    Домашние
             </li>
                 {/* <li><FormattedMessage id="app.tv.likes" /> </li>
                 <li><FormattedMessage id="app.tv.recorders" /> </li>

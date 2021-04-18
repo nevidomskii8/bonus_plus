@@ -5,18 +5,18 @@
     border-radius: 5px;
     background-color: $activeLi;
     &::after{
-        left: -16px;
-        height: 10px;
-        top: 12px;
-        width: 10px;
+        position: absolute;
         content: '';
         border-color: firebrick;
-        position: absolute;
+        left: -16px;
+        height: 10px;
         border-style: solid;
         border-width: 2px;
         bottom: 0;
         border-top: none;
-        transform: rotate(-45deg);
         border-left: none;   
+        transform: rotate(-45deg);
+        top: 12px;
+        width: 10px;
     }
 }
