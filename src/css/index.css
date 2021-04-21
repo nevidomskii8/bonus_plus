@@ -4,15 +4,19 @@
   box-sizing: border-box;
 }
 
-html, body , div, ul, li{
-  scrollbar-color: #458245 ;/* «цвет ползунка» «цвет полосы скроллбара» */
-  scrollbar-width:  thin ;  /* толщина */
+html,
+body,
+div,
+ul,
+li {
+  scrollbar-color: #458245; /* «цвет ползунка» «цвет полосы скроллбара» */
+  scrollbar-width: thin; /* толщина */
 }
 
 ::-webkit-scrollbar {
   width: 4px; /* ширина для вертикального скролла */
   height: 8px; /* высота для горизонтального скролла */
-  background-color: #458245 ;
+  background-color: #458245;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -26,13 +30,13 @@ ol[class] {
   padding: 0;
 }
 
-li{
+li {
   list-style: none;
 }
 
 a {
   text-decoration: none;
-  color: #000
+  color: #000;
 }
 
 body,

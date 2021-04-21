@@ -1,40 +1,63 @@
-@import "../../../utilities/variables";
-@import "../../../utilities/corners";
+@import '../../../utilities/variables';
+@import '../../../utilities/corners';
 
 .tv-page {
+  display: flex;
+  width: 100%;
+  color: floralwhite;
+
+  & .list-genres {
+    &.focused {
+      border-top: $focusedBorder;
+      background-color: $focusedBackgraund;
+    }
     display: flex;
-    width: 100%;
-    color: floralwhite;
-    
-    & .list-genres {
-        &.focused {
-            border-top: $focusedBorder;
-            background-color: $focusedBackgraund;
-        }
-        display: flex;
-        flex-direction: column;
-        width: 25%;
-        font-size: 24px;        
+    flex-direction: column;
+    width: 25%;
+    font-size: 24px;
+  }
+  & .genres {
+    padding-left: 30px;
+    &.focused {
+      background-color: $focusedBackgraund;
+      border-top: $focusedBorder;
     }
-    & .genres {
-        
-        &.focused {
-            background-color: $focusedBackgraund;
-            border-top: $focusedBorder;
-        }
-        
-        display: flex;
-        font-size: 24px;
-        width: 27%;
-        overflow: auto;
+
+    display: flex;
+    font-size: 24px;
+    width: 27%;
+    overflow: auto;
+  }
+
+  & .schedule {
+    padding: 20px;
+    width: 45%;
+    &.focused {
+      background-color: $focusedBackgraund;
+      border-top: $focusedBorder;
     }
-    
-    & .schedule {
-        padding: 20px;
-        width: 45%  ;
-        &.focused {
-            background-color: $focusedBackgraund;
-            border-top: $focusedBorder;
-        }
+  }
+
+  & .movies-types {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font-size: 24px;
+
+    &.focused {
+      background-color: $focusedBackgraund;
+      border-top: $focusedBorder;
     }
+  }
+  & .films {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font-size: 24px;
+    overflow: auto;
+    &.focused {
+      background-color: $focusedBackgraund;
+      border-top: $focusedBorder;
+    }
+  }
 }

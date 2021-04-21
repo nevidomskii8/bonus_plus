@@ -1,25 +1,23 @@
-@import "../../../utilities/variables";
-@import "../../../utilities/corners";
-
+@import '../../../utilities/variables';
+@import '../../../utilities/corners';
 
 .tv-page_list {
+  &.active {
+    @include activeLi;
+  }
 
-    &.active {
-        @include activeLi;
+  &:nth-child(8) {
+    position: relative;
+    margin-bottom: 42px;
+    &::before {
+      position: absolute;
+      content: '';
+      left: -38px;
+      bottom: 0;
+      top: 56px;
+      width: 110%;
+      height: 1px;
+      background-color: #fff;
     }
-    
-    &:nth-child(8) {
-        position: relative;
-        margin-bottom: 42px;
-        &::before {
-            position: absolute;
-            content: "";
-            left: -38px;
-            bottom: 0;
-            top: 56px;
-            width: 110%;
-            height: 1px;
-            background-color: #fff;
-        }
-    }
+  }
 }

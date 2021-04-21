@@ -1,12 +1,12 @@
 @import './utilities/corners';
 
 .main {
-    background-image: radial-gradient(circle, #282768, #341946, #2d102a, #1e0a15, #000000);
-    display: flex;
-    width: 100vw;
-    height: 100vh;
+  background-image: radial-gradient(circle, #0f2027, #203a43, #2c5364, #203a43, #0f2027);
+  display: flex;
+  width: 100vw;
+  height: 100vh;
 }
 
 body {
-    font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
