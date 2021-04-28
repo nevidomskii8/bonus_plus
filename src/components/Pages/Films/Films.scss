@@ -2,12 +2,14 @@
 @import '../../../utilities/corners';
 
 .films {
-  &.carusel_sl {
-    background-color: blue;
+  .carusel_sl {
     display: block;
     margin: 0 auto;
     margin-bottom: 20px;
     transition: scale 300ms ease-in-out;
+    & img {
+      margin: 0 auto
+    }
   }
 }
 

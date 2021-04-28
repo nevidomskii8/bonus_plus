@@ -2,62 +2,52 @@
 @import '../../../utilities/corners';
 
 .tv-page {
-  display: flex;
-  width: 100%;
-  color: floralwhite;
+	display: flex;
+	width: 100%;
+	color: floralwhite;
 
-  & .list-genres {
-    &.focused {
-      border-top: $focusedBorder;
-      background-color: $focusedBackgraund;
-    }
-    display: flex;
-    flex-direction: column;
-    width: 25%;
-    font-size: 24px;
-  }
-  & .genres {
-    padding-left: 30px;
-    &.focused {
-      background-color: $focusedBackgraund;
-      border-top: $focusedBorder;
-    }
+	& .list-genres {
+		@include firstList;
+		border-top: solid 4px transparent;
+	}
+	& .genres {
+		padding-left: 10px;
+		border-top: solid 4px transparent;
 
-    display: flex;
-    font-size: 24px;
-    width: 27%;
-    overflow: auto;
-  }
+		display: flex;
+		font-size: 24px;
+		width: 27%;
+		overflow: auto;
+	}
 
-  & .schedule {
-    padding: 20px;
-    width: 45%;
-    &.focused {
-      background-color: $focusedBackgraund;
-      border-top: $focusedBorder;
-    }
-  }
+	& .schedule {
+		padding: 20px;
+		width: 45%;
+		border-top: solid 4px transparent;
+	}
 
-  & .movies-types {
-    display: flex;
-    flex-direction: column;
-    width: 25%;
-    font-size: 24px;
+	& .movies-types {
+		@include firstList;
+		border-top: solid 4px transparent;
+	}
+	& .films {
+		display: flex;
+		flex-direction: column;
+		width: 25%;
+		font-size: 24px;
+		overflow: auto;
+		border-top: solid 4px transparent;
+	}
 
-    &.focused {
-      background-color: $focusedBackgraund;
-      border-top: $focusedBorder;
-    }
-  }
-  & .films {
-    display: flex;
-    flex-direction: column;
-    width: 25%;
-    font-size: 24px;
-    overflow: auto;
-    &.focused {
-      background-color: $focusedBackgraund;
-      border-top: $focusedBorder;
-    }
-  }
+	& .setting {
+		@include firstList;
+		border-top: solid 4px transparent;
+	}
+	& .setup-detail {
+		border-top: solid 4px transparent;
+	}
+}
+.focused {
+	background-color: $focusedBackgraund;
+	border-top: $focusedBorder !important; // добавил что бы border-top: transparant который назначин по умолч. в кажд секции не перекрывал
 }

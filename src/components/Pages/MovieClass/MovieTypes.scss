@@ -19,6 +19,8 @@
 
 .movies-types {
   &__list {
+  @include defaultStyleList;
+    
     &.active {
       @include activeLi;
     }
@@ -28,5 +30,8 @@
     &:nth-child(5) {
       @include spetialLI;
     }
+  }
+  &__lable {
+    margin-left: 10px;
   }
 }

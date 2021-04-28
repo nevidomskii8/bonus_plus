@@ -17,8 +17,6 @@ $marginLeftSvg: 25%;
   &.focused {
     border-top: $focusedBorder;
     width: calc(#{$widthNav} * 3.1);
-    .navigation {
-    }
   }
 
   &__top-svg {
@@ -68,6 +66,7 @@ $marginLeftSvg: 25%;
 
     &.active {
       @include activeLi;
+      background-color: inherit;
     }
   }
 

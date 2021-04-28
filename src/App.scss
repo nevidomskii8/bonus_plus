@@ -6,7 +6,18 @@
   width: 100vw;
   height: 100vh;
 }
+.carousel.carousel-slider {
+  &button {
+    display: none;
+  }
+}
 
+.control-arrow {
+  display: none;
+}
+.carusel_sl {
+  margin-bottom: 20px;
+}
 body {
   font-family: 'Montserrat', sans-serif;
 }

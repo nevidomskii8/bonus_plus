@@ -1,33 +1,42 @@
-import { useEffect, useState } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import { setFocusSection } from '../../../redux/actions/mainStateActions';
-import { getFocusActive, getFocusSection } from '../../../redux/selectors/mainStateSelector';
-import './MovieTypes.scss';
+import { useEffect, useState } from 'react'
+import { useDispatch, useSelector } from 'react-redux'
+import { setFocusSection } from '../../../redux/actions/mainStateActions'
+import {
+  getFocusActive,
+  getFocusSection,
+} from '../../../redux/selectors/mainStateSelector'
+import './MovieTypes.scss'
 
 export const MovieTypes = () => {
-  const focusSection = useSelector(getFocusSection);
-  const dispatch = useDispatch();
-  const active = useSelector(getFocusActive);
-  const [isActive, setIsActive] = useState(false);
-  const [currentChoose, setCurrentChoose] = useState('collections');
+  const focusSection = useSelector(getFocusSection)
+  const dispatch = useDispatch()
+  const active = useSelector(getFocusActive)
+  const [isActive, setIsActive] = useState(false)
+  const [currentChoose, setCurrentChoose] = useState('collections')
 
   useEffect(() => {
-    focusSection === 'movies-types' ? setIsActive(true) : setIsActive(false);
-  }, [focusSection]);
+    focusSection === 'movies-types' ? setIsActive(true) : setIsActive(false)
+  }, [focusSection])
 
   useEffect(() => {
-    isActive && setCurrentChoose(active);
-  }, [active]);
+    isActive && setCurrentChoose(active)
+  }, [active])
 
   useEffect(() => {
-    setIsActive(true);
-    setCurrentChoose('collections');
-    dispatch(setFocusSection('movies-types'));
-  }, []);
+    setIsActive(true)
+    setCurrentChoose('collections')
+    dispatch(setFocusSection('movies-types'))
+  }, [])
 
   return (
-    <div className={`movies-types focusable ${focusSection === 'movies-types' ? 'focused' : ''}`}>
-      <h2>Кино</h2>
+    <div
+      className={`movies-types focusable ${
+        focusSection === 'movies-types' ? 'focused' : ''
+      }`}
+    >
+      <center>
+        <h2>Кино</h2>
+      </center>
       <ul>
         <li
           className={`movies-types__list collections ${
@@ -79,5 +88,5 @@ export const MovieTypes = () => {
         </li>
       </ul>
     </div>
-  );
-};
+  )
+}

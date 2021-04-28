@@ -1,20 +1,38 @@
 @mixin activeLi {
-  position: relative;
-  border-radius: 5px;
-  background-color: $activeLi;
-  &::after {
-    position: absolute;
-    content: '';
-    border-color: firebrick;
-    left: -16px;
-    height: 10px;
-    border-style: solid;
-    border-width: 2px;
-    bottom: 0;
-    border-top: none;
-    border-left: none;
-    transform: rotate(-45deg);
-    top: 12px;
-    width: 10px;
-  }
+	position: relative;
+	// border-radius: 5px;
+	background-color: $activeLi;
+	&::after {
+		position: absolute;
+		content: '';
+		border-color: firebrick;
+		left: -16px;
+		height: 10px;
+		border-style: solid;
+		border-width: 2px;
+		bottom: 0;
+		border-top: none;
+		border-left: none;
+		transform: rotate(-45deg);
+		top: 12px;
+		width: 10px;
+	}
+}
+
+@mixin firstList {
+	display: flex;
+	flex-direction: column;
+	width: 15%;
+	font-size: 20px;
+}
+
+@mixin defaultStyleList {
+	margin-bottom: 20px;
+	width: 100%;
+	padding-left: 10px;
+}
+
+@mixin focusActive {
+	background-color: $focusedBackgraund;
+	border-top: $focusedBorder;
 }

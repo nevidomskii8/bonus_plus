@@ -1,7 +1,7 @@
-import './Info_page.scss';
-const React = require('react');
-const CSSTransitionGroup = require('react-transition-group/CSSTransitionGroup');
-const AriaMenuButton = require('react-aria-menubutton');
+import './Info_page.scss'
+const React = require('react')
+const CSSTransitionGroup = require('react-transition-group/CSSTransitionGroup')
+const AriaMenuButton = require('react-aria-menubutton')
 
 const people = [
   {
@@ -16,7 +16,7 @@ const people = [
     name: 'Susan Sailor',
     id: 2435,
   },
-];
+]
 
 export class Info_Page extends React.Component {
   render() {
@@ -30,12 +30,12 @@ export class Info_Page extends React.Component {
           className="PeopleMenu-person"
         >
           <div className="PeopleMenu-personPhoto">
-            <img src={'/people/pictures/' + person.id + '.jpg'} />
+            <img src={'/people/pictures/' + person.id + '.jpg'} alt="" />
           </div>
           <div className="PeopleMenu-personName">{person.name}</div>
         </AriaMenuButton.MenuItem>
-      );
-    });
+      )
+    })
 
     const peopleMenuInnards = function (menuState) {
       const menu = !menuState.isOpen ? (
@@ -44,9 +44,11 @@ export class Info_Page extends React.Component {
         <div className="PeopleMenu-menu" key="menu">
           {peopleMenuItems}
         </div>
-      );
-      return <CSSTransitionGroup transitionName="people">{menu}</CSSTransitionGroup>;
-    };
+      )
+      return (
+        <CSSTransitionGroup transitionName="people">{menu}</CSSTransitionGroup>
+      )
+    }
 
     return (
       <AriaMenuButton.Wrapper
@@ -60,11 +62,11 @@ export class Info_Page extends React.Component {
         </AriaMenuButton.Button>
         <AriaMenuButton.Menu>{peopleMenuInnards}</AriaMenuButton.Menu>
       </AriaMenuButton.Wrapper>
-    );
+    )
   }
 }
 
 function handleSelection(value, event) {
-  console.log(value);
-  console.log(event);
+  console.log(value)
+  console.log(event)
 }

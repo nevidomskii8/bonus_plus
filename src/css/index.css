@@ -11,6 +11,7 @@ ul,
 li {
   scrollbar-color: #458245; /* «цвет ползунка» «цвет полосы скроллбара» */
   scrollbar-width: thin; /* толщина */
+  padding: 0;
 }
 
 ::-webkit-scrollbar {
@@ -28,6 +29,7 @@ li {
 ul[class],
 ol[class] {
   padding: 0;
+  
 }
 
 li {

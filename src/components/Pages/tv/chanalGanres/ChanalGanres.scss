@@ -1,7 +1,8 @@
-@import '../../../utilities/variables';
-@import '../../../utilities/corners';
+@import '../../../../utilities/variables';
+@import '../../../../utilities/corners';
 
 .tv-page_list {
+  @include defaultStyleList;
   &.active {
     @include activeLi;
   }
