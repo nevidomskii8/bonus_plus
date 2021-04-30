@@ -6,7 +6,7 @@ import { ReactComponent as SettingSVG } from '../../assets/svg/settings.svg'
 import { ReactComponent as InfoSVG } from '../../assets/svg/information.svg'
 import { ReactComponent as PayCard } from '../../assets/svg/pay-card.svg'
 import { ReactComponent as Youtube } from '../../assets/svg/youtube.svg'
-import { Context } from '../../Wrapper/Wrapper'
+import { Context } from '../../wrapper/Wrapper'
 
 import './Navigation.scss'
 import { useSelector } from 'react-redux'

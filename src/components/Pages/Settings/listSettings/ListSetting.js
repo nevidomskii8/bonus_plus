@@ -5,6 +5,7 @@ import {
   getFocusActive,
   getFocusSection,
 } from '../../../../redux/selectors/mainStateSelector'
+import './ListSetting.scss'
 
 export const ListSettings = () => {
   const focusSection = useSelector(getFocusSection)
@@ -14,7 +15,9 @@ export const ListSettings = () => {
   const [currentChoose, setCurrentChoose] = useState('collections')
 
   useEffect(() => {
-    focusSection === 'setup' ? setIsActive(true) : setIsActive(false)
+    focusSection === 'setting' && isActive
+      ? setIsActive(true)
+      : setIsActive(false)
   }, [focusSection])
 
   useEffect(() => {
@@ -23,40 +26,61 @@ export const ListSettings = () => {
 
   useEffect(() => {
     setIsActive(true)
-    setCurrentChoose('collections')
+    setCurrentChoose('presonal_info')
     dispatch(setFocusSection('setting'))
   }, [])
 
   return (
     <div
       className={`setting focusable ${
-        focusSection === 'setting' ? 'focused' : ''
+        focusSection === 'setting' && isActive ? 'focused' : ''
       }`}
     >
-      <div class="title"> Настройки </div>
-      <ul class="menu settings_type_list">
-        <li settings_type="personal" class="menu_item right_click">
+      <div className="title"> Настройки </div>
+      <ul>
+        <li
+          className={`menu_item presonal_info right_click ${
+            currentChoose === 'presonal_info' && isActive ? 'active' : ''
+          } `}
+        >
           <span>Персональные данные</span>
         </li>
-        <li settings_type="parents" class="menu_item right_click">
+        <li
+          className={`menu_item parent_control right_click ${
+            currentChoose === 'parent_control' && isActive ? 'active' : ''
+          } `}
+        >
           <span>Родительский контроль</span>
         </li>
-        <li settings_type="time" class="menu_item right_click active">
+        <li
+          className={`menu_item time_area right_click ${
+            currentChoose === 'time_area' && isActive ? 'active' : ''
+          }  `}
+        >
           <span>Временная зона</span>
         </li>
-        <li class="menu_item no_active">
-          <span>Время буферизации</span>
-        </li>
-        <li settings_type="tv_buffer" class="menu_item right_click">
+
+        {/* <span>Время буферизации</span> */}
+        <li
+          className={`menu_item for_tv right_click ${
+            currentChoose === 'for_tv' && isActive ? 'active' : ''
+          } `}
+        >
           <span>для телевидения: без буфера</span>
         </li>
-        <li class="menu_item no_active">
-          <span>Видеонаблюдение</span>
-        </li>
-        <li settings_type="spec_info" class="menu_item right_click">
+        {/* <span>Видеонаблюдение</span> */}
+        <li
+          className={`menu_item info_video right_click ${
+            currentChoose === 'info_video' && isActive ? 'active' : ''
+          } `}
+        >
           <span>Информация об услуге</span>
         </li>
-        <li settings_type="spec_connect" class="menu_item right_click">
+        <li
+          className={`menu_item connect right_click ${
+            currentChoose === 'connect' && isActive ? 'active' : ''
+          } `}
+        >
           <span>Подключение аккаунта</span>
         </li>
       </ul>

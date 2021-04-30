@@ -6,7 +6,7 @@ import {
   BrowserRouter as Router,
 } from 'react-router-dom'
 import { useDispatch } from 'react-redux'
-import { TV_Page } from './components/Pages/TV_page/TV_page.jsx'
+import { TV_Page } from './components/Pages/tv_page/TV_page.jsx'
 
 import { fetchState } from './redux/actions/mainStateActions'
 import { useKeyDown } from './helpers/useKeyListener'

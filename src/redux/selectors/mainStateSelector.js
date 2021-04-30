@@ -39,3 +39,7 @@ export const getStateCarusel = createSelector(
   (state) => state.mainState.stateCarusel,
   (stateCarusel) => stateCarusel,
 )
+export const getStateSettingList = createSelector(
+  (state) => state.mainState.stateSettingList,
+  (stateSettingList) => stateSettingList,
+)

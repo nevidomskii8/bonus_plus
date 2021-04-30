@@ -8,6 +8,7 @@ export const setChooseNav = createAction('SET_CHOOSE_NAV')
 export const setChooseGanre = createAction('SET_CHOOSE_GANRE')
 export const setScheduleState = createAction('SET_SCHEDULE_STATE')
 export const setStateCarusel = createAction('SET_STATE_CARUSEL')
+export const setStateSettingList = createAction('SET_STATE_SETTING_LIST')
 
 export const fetchState = createAsyncThunk('getState', async () => {
   const data = await axios

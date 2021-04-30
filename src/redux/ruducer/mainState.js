@@ -8,6 +8,7 @@ import {
   setChooseGanre,
   setScheduleState,
   setStateCarusel,
+  setStateSettingList,
 } from '../actions/mainStateActions'
 
 const initialState = {
@@ -21,6 +22,7 @@ const initialState = {
   choosedGenre: '',
   scheduleState: '',
   stateCarusel: 0,
+  stateSettingList: '',
 }
 
 const mainState = createReducer(initialState, {
@@ -55,6 +57,9 @@ const mainState = createReducer(initialState, {
   },
   [setStateCarusel.type]: (state, action) => {
     state.stateCarusel = action.payload
+  },
+  [setStateSettingList.type]: (state, action) => {
+    state.stateSettingList = action.payload
   },
 })
 

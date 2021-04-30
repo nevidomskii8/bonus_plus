@@ -1,0 +1,48 @@
+@import '../../../../utilities/variables';
+@import '../../../../utilities/corners';
+
+.menu_item {
+	@include defaultStyleList;
+	&.active {
+		@include activeLi;
+	}
+	&:nth-child(4) {
+		position: relative;
+		margin-top: 52px;
+		&::before {
+			position: absolute;
+			content: 'Время Буфирезации' !important;
+			left: -10px;
+			bottom: 0;
+			top: -40px;
+			height: 0px;
+			color: #cac !important;
+		}
+	}
+	&:nth-child(5) {
+		position: relative;
+		margin-top: 52px;
+		&::before {
+			position: absolute;
+			content: 'Видеонаблюдение' !important;
+			left: -10px;
+			bottom: 0;
+			top: -40px;
+			height: 0px;
+			color: #cac !important;
+		}
+	}
+}
+
+.title {
+	margin-top: 40px;
+	margin-left: 20pxm;
+}
+
+.setting {
+	padding-left: 20px;
+	width: 20%;
+	& > ul {
+		margin-top: 100px;
+	}
+}

@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { setFocusSection } from '../../../redux/actions/mainStateActions'
+import { setFocusSection } from '../../../../redux/actions/mainStateActions'
 import {
   getFocusActive,
   getFocusSection,
-} from '../../../redux/selectors/mainStateSelector'
+} from '../../../../redux/selectors/mainStateSelector'
 import './MovieTypes.scss'
 
 export const MovieTypes = () => {

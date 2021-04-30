@@ -5,14 +5,13 @@ import {
   setChooseNav,
   setChooseGanre,
   setStateCarusel,
+  setStateSettingList,
 } from '../redux/actions/mainStateActions'
 
 export const useKeyDown = () => {
   const dispatch = useDispatch()
-
   const handleKeyDown = (event) => {
     const focused = document.querySelectorAll('.focused')
-    const focusable = document.querySelectorAll('.focusable')
     const activeLi = document.querySelector('.active')
 
     if (event.key === 'ArrowDown') {
@@ -29,29 +28,12 @@ export const useKeyDown = () => {
                   .classList[2],
               ),
             )
+        return
       }
-
-      for (let i = 0; i <= focused[0].children.length; i++) {
-        if (focused[0].children[i]?.nodeName === 'UL') {
-          for (let li = 0; li <= focused[0].children[i].children.length; li++) {
-            if (
-              focused[0].children[i].children[li]?.classList.contains('active')
-            ) {
-              focused[0].children[i].children[li].nextSibling
-                ? dispatch(
-                    setFocusActive(
-                      focused[0].children[i].children[li].nextSibling
-                        .classList[1],
-                    ),
-                  )
-                : dispatch(
-                    setFocusActive(
-                      focused[0].children[i].children[0].classList[1],
-                    ),
-                  )
-            }
-          }
-        }
+      if (activeLi.nextSibling) {
+        dispatch(setFocusActive(activeLi.nextSibling.classList[1]))
+      } else {
+        dispatch(setFocusActive(activeLi.parentNode.childNodes[0].classList[1]))
       }
     }
 
@@ -72,31 +54,17 @@ export const useKeyDown = () => {
             )
       }
 
-      for (let i = 0; i <= focused[0].children.length; i++) {
-        if (focused[0].children[i]?.nodeName === 'UL') {
-          for (let li = 0; li <= focused[0].children[i].children.length; li++) {
-            if (
-              focused[0].children[i].children[li]?.classList.contains('active')
-            ) {
-              focused[0].children[i].children[li].previousSibling
-                ? dispatch(
-                    setFocusActive(
-                      focused[0].children[i].children[li].previousSibling
-                        .classList[1],
-                    ),
-                  )
-                : dispatch(
-                    setFocusActive(
-                      focused[0].children[i].children[
-                        focused[0].children[i].children.length - 1
-                      ].classList[1],
-                    ),
-                  )
-            }
-          }
-        }
+      if (activeLi.previousSibling) {
+        dispatch(setFocusActive(activeLi.previousSibling.classList[1]))
+      } else {
+        const len = activeLi.parentNode.childNodes.length - 1
+        dispatch(
+          setFocusActive(activeLi.parentNode.childNodes[len].classList[1]),
+        )
       }
     }
+
+    const focusable = document.querySelectorAll('.focusable')
 
     if (event.key === 'ArrowLeft') {
       for (let i = 0; i < focusable.length; i++) {
@@ -107,7 +75,7 @@ export const useKeyDown = () => {
           dispatch(
             setFocusSection(focusable[i].previousElementSibling.classList[0]),
           )
-          break
+          return
         }
       }
     }
@@ -121,7 +89,7 @@ export const useKeyDown = () => {
           dispatch(
             setFocusSection(focusable[i].nextElementSibling.classList[0]),
           )
-          break
+          return
         }
       }
     }
@@ -143,11 +111,13 @@ export const useKeyDown = () => {
         case 'item-genres-detail':
           console.log('item-genres-detail')
           return
+        case 'setting':
+          dispatch(setStateSettingList(activeLi.classList[1]))
+          return
         default:
           return
       }
     }
   }
-
   return handleKeyDown
 }
