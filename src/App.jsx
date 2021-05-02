@@ -4,6 +4,8 @@ import './App.scss'
 import store from './redux/rootReducer'
 
 function App() {
+  
+  
   return (
     <Provider store={store}>
       <Routes />

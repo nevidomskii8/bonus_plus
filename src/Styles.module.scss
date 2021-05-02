@@ -1,0 +1,28 @@
+@mixin imageStyle {
+}
+
+.main {
+  background-image: url("./assets/images/starsSky.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.tv {
+  background-image: url("./assets/images/starsSky.jpg");
+}
+.movie-types {
+  background-image: url("./assets/images/darkback.jpg");
+}
+.setup {
+  background-image: url("./assets/images/teksturaGreay.jpg");
+}
+.paycard {
+  background-image: url("./assets/images/teksturaGreay.jpg");
+}
+.radio {
+  background-image: url("./assets/images/teksturaGreay.jpg");
+}

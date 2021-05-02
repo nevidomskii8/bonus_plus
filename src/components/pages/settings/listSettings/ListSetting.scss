@@ -1,5 +1,5 @@
-@import '../../../../utilities/variables';
-@import '../../../../utilities/corners';
+@import "../../../../utilities/variables";
+@import "../../../../utilities/corners";
 
 .menu_item {
 	@include defaultStyleList;
@@ -11,7 +11,7 @@
 		margin-top: 52px;
 		&::before {
 			position: absolute;
-			content: 'Время Буфирезации' !important;
+			content: "Время Буфирезации" !important;
 			left: -10px;
 			bottom: 0;
 			top: -40px;
@@ -24,7 +24,7 @@
 		margin-top: 52px;
 		&::before {
 			position: absolute;
-			content: 'Видеонаблюдение' !important;
+			content: "Видеонаблюдение" !important;
 			left: -10px;
 			bottom: 0;
 			top: -40px;
@@ -41,8 +41,8 @@
 
 .setting {
 	padding-left: 20px;
-	width: 20%;
+	width: 30% !important; //
 	& > ul {
-		margin-top: 100px;
+		margin-top: 50px;
 	}
 }

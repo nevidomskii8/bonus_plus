@@ -3,14 +3,14 @@ import { getChooseNav } from '../../../redux/selectors/mainStateSelector'
 import './TV_page.scss'
 import { Genre } from '../tv/genres/Genre'
 import { ChanalGanres } from '../tv/chanalGanres/ChanalGanres'
-import { Navigation } from '../../Navigation/Navigation'
-import { Schedule } from '../tv/schedule/Schedule'
+import { Navigation } from '../../navigation/Navigation'
+import { Schedule } from '../tv/schedule/Schedule.js'
 import { MovieTypes } from '../movie/movieClass/MovieTypes'
 import { Films } from '../movie/films/Films'
-import { ListSettings } from '../Settings/listSettings/ListSetting'
-import { DetailSetting } from '../Settings/detailSetting/DetailSetting'
+import { ListSettings } from '../settings/listSettings/ListSetting'
+import { DetailSetting } from '../settings/detailSetting/DetailSetting'
 
-export const TV_Page = () => {
+export const TVPage = () => {
   const menu = useSelector(getChooseNav)
 
   return (

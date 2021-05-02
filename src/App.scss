@@ -1,11 +1,3 @@
-@import './utilities/corners';
-
-.main {
-  background-image: radial-gradient(circle, #0f2027, #203a43, #2c5364, #203a43, #0f2027);
-  display: flex;
-  width: 100vw;
-  height: 100vh;
-}
 .carousel.carousel-slider {
   &button {
     display: none;
@@ -19,5 +11,5 @@
   margin-bottom: 20px;
 }
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }

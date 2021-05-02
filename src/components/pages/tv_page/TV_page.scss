@@ -1,5 +1,5 @@
-@import '../../../utilities/variables';
-@import '../../../utilities/corners';
+@import "../../../utilities/variables";
+@import "../../../utilities/corners";
 
 .tv-page {
 	display: flex;
@@ -8,11 +8,10 @@
 
 	& .list-genres {
 		@include firstList;
-		border-top: solid 4px transparent;
 	}
 	& .genres {
 		padding-left: 10px;
-		border-top: solid 4px transparent;
+		border-top: $defaultBorderTop;
 
 		display: flex;
 		font-size: 24px;
@@ -23,12 +22,11 @@
 	& .schedule {
 		padding: 20px;
 		width: 45%;
-		border-top: solid 4px transparent;
+		border-top: $defaultBorderTop;
 	}
 
 	& .movies-types {
 		@include firstList;
-		border-top: solid 4px transparent;
 	}
 	& .films {
 		display: flex;
@@ -36,16 +34,15 @@
 		width: 25%;
 		font-size: 24px;
 		overflow: auto;
-		border-top: solid 4px transparent;
+		border-top: $defaultBorderTop;
 	}
 
 	& .setting {
 		@include firstList;
-		border-top: solid 4px transparent;
 	}
 	& .setup-detail {
-		width: 75%;
-		border-top: solid 4px transparent;
+		width: 45%;
+		border-top: $defaultBorderTop;
 	}
 }
 .focused {
