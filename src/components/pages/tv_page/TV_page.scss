@@ -15,18 +15,20 @@
 
 		display: flex;
 		font-size: 24px;
+		// flex-grow: 1;
 		width: 27%;
 		overflow: auto;
 	}
 
 	& .schedule {
+		flex-grow: 2;
 		padding: 20px;
-		width: 45%;
 		border-top: $defaultBorderTop;
 	}
 
 	& .movies-types {
 		@include firstList;
+		// flex-grow: 1;
 	}
 	& .films {
 		display: flex;
@@ -41,7 +43,7 @@
 		@include firstList;
 	}
 	& .setup-detail {
-		width: 45%;
+		flex-grow: 5;
 		border-top: $defaultBorderTop;
 	}
 }

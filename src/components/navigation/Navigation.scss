@@ -1,5 +1,5 @@
-@import '../../utilities/variables';
-@import '../../utilities/corners';
+@import "../../utilities/variables";
+@import "../../utilities/corners";
 
 $widthNav: 70px;
 $marginLeftSvg: 25%;
@@ -38,7 +38,7 @@ $marginLeftSvg: 25%;
       position: relative;
       ::before {
         position: absolute;
-        content: '';
+        content: "";
         left: -10px;
         bottom: 0;
         top: 70px;
@@ -78,7 +78,7 @@ $marginLeftSvg: 25%;
   &__logo {
     position: absolute;
     top: 10px;
-    background-image: url('../../assets/images/menu-logo.png');
+    background-image: url("../../assets/images/menu-logo.png");
     background-repeat: no-repeat;
     width: 54px;
     height: 54px;

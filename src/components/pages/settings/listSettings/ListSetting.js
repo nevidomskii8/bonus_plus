@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { setFocusSection } from "../../../../redux/actions/mainStateActions";
@@ -9,10 +10,10 @@ export const ListSettings = () => {
   const dispatch = useDispatch();
   const active = useSelector(getFocusActive);
   const [isActive, setIsActive] = useState(false);
-  const [currentChoose, setCurrentChoose] = useState("collections");
+  const [currentChoose, setCurrentChoose] = useState("presonal_info");
 
   useEffect(() => {
-    focusSection === "setting" && isActive ? setIsActive(true) : setIsActive(false);
+    focusSection === "setting" ? setIsActive(true) : setIsActive(false);
   }, [focusSection]);
 
   useEffect(() => {
