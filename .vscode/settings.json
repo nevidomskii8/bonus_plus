@@ -32,5 +32,6 @@
     "prettier.jsxSingleQuote": true,
     "editor.formatOnSave": true,
     "prettier.printWidth": 120,
-    "html.format.wrapLineLength": 0
+    "html.format.wrapLineLength": 0,
+    "typescript.tsdk": "node_modules\\typescript\\lib"
 }
