@@ -14,7 +14,7 @@ import {
 } from '../../../../redux/selectors/mainStateSelector'
 import './Genres.scss'
 
-export const Genre = () => {
+const Genre = () => {
   const focusSection = useSelector(getFocusSection)
   const chanals = useSelector(getChanals)
   const defineGanre = useSelector(getChooseGenre)
@@ -88,3 +88,5 @@ export const Genre = () => {
     </div>
   )
 }
+
+export default Genre

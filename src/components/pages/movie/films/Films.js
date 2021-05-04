@@ -9,7 +9,7 @@ import {
 import './Films.scss'
 import { Carousel } from 'react-responsive-carousel'
 
-export const Films = () => {
+const Films = () => {
   const focusSection = useSelector(getFocusSection)
   const dispatch = useDispatch()
   const stateCarusel = useSelector(getStateCarusel)
@@ -96,3 +96,5 @@ export const Films = () => {
     </div>
   )
 }
+
+export default Films

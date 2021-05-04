@@ -1,45 +1,53 @@
-import React, { Component, useEffect, useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { setFocusSection } from "../../../../redux/actions/mainStateActions";
-import { getFocusActive, getFocusSection, getStateSettingList } from "../../../../redux/selectors/mainStateSelector";
-import { Connect } from "../settingItems/connect/Connect";
-import { ForTV } from "../settingItems/forTV/ForTV";
-import { InfoVideo } from "../settingItems/infoVidio/InfoVideo";
-import { ParContol } from "../settingItems/parentContol/ParentControl";
-import { PersonalInfo } from "../settingItems/personalInfo/PersonalInfo";
-import { TimeArea } from "../settingItems/timeArea/TimeArea";
+import React, { useEffect, useState } from 'react'
+import { useSelector } from 'react-redux'
+import {
+  getFocusActive,
+  getFocusSection,
+  getStateSettingList,
+} from '../../../../redux/selectors/mainStateSelector'
+import { Connect } from '../settingItems/connectAccaunt/ConnectAccaunt'
+import { ForTV } from '../settingItems/forTV/ForTV'
+import { InfoVideo } from '../settingItems/infoVidio/InfoVideo'
+import { ParContol } from '../settingItems/parentContol/ParentControl'
+import { PersonalInfo } from '../settingItems/personalInfo/PersonalInfo'
+import { TimeArea } from '../settingItems/timeArea/TimeArea'
 
-export const DetailSetting = () => {
-  const focusSection = useSelector(getFocusSection);
-  const state = useSelector(getStateSettingList);
-  const dispatch = useDispatch();
-  const active = useSelector(getFocusActive);
-  const [isActive, setIsActive] = useState(false);
-  const [currentChoose, setCurrentChoose] = useState("collections");
-
-  useEffect(() => {
-    focusSection === "setup-detail" ? setIsActive(true) : setIsActive(false);
-  }, [focusSection]);
-
-  useEffect(() => {}, [state]);
+const DetailSetting = () => {
+  const focusSection = useSelector(getFocusSection)
+  const state = useSelector(getStateSettingList)
+  const active = useSelector(getFocusActive)
+  const [isActive, setIsActive] = useState(false)
+  const [currentChoose, setCurrentChoose] = useState('collections')
 
   useEffect(() => {
-    isActive && setCurrentChoose(active);
-  }, [active]);
+    focusSection === 'setup-detail' ? setIsActive(true) : setIsActive(false)
+  }, [focusSection])
+
+  useEffect(() => {}, [state])
 
   useEffect(() => {
-    setIsActive(true);
-    setCurrentChoose("collections");
-  }, []);
+    isActive && setCurrentChoose(active)
+  }, [active])
+
+  useEffect(() => {
+    setIsActive(true)
+    setCurrentChoose('collections')
+  }, [])
 
   return (
-    <div className={`setup-detail focusable ${focusSection === "setup-detail" ? "focused" : ""}`}>
-      {state === "presonal_info" && <PersonalInfo />}
-      {state === "parent_control" && <ParContol />}
-      {state === "time_area" && <TimeArea />}
-      {state === "for_tv" && <ForTV />}
-      {state === "info_video" && <InfoVideo />}
-      {state === "connect" && <Connect />}
+    <div
+      className={`setup-detail focusable ${
+        focusSection === 'setup-detail' ? 'focused' : ''
+      }`}
+    >
+      {state === 'presonal_info' && <PersonalInfo />}
+      {state === 'parent_control' && <ParContol />}
+      {state === 'time_area' && <TimeArea />}
+      {state === 'for_tv' && <ForTV />}
+      {state === 'info_video' && <InfoVideo />}
+      {state === 'connect' && <Connect />}
     </div>
-  );
-};
+  )
+}
+
+export default DetailSetting

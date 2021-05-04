@@ -8,7 +8,7 @@ import {
 } from '../../../../redux/selectors/mainStateSelector'
 import './ChanalGanres.scss'
 
-export const ChanalGanres = () => {
+const ChanalGanres = () => {
   const focusSection = useSelector(getFocusSection)
   const dispatch = useDispatch()
   const active = useSelector(getFocusActive)
@@ -131,3 +131,5 @@ export const ChanalGanres = () => {
     </div>
   )
 }
+
+export default ChanalGanres

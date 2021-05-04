@@ -7,7 +7,7 @@ import {
 } from '../../../../redux/selectors/mainStateSelector'
 import './MovieTypes.scss'
 
-export const MovieTypes = () => {
+const MovieTypes = () => {
   const focusSection = useSelector(getFocusSection)
   const dispatch = useDispatch()
   const active = useSelector(getFocusActive)
@@ -90,3 +90,5 @@ export const MovieTypes = () => {
     </div>
   )
 }
+
+export default MovieTypes
