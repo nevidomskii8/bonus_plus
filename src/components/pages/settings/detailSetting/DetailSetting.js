@@ -32,6 +32,7 @@ const DetailSetting = () => {
   useEffect(() => {
     setIsActive(true)
     setCurrentChoose('collections')
+    console.log(active)
   }, [])
 
   return (

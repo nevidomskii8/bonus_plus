@@ -1,10 +1,8 @@
 import styles from './timeArea.module.scss'
 
+const className: string = styles.timeArea
 
 export const TimeArea = () => {
-
-    const className: string = styles.timeArea
-
     return (
         <div className={className}>
             <h2>Временная зона</h2>

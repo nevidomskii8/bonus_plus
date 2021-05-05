@@ -3,6 +3,7 @@ import { useSelector } from 'react-redux'
 import { getChooseNav } from '../../../redux/selectors/mainStateSelector'
 import { Ring } from 'react-awesome-spinners'
 import './MainPage.scss'
+import { PaymentDetail } from '../payment/PaymentDetail'
 
 const Genre = lazy(() => import('../tv/genres/Genre'))
 const ChanalGanres = lazy(() => import('../tv/chanalGanres/ChanalGanres'))
@@ -15,7 +16,11 @@ const DetailSetting = lazy(() =>
   import('../settings/detailSetting/DetailSetting'),
 )
 
-const renderLoader = () => <Ring size={300} />
+const renderLoader = () => (
+  <div className="suspense">
+    <Ring size={300} />
+  </div>
+)
 
 export const TVPage = () => {
   const menu = useSelector(getChooseNav)
@@ -33,6 +38,8 @@ export const TVPage = () => {
 
         {menu === 'setup' && <ListSettings />}
         {menu === 'setup' && <DetailSetting />}
+
+        {menu === 'paycard' && <PaymentDetail />}
       </Suspense>
     </div>
   )

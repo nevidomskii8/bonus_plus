@@ -32,6 +32,7 @@ const Genre = () => {
 
   const logger = () => {
     dispatch(setScheduleState(stateChanals[0].ch_altname))
+    setSelectedItem(0)
   }
 
   // здесь при отсортировке\перерисовке списка определяеся активный элемент с 0-м индексом
@@ -47,9 +48,10 @@ const Genre = () => {
   useEffect(() => {
     if (focusSection === 'genres') {
       handleAtive()
-      dispatch(setStateCarusel(selectedItem))
+      dispatch(setStateCarusel(+selectedItem))
     } else {
       setIsActive(false)
+      dispatch(setStateCarusel(0))
     }
   }, [focusSection])
 

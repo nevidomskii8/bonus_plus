@@ -14,6 +14,8 @@ export const useKeyDown = () => {
     const focused = document.querySelectorAll('.focused')
     const activeLi = document.querySelector('.active')
 
+    //TODO пересмотреть проверку на валидность activeLi
+
     if (event.key === 'ArrowDown') {
       if (focused[0].classList.contains('isCarusel')) {
         activeLi.parentElement.nextSibling
@@ -30,10 +32,12 @@ export const useKeyDown = () => {
             )
         return
       }
-      if (activeLi.nextSibling) {
-        dispatch(setFocusActive(activeLi.nextSibling.classList[1]))
+      if (activeLi?.nextSibling) {
+        dispatch(setFocusActive(activeLi?.nextSibling.classList[1]))
       } else {
-        dispatch(setFocusActive(activeLi.parentNode.childNodes[0].classList[1]))
+        dispatch(
+          setFocusActive(activeLi?.parentNode.childNodes[0].classList[1]),
+        )
       }
     }
 
@@ -54,12 +58,12 @@ export const useKeyDown = () => {
             )
       }
 
-      if (activeLi.previousSibling) {
-        dispatch(setFocusActive(activeLi.previousSibling.classList[1]))
+      if (activeLi?.previousSibling) {
+        dispatch(setFocusActive(activeLi?.previousSibling.classList[1]))
       } else {
-        const len = activeLi.parentNode.childNodes.length - 1
+        const len = activeLi?.parentNode.childNodes.length - 1
         dispatch(
-          setFocusActive(activeLi.parentNode.childNodes[len].classList[1]),
+          setFocusActive(activeLi?.parentNode.childNodes[len].classList[1]),
         )
       }
     }
