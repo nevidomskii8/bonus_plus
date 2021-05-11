@@ -104,8 +104,6 @@ export const useKeyDown = () => {
           dispatch(setChooseNav(activeLi.classList[1]))
           return
         case 'list-genres':
-          // можно диспачить focusative при смещении стрелками вверх/вниз
-          // но тогда жанры будут сортироваться сразу
           dispatch(setFocusSection('genres'))
           dispatch(setChooseGanre(activeLi.classList[1]))
           return

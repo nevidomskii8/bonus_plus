@@ -26,11 +26,6 @@ li {
   box-shadow: inset 1px 1px 10px #f3faf7;
 }
 
-ul[class],
-ol[class] {
-  padding: 0;
-  
-}
 
 li {
   list-style: none;

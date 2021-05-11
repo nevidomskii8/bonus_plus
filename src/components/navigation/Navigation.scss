@@ -1,86 +1,86 @@
-@import "../../utilities/variables";
-@import "../../utilities/corners";
+@import '../../utilities/variables';
+@import '../../utilities/corners';
 
 $widthNav: 70px;
 $marginLeftSvg: 25%;
 
 .navigation {
-  position: relative;
-  z-index: 1;
-  height: 100vh;
-  background-image: $bacgroundNavigation;
-  width: $widthNav;
-  display: flex;
-  justify-content: center;
-  padding-top: 10%;
+	position: relative;
+	z-index: 1;
+	height: 100vh;
+	background-color: $bacgroundNavigation;
+	width: $widthNav;
+	display: flex;
+	justify-content: center;
+	padding-top: 10%;
 
-  &.focused {
-    border-top: $focusedBorder;
-    width: calc(#{$widthNav} * 3.1);
-  }
+	&.focused {
+		border-top: $focusedBorder;
+		width: calc(#{$widthNav} * 3.1);
+	}
 
-  &__top-svg {
-    position: absolute;
-    left: $marginLeftSvg;
-    top: 20px;
-    width: 42px;
-    height: 42px;
-  }
+	&__top-svg {
+		position: absolute;
+		left: $marginLeftSvg;
+		top: 20px;
+		width: 42px;
+		height: 42px;
+	}
 
-  &__svg {
-    cursor: pointer;
-    width: 32px;
-    height: 32px;
-  }
+	&__svg {
+		cursor: pointer;
+		width: 32px;
+		height: 32px;
+	}
 
-  &__menu {
-    :nth-child(3) {
-      position: relative;
-      ::before {
-        position: absolute;
-        content: "";
-        left: -10px;
-        bottom: 0;
-        top: 70px;
-        width: 110%;
-        height: 1px;
-        background-color: #fff;
-      }
-    }
-    :nth-child(4) {
-      margin-top: 80px;
-    }
-  }
+	&__menu {
+		:nth-child(3) {
+			position: relative;
+			::before {
+				position: absolute;
+				content: '';
+				left: -10px;
+				bottom: 0;
+				top: 70px;
+				width: 110%;
+				height: 1px;
+				background-color: #fff;
+			}
+		}
+		:nth-child(4) {
+			margin-top: 80px;
+		}
+	}
 
-  &__item-nav {
-    display: flex;
-    align-items: center;
-    font-size: 20px;
-    margin-bottom: 20px;
-    & svg {
-      margin-right: 10px;
-    }
-    & span.hidden {
-      display: none;
-    }
+	&__item-nav {
+		display: flex;
+		align-items: center;
+		font-size: 20px;
+		margin-bottom: 20px;
+		& svg {
+			margin-right: 10px;
+		}
+		& span.hidden {
+			display: none;
+		}
 
-    &.active {
-      @include activeLi;
-      background-color: inherit;
-    }
-  }
+		&.active {
+			@include activeLi;
+			background-color: inherit;
+		}
+	}
 
-  &__lang {
-    position: absolute;
-    bottom: 0;
-  }
+	&__lang {
+		position: absolute;
+		bottom: 0;
+	}
 
-  &__logo {
-    position: absolute;
-    top: 10px;
-    background-image: url("../../assets/images/menu-logo.png");
-    background-repeat: no-repeat;
-    width: 54px;
-    height: 54px;
-  }
+	&__logo {
+		position: absolute;
+		top: 10px;
+		background-image: url('../../assets/images/menu-logo.png');
+		background-repeat: no-repeat;
+		width: 54px;
+		height: 54px;
+	}
 }
