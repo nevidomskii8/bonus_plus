@@ -3,27 +3,27 @@ import { useSelector } from "react-redux";
 import { getFocusActive, getFocusSection } from "../../../../../redux/reducer/mainState";
 import styles from "./personalInfo.module.scss";
 
-const persInfo: string = styles.personalInfo
-const styleLI: string = styles.styleLi
-const styleUl: string = styles.styleUl
-const activeLi: string = styles.active
+const persInfo: string = styles.personalInfo;
+const styleLI: string = styles.styleLi;
+const styleUl: string = styles.styleUl;
+const activeLi: string = styles.active;
 
 export const PersonalInfo = () => {
-  const focusSection = useSelector(getFocusSection)
-  const [currentFocus, setCurrentFocus] = useState("name")
-  const [isActive, setIsActive] = useState(false)
-  const isActiveFocus = useSelector(getFocusActive)
+  const focusSection = useSelector(getFocusSection);
+  const [currentFocus, setCurrentFocus] = useState("name");
+  const [isActive, setIsActive] = useState(false);
+  const isActiveFocus = useSelector(getFocusActive);
 
-  const personalDate = 'Персональные данные (335588)'
-
-  useEffect(() => {
-    focusSection === 'setup-detail' ? setIsActive(true) : setIsActive(false)
-    console.log(focusSection)
-  }, [focusSection])
+  const personalDate = "Персональные данные (335588)";
 
   useEffect(() => {
-    isActive && setCurrentFocus(isActiveFocus)
-  }, [isActiveFocus])
+    focusSection === "setup-detail" ? setIsActive(true) : setIsActive(false);
+    console.log(focusSection);
+  }, [focusSection]);
+
+  useEffect(() => {
+    isActive && setCurrentFocus(isActiveFocus);
+  }, [isActiveFocus]);
 
   return (
     <div className={`${persInfo}`}>
@@ -31,25 +31,27 @@ export const PersonalInfo = () => {
 
       <h3>Введите ваши персональные данные и выбирте место вашего проживания</h3>
 
-      <ul className={styleUl} >
-
-        <li className={`${styleLI} name ${currentFocus === 'name' ? `active ${activeLi}` : ''}`} >
+      <ul className={styleUl}>
+        <li className={`${styleLI} name ${currentFocus === "name" ? `active ${activeLi}` : ""}`}>
           <label htmlFor="name">Имя</label>
           <input type="text" id="name" name="userName" />
         </li>
 
-        <li className={`${styleLI} surName ${currentFocus === 'surName' ? `active ${activeLi}` : ''}`} >
+        <li
+          className={`${styleLI} surName ${currentFocus === "surName" ? `active ${activeLi}` : ""}`}
+        >
           <label htmlFor="surName">Имя</label>
           <input type="text" id="surName" name="userSurName" />
-
         </li>
 
-        <li className={`${styleLI} email ${currentFocus === 'email' ? `active ${activeLi}` : ''}`} >
+        <li className={`${styleLI} email ${currentFocus === "email" ? `active ${activeLi}` : ""}`}>
           <label htmlFor="email">Email</label>
           <input type="email" id="email" name="userEmail" />
         </li>
 
-        <li className={`${styleLI} country ${currentFocus === 'country' ? `active ${activeLi}` : ''}`} >
+        <li
+          className={`${styleLI} country ${currentFocus === "country" ? `active ${activeLi}` : ""}`}
+        >
           <label htmlFor="country">Страна</label>
           <select name="country" id="country">
             <option value="Ukraine">Украина</option>
@@ -59,7 +61,7 @@ export const PersonalInfo = () => {
           </select>
         </li>
 
-        <li className={`${styleLI} area ${currentFocus === 'area' ? `active ${activeLi}` : ''}`} >
+        <li className={`${styleLI} area ${currentFocus === "area" ? `active ${activeLi}` : ""}`}>
           <label htmlFor="area">Область</label>
           <select name="area" id="area">
             <option value="obl_odessa">Одесса oбл</option>
@@ -72,7 +74,7 @@ export const PersonalInfo = () => {
           </select>
         </li>
 
-        <li className={`${styleLI} cyty ${currentFocus === 'cyty' ? `active ${activeLi}` : ''}`} >
+        <li className={`${styleLI} cyty ${currentFocus === "cyty" ? `active ${activeLi}` : ""}`}>
           <label htmlFor="city">Город</label>
           <select name="city" id="city">
             <option value="odessa">Одесса</option>
@@ -84,7 +86,6 @@ export const PersonalInfo = () => {
             <option value="dnepr">Днепр</option>
           </select>
         </li>
-
       </ul>
     </div>
   );

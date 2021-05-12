@@ -1,11 +1,9 @@
-import React from 'react'
-import styles from './Payment.module.css'
-
+import styles from "./Payment.module.css";
 
 export const Payment = () => {
-    return (
-        <div className={styles.payment} >
-            < h2 className={styles.anyName} > Payment</ h2>
-        </div >
-    )
-}
+  return (
+    <div className={styles.payment}>
+      <h2 className={styles.anyName}> Payment</h2>
+    </div>
+  );
+};

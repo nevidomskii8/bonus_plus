@@ -1,16 +1,17 @@
-import { Provider } from 'react-redux'
-import Routes from './Routes'
-import './App.scss'
-import store from './redux/createStore'
+import { Provider } from "react-redux";
+import Routes from "./Routes";
+import "./App.scss";
+import Wrapper from "./wrapper/Wrapper";
+import store from "./redux/createStore";
 
 function App() {
-  
-  
   return (
-    <Provider store={store}>
-      <Routes />
-    </Provider>
-  )
+    <Wrapper>
+      <Provider store={store}>
+        <Routes />
+      </Provider>
+    </Wrapper>
+  );
 }
 
-export default App
+export default App;

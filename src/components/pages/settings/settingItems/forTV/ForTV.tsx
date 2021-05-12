@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 
 export const ForTV = () => {
-    return (
-        <div>
-            <h2>FORTV</h2>
-        </div>
-    )
-}
+  return (
+    <div>
+      <h2>FORTV</h2>
+    </div>
+  );
+};

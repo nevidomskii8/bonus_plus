@@ -1,31 +1,31 @@
-import React, { useState } from 'react'
-import { IntlProvider } from 'react-intl'
-import Russian from '../lang/ru.json'
-import Ukrainian from '../lang/ua.json'
+import React, { useState } from "react";
+import { IntlProvider } from "react-intl";
+import Russian from "../lang/ru.json";
+import Ukrainian from "../lang/ua.json";
 
-export const Context = React.createContext()
+export const Context = React.createContext();
 
-const local = navigator.language
+const local = navigator.language;
 
-let lang
-if (local === 'ru-RU') {
-  lang = Russian
+let lang;
+if (local === "ru-RU") {
+  lang = Russian;
 } else {
-  lang = Ukrainian
+  lang = Ukrainian;
 }
 
 const Wrapper = (props) => {
-  const [locale, setLocale] = useState(local)
+  const [locale, setLocale] = useState(local);
 
-  const [messages, setMessages] = useState(lang)
+  const [messages, setMessages] = useState(lang);
 
   function selectLanguage(e) {
-    const newLocale = e.target.value
-    setLocale(newLocale)
-    if (newLocale === 'ru') {
-      setMessages(Russian)
+    const newLocale = e.target.value;
+    setLocale(newLocale);
+    if (newLocale === "ru") {
+      setMessages(Russian);
     } else {
-      setMessages(Ukrainian)
+      setMessages(Ukrainian);
     }
   }
 
@@ -35,7 +35,7 @@ const Wrapper = (props) => {
         {props.children}
       </IntlProvider>
     </Context.Provider>
-  )
-}
+  );
+};
 
-export default Wrapper
+export default Wrapper;

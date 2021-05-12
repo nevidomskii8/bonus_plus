@@ -1,21 +1,20 @@
-import { createSlice, PayloadAction } from '@reduxjs/toolkit'
-import { fetchState } from '../actions/mainStateActions';
-import { RootState } from '../createStore';
-import { MainStateModel } from '../types'
+import { createSlice, PayloadAction } from "@reduxjs/toolkit";
+import { fetchState } from "../actions/mainStateActions";
+import { RootState } from "../createStore";
+import { MainStateModel } from "../types";
 
 const initialState: MainStateModel = {
   data: [],
   loading: false,
   error: null,
-  focusSection: 'navigation',
-  focusActive: 'tv',
-  chooseNav: 'string',
-  choosedGenre: '',
-  scheduleState: '',
+  focusSection: "navigation",
+  focusActive: "tv",
+  chooseNav: "string",
+  choosedGenre: "",
+  scheduleState: "",
   stateCarusel: 0,
-  stateSettingList: ''
-}
-
+  stateSettingList: "",
+};
 
 const stateSlice = createSlice({
   name: "state",
@@ -55,7 +54,6 @@ const stateSlice = createSlice({
   },
 });
 
-
 export const getChanals = (state: RootState) => state.state.data;
 export const getChooseNav = (state: RootState) => state.state.chooseNav;
 export const getFocusSection = (state: RootState) => state.state.focusSection;
@@ -65,6 +63,14 @@ export const getScheduleState = (state: RootState) => state.state.scheduleState;
 export const getStateCarusel = (state: RootState) => state.state.stateCarusel;
 export const getStateSettingList = (state: RootState) => state.state.stateSettingList;
 
-export const { setFocusSection, setFocusActive, setChooseNav, setChooseGanre, setScheduleState, setStateCarusel, setStateSettingList} = stateSlice.actions;
+export const {
+  setFocusSection,
+  setFocusActive,
+  setChooseNav,
+  setChooseGanre,
+  setScheduleState,
+  setStateCarusel,
+  setStateSettingList,
+} = stateSlice.actions;
 
-export default stateSlice.reducer
+export default stateSlice.reducer;

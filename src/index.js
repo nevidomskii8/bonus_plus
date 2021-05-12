@@ -1,15 +1,9 @@
-import ReactDOM from 'react-dom'
-import App from './App.tsx'
-import reportWebVitals from './reportWebVitals'
-import './css/normalize.css'
-import './css/index.css'
-import Wrapper from './wrapper/Wrapper'
+import ReactDOM from "react-dom";
+import App from "./App.tsx";
+import reportWebVitals from "./reportWebVitals";
+import "./css/normalize.css";
+import "./css/index.css";
 
-ReactDOM.render(
-  <Wrapper>
-    <App />
-  </Wrapper>,
-  document.getElementById('root'),
-)
+ReactDOM.render(<App />, document.getElementById("root"));
 
-reportWebVitals()
+reportWebVitals();

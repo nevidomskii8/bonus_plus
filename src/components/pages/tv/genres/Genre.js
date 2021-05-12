@@ -1,7 +1,7 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import { useEffect, useState } from 'react'
-import { useDispatch, useSelector } from 'react-redux'
-import { Carousel } from 'react-responsive-carousel'
+import { useEffect, useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { Carousel } from "react-responsive-carousel";
 import {
   getChanals,
   getChooseGenre,
@@ -9,62 +9,55 @@ import {
   getStateCarusel,
   setScheduleState,
   setStateCarusel,
-} from '../../../../redux/reducer/mainState'
-import './Genres.scss'
+} from "../../../../redux/reducer/mainState";
+import "./Genres.scss";
 
 const Genre = () => {
-  const focusSection = useSelector(getFocusSection)
-  const chanals = useSelector(getChanals)
-  const defineGanre = useSelector(getChooseGenre)
-  const stateCarusel = useSelector(getStateCarusel)
-  const dispatch = useDispatch()
-  const [isActive, setIsActive] = useState(false)
-  const [stateChanals, setStateChanals] = useState(null)
-  const [selectedItem, setSelectedItem] = useState(0)
+  const focusSection = useSelector(getFocusSection);
+  const chanals = useSelector(getChanals);
+  const defineGanre = useSelector(getChooseGenre);
+  const stateCarusel = useSelector(getStateCarusel);
+  const dispatch = useDispatch();
+  const [isActive, setIsActive] = useState(false);
+  const [stateChanals, setStateChanals] = useState(null);
+  const [selectedItem, setSelectedItem] = useState(0);
 
   useEffect(() => {
-    setStateChanals([
-      ...chanals.filter((chan) => chan.genres[0].includes(+defineGanre)),
-    ])
-  }, [defineGanre])
+    setStateChanals([...chanals.filter((chan) => chan.genres[0].includes(+defineGanre))]);
+  }, [defineGanre]);
 
   const logger = () => {
-    dispatch(setScheduleState(stateChanals[0].ch_altname))
-    setSelectedItem(0)
-  }
+    dispatch(setScheduleState(stateChanals[0].ch_altname));
+    setSelectedItem(0);
+  };
 
   // здесь при отсортировке\перерисовке списка определяеся активный элемент с 0-м индексом
   useEffect(() => {
-    stateChanals && stateChanals.length > 0 && logger()
-  }, [stateChanals])
+    stateChanals && stateChanals.length > 0 && logger();
+  }, [stateChanals]);
 
   const handleAtive = () => {
-    setIsActive(true)
-    !defineGanre && setStateChanals(chanals)
-  }
+    setIsActive(true);
+    !defineGanre && setStateChanals(chanals);
+  };
 
   useEffect(() => {
-    if (focusSection === 'genres') {
-      handleAtive()
-      dispatch(setStateCarusel(+selectedItem))
+    if (focusSection === "genres") {
+      handleAtive();
+      dispatch(setStateCarusel(+selectedItem));
     } else {
-      setIsActive(false)
-      dispatch(setStateCarusel(0))
+      setIsActive(false);
+      dispatch(setStateCarusel(0));
     }
-  }, [focusSection])
+  }, [focusSection]);
 
   useEffect(() => {
-    isActive &&
-      dispatch(setScheduleState(stateChanals[stateCarusel].ch_altname))
-    isActive && setSelectedItem(+stateCarusel)
-  }, [stateCarusel])
+    isActive && dispatch(setScheduleState(stateChanals[stateCarusel].ch_altname));
+    isActive && setSelectedItem(+stateCarusel);
+  }, [stateCarusel]);
 
   return (
-    <div
-      className={`genres focusable isCarusel ${
-        focusSection === 'genres' ? 'focused' : ''
-      }`}
-    >
+    <div className={`genres focusable isCarusel ${focusSection === "genres" ? "focused" : ""}`}>
       <Carousel
         axis="vertical"
         showThumbs={false}
@@ -78,7 +71,7 @@ const Genre = () => {
         {stateChanals?.map((item, i) => (
           <div
             className={`carusel_sl ${item.id} ${i} 
-                    ${+selectedItem === +i && isActive ? 'active' : ''}`}
+                    ${+selectedItem === +i && isActive ? "active" : ""}`}
             key={item.id}
           >
             <i> {i + 1} </i> &nbsp; <span> {item.ch_altname} </span> &#x20;
@@ -86,7 +79,7 @@ const Genre = () => {
         ))}
       </Carousel>
     </div>
-  )
-}
+  );
+};
 
-export default Genre
+export default Genre;

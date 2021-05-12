@@ -1,0 +1,60 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jest": true
+  },
+  "extends": [
+    "plugin:react/recommended",
+    "airbnb-base",
+    "airbnb",
+    "airbnb/hooks",
+    "eslint-config-airbnb/whitespace",
+    "prettier"
+  ],
+  "plugins": ["react", "@typescript-eslint", "prettier"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "rules": {
+    "no-console": "warn",
+    "react/jsx-filename-extension": [
+      2,
+      {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
+    ],
+    "arrow-body-style": "off",
+    "import/prefer-default-export": "off",
+    "import/extensions": "off",
+    "react-hooks/exhaustive-deps": "off",
+    "no-use-before-define": "off",
+    "react/react-in-jsx-scope": "off",
+    "@typescript-eslint/no-use-before-define": ["error"],
+    "react/prop-types": "off",
+    "import/no-unresolved": "off",
+    "react/no-array-index-key": "off", //@!!!!!!!
+    "no-param-reassign": "off", //@!!!!!!!
+    "no-nested-ternary": "off", //@!!!!!!!
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": [
+          "**/*.test.js",
+          "**/*.spec.js",
+          "**/*.test.ts",
+          "**/*.spec.ts",
+          "**/*.test.tsx",
+          "**/*.spec.tsx",
+          "**/*.test.jsx",
+          "**/*.spec.jsx"
+        ]
+      }
+    ]
+  }
+}

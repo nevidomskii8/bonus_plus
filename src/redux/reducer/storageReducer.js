@@ -1,20 +1,20 @@
 //  ПОКА НЕ УДАЛЯТЬ!
 
-import { createReducer } from '@reduxjs/toolkit'
-import { addState } from '../actions/storageAction'
+import { createReducer } from "@reduxjs/toolkit";
+import { addState } from "../actions/storageAction";
 
-let initialState
+let initialState;
 
 try {
-  initialState = JSON.parse(localStorage.getItem('storage') || '[]')
+  initialState = JSON.parse(localStorage.getItem("storage") || "[]");
 } catch (e) {
-  console.log('Local storage is empty')
+  console.log("Local storage is empty");
 }
 
 export const storageReducer = createReducer(initialState, {
   [addState.type]: (state, action) => {
-    state.push(action.payload)
+    state.push(action.payload);
   },
-})
+});
 
-export default storageReducer
+export default storageReducer;
