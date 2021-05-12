@@ -1,3 +1,5 @@
+@import '../../../../../utilities/variables';
+
 .personalInfo {
 	padding: 20px;
 }
@@ -5,10 +7,13 @@
 	width: 70%;
 	display: flex;
 	justify-content: space-between;
-	margin-bottom: 2rem;
+	padding: 1rem;
+	margin-bottom: 1rem;
+	align-items: center;
+	border: $borderTransparent;
 	& select,
 	input {
-		color: #fff;
+		color: #eefafe;
 		width: 70%;
 		height: 2rem;
 		background-color: inherit;
@@ -19,4 +24,8 @@
 	width: 70%;
 	flex-direction: column;
 	padding: 2rem;
+}
+
+.active {
+	border: $borderActive;
 }

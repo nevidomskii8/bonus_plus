@@ -1,3 +1,5 @@
+@import '/src/utilities/_variables';
+
 .schedule {
 	&__head {
 		width: 100%;
@@ -19,12 +21,12 @@
 	}
 	&__li {
 		margin-left: 40px;
-		border: 1px solid transparent;
+		border: $borderTransparent;
 		width: 90%;
 		font-size: 28px;
 		padding: 1px;
 		&.active {
-			border: 1px solid #2a93d6;
+			border: $borderActive;
 		}
 	}
 }

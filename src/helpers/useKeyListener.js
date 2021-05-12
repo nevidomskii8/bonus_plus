@@ -1,11 +1,4 @@
 import { useDispatch } from 'react-redux'
-import // setFocusActive,
-// setChooseNav,
-// setChooseGanre,
-// setFocusSection,
-// setStateCarusel,
-// setStateSettingList,
-'../redux/actions/mainStateActions'
 import {
   setChooseGanre,
   setChooseNav,

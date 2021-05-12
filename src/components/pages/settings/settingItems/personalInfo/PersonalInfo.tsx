@@ -6,43 +6,50 @@ import styles from "./personalInfo.module.scss";
 const persInfo: string = styles.personalInfo
 const styleLI: string = styles.styleLi
 const styleUl: string = styles.styleUl
+const activeLi: string = styles.active
 
 export const PersonalInfo = () => {
   const focusSection = useSelector(getFocusSection)
-  const [currentFocus, setCurrentFocus] = useState(null)
-  const active = useSelector(getFocusActive)
+  const [currentFocus, setCurrentFocus] = useState("name")
+  const [isActive, setIsActive] = useState(false)
+  const isActiveFocus = useSelector(getFocusActive)
+
+  const personalDate = 'Персональные данные (335588)'
 
   useEffect(() => {
-    //  focusSection === 'setup-detail' 
+    focusSection === 'setup-detail' ? setIsActive(true) : setIsActive(false)
     console.log(focusSection)
   }, [focusSection])
 
+  useEffect(() => {
+    isActive && setCurrentFocus(isActiveFocus)
+  }, [isActiveFocus])
 
   return (
-    <div className={persInfo}>
-      <h2>Персональные данные (335588)</h2>
+    <div className={`${persInfo}`}>
+      <h2> {personalDate} </h2>
 
       <h3>Введите ваши персональные данные и выбирте место вашего проживания</h3>
 
       <ul className={styleUl} >
 
-        <li className={`${styleLI}`} >
+        <li className={`${styleLI} name ${currentFocus === 'name' ? `active ${activeLi}` : ''}`} >
           <label htmlFor="name">Имя</label>
           <input type="text" id="name" name="userName" />
         </li>
 
-        <li className={`${styleLI}`} >
+        <li className={`${styleLI} surName ${currentFocus === 'surName' ? `active ${activeLi}` : ''}`} >
           <label htmlFor="surName">Имя</label>
           <input type="text" id="surName" name="userSurName" />
 
         </li>
 
-        <li className={`${styleLI}`} >
+        <li className={`${styleLI} email ${currentFocus === 'email' ? `active ${activeLi}` : ''}`} >
           <label htmlFor="email">Email</label>
           <input type="email" id="email" name="userEmail" />
         </li>
 
-        <li className={`${styleLI}`} >
+        <li className={`${styleLI} country ${currentFocus === 'country' ? `active ${activeLi}` : ''}`} >
           <label htmlFor="country">Страна</label>
           <select name="country" id="country">
             <option value="Ukraine">Украина</option>
@@ -52,7 +59,7 @@ export const PersonalInfo = () => {
           </select>
         </li>
 
-        <li className={`${styleLI}`} >
+        <li className={`${styleLI} area ${currentFocus === 'area' ? `active ${activeLi}` : ''}`} >
           <label htmlFor="area">Область</label>
           <select name="area" id="area">
             <option value="obl_odessa">Одесса oбл</option>
@@ -65,7 +72,7 @@ export const PersonalInfo = () => {
           </select>
         </li>
 
-        <li className={`${styleLI}`} >
+        <li className={`${styleLI} cyty ${currentFocus === 'cyty' ? `active ${activeLi}` : ''}`} >
           <label htmlFor="city">Город</label>
           <select name="city" id="city">
             <option value="odessa">Одесса</option>

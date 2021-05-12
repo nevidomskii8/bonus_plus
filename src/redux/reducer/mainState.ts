@@ -1,4 +1,4 @@
-import { createReducer, createSlice, PayloadAction } from '@reduxjs/toolkit'
+import { createSlice, PayloadAction } from '@reduxjs/toolkit'
 import { fetchState } from '../actions/mainStateActions';
 import { RootState } from '../createStore';
 import { MainStateModel } from '../types'
@@ -68,41 +68,3 @@ export const getStateSettingList = (state: RootState) => state.state.stateSettin
 export const { setFocusSection, setFocusActive, setChooseNav, setChooseGanre, setScheduleState, setStateCarusel, setStateSettingList} = stateSlice.actions;
 
 export default stateSlice.reducer
-
-
-
-
-export const mainState = createReducer( initialState, {
-  // [fetchState.fulfilled]: (state, action) => {
-  //   state.data = action.payload
-  //   state.loading = false
-  // },
-  // [fetchState.pending]: (state, action) => {
-  //   state.loading = true
-  // },
-  // [fetchState.rejected]: (state, action) => {
-  //   state.loading = false
-  //   state.error = action.payload
-  // },
-  [setFocusSection.type]: (state, action) => {
-    state.focusSection = action.payload
-  },
-  [setFocusActive.type]: (state, action) => {
-    state.focusActive = action.payload
-  },
-  [setChooseNav.type]: (state, action) => {
-    state.chooseNav = action.payload
-  },
-  [setChooseGanre.type]: (state, action) => {
-    state.choosedGenre = action.payload
-  },
-  [setScheduleState.type]: (state, action) => {
-    state.scheduleState = action.payload
-  },
-  [setStateCarusel.type]: (state, action) => {
-    state.stateCarusel = action.payload
-  },
-  [setStateSettingList.type]: (state, action) => {
-    state.stateSettingList = action.payload
-  },
-})
