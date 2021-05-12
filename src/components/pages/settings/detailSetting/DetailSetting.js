@@ -4,7 +4,7 @@ import {
   getFocusActive,
   getFocusSection,
   getStateSettingList,
-} from '../../../../redux/selectors/mainStateSelector'
+} from '../../../../redux/reducer/mainState'
 import { Connect } from '../settingItems/connectAccaunt/ConnectAccaunt'
 import { ForTV } from '../settingItems/forTV/ForTV'
 import { InfoVideo } from '../settingItems/infoVidio/InfoVideo'

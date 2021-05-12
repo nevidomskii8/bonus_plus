@@ -1,17 +1,14 @@
 import { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { setFocusSection } from '../../../../redux/actions/mainStateActions'
-import {
-  getFocusActive,
-  getFocusSection,
-  getStateCarusel,
-} from '../../../../redux/selectors/mainStateSelector'
 import './Films.scss'
 import { Carousel } from 'react-responsive-carousel'
+import {
+  getFocusSection,
+  getStateCarusel,
+} from '../../../../redux/reducer/mainState'
 
 const Films = () => {
   const focusSection = useSelector(getFocusSection)
-  const dispatch = useDispatch()
   const stateCarusel = useSelector(getStateCarusel)
   const [isActive, setIsActive] = useState(false)
   const [selectedItem, setSelectedItem] = useState(0)

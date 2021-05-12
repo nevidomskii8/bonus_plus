@@ -1,3 +1,5 @@
+//  ПОКА НЕ УДАЛЯТЬ!
+
 import { createReducer } from '@reduxjs/toolkit'
 import { addState } from '../actions/storageAction'
 

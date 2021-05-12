@@ -7,13 +7,9 @@ import { ReactComponent as InfoSVG } from '../../assets/svg/information.svg'
 import { ReactComponent as PayCard } from '../../assets/svg/pay-card.svg'
 import { ReactComponent as Youtube } from '../../assets/svg/youtube.svg'
 import { Context } from '../../wrapper/Wrapper'
-
-import './Navigation.scss'
 import { useSelector } from 'react-redux'
-import {
-  getFocusActive,
-  getFocusSection,
-} from '../../redux/selectors/mainStateSelector'
+import { getFocusActive, getFocusSection } from '../../redux/reducer/mainState'
+import './Navigation.scss'
 
 const Navigation = () => {
   const context = useContext(Context)

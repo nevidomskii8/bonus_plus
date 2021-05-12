@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react'
 import { FormattedMessage } from 'react-intl'
 import { useDispatch, useSelector } from 'react-redux'
-import { setFocusSection } from '../../../../redux/actions/mainStateActions'
 import {
   getFocusActive,
   getFocusSection,
-} from '../../../../redux/selectors/mainStateSelector'
+  setFocusSection,
+} from '../../../../redux/reducer/mainState'
 import './ChanalGanres.scss'
 
 const ChanalGanres = () => {

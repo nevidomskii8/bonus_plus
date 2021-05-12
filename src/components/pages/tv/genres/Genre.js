@@ -3,15 +3,13 @@ import { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { Carousel } from 'react-responsive-carousel'
 import {
-  setScheduleState,
-  setStateCarusel,
-} from '../../../../redux/actions/mainStateActions'
-import {
   getChanals,
   getChooseGenre,
   getFocusSection,
   getStateCarusel,
-} from '../../../../redux/selectors/mainStateSelector'
+  setScheduleState,
+  setStateCarusel,
+} from '../../../../redux/reducer/mainState'
 import './Genres.scss'
 
 const Genre = () => {

@@ -1,12 +1,19 @@
 import { useDispatch } from 'react-redux'
+import // setFocusActive,
+// setChooseNav,
+// setChooseGanre,
+// setFocusSection,
+// setStateCarusel,
+// setStateSettingList,
+'../redux/actions/mainStateActions'
 import {
+  setChooseGanre,
+  setChooseNav,
   setFocusActive,
   setFocusSection,
-  setChooseNav,
-  setChooseGanre,
   setStateCarusel,
   setStateSettingList,
-} from '../redux/actions/mainStateActions'
+} from '../redux/reducer/mainState'
 
 export const useKeyDown = () => {
   const dispatch = useDispatch()
@@ -30,7 +37,6 @@ export const useKeyDown = () => {
                   .classList[2],
               ),
             )
-        return
       }
       if (activeLi?.nextSibling) {
         dispatch(setFocusActive(activeLi?.nextSibling.classList[1]))

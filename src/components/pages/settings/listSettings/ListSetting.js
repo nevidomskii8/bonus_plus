@@ -1,11 +1,11 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { setFocusSection } from '../../../../redux/actions/mainStateActions'
 import {
   getFocusActive,
   getFocusSection,
-} from '../../../../redux/selectors/mainStateSelector'
+  setFocusSection,
+} from '../../../../redux/reducer/mainState'
 import './ListSetting.scss'
 
 const ListSettings = () => {

@@ -4,7 +4,7 @@ import {
   getFocusActive,
   getFocusSection,
   getScheduleState,
-} from '../../../../redux/selectors/mainStateSelector'
+} from '../../../../redux/reducer/mainState'
 import './Schedule.scss'
 
 const Schedule = () => {

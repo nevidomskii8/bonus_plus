@@ -1,3 +1,5 @@
+//  ПОКА НЕ УДАЛЯТЬ!
+
 import { addState, removeState } from '../actions/storageAction'
 
 export const stateLocalStorage = (store) => (next) => (action) => {

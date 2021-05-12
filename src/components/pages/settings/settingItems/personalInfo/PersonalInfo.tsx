@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
-import { getFocusActive, getFocusSection } from "../../../../../redux/selectors/mainStateSelector";
+import { getFocusActive, getFocusSection } from "../../../../../redux/reducer/mainState";
 import styles from "./personalInfo.module.scss";
 
 const persInfo: string = styles.personalInfo
@@ -11,10 +11,6 @@ export const PersonalInfo = () => {
   const focusSection = useSelector(getFocusSection)
   const [currentFocus, setCurrentFocus] = useState(null)
   const active = useSelector(getFocusActive)
-
-  const defineState = () => {
-
-  }
 
   useEffect(() => {
     //  focusSection === 'setup-detail' 
@@ -29,28 +25,33 @@ export const PersonalInfo = () => {
       <h3>Введите ваши персональные данные и выбирте место вашего проживания</h3>
 
       <ul className={styleUl} >
+
         <li className={`${styleLI}`} >
           <label htmlFor="name">Имя</label>
           <input type="text" id="name" name="userName" />
         </li>
+
         <li className={`${styleLI}`} >
           <label htmlFor="surName">Имя</label>
           <input type="text" id="surName" name="userSurName" />
 
         </li>
+
         <li className={`${styleLI}`} >
           <label htmlFor="email">Email</label>
           <input type="email" id="email" name="userEmail" />
         </li>
+
         <li className={`${styleLI}`} >
           <label htmlFor="country">Страна</label>
-
           <select name="country" id="country">
             <option value="Ukraine">Украина</option>
             <option value="Fhanch">Франция</option>
             <option value="Spain">Испания</option>
             <option value="Itali">Италия</option>
-          </select></li>
+          </select>
+        </li>
+
         <li className={`${styleLI}`} >
           <label htmlFor="area">Область</label>
           <select name="area" id="area">
@@ -63,6 +64,7 @@ export const PersonalInfo = () => {
             <option value="obl_dnepr">Днепр oбл</option>
           </select>
         </li>
+
         <li className={`${styleLI}`} >
           <label htmlFor="city">Город</label>
           <select name="city" id="city">
@@ -75,6 +77,7 @@ export const PersonalInfo = () => {
             <option value="dnepr">Днепр</option>
           </select>
         </li>
+
       </ul>
     </div>
   );

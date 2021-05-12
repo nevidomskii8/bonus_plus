@@ -1,13 +1,16 @@
 import { lazy, Suspense } from 'react'
 import { useSelector } from 'react-redux'
-import { getChooseNav } from '../../../redux/selectors/mainStateSelector'
 import { Ring } from 'react-awesome-spinners'
+import { getChooseNav } from '../../../redux/reducer/mainState'
 import './MainPage.scss'
+// обернуть в лейзи
 import { PaymentDetail } from '../payment/PaymentDetail'
 
+
+
+const Navigation = lazy(() => import('../../navigation/Navigation'))
 const Genre = lazy(() => import('../tv/genres/Genre'))
 const ChanalGanres = lazy(() => import('../tv/chanalGanres/ChanalGanres'))
-const Navigation = lazy(() => import('../../navigation/Navigation'))
 const Schedule = lazy(() => import('../tv/schedule/Schedule.js'))
 const MovieTypes = lazy(() => import('../movie/movieClass/MovieTypes'))
 const Films = lazy(() => import('../movie/films/Films'))

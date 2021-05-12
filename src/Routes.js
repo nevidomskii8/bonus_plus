@@ -10,8 +10,8 @@ import { useDispatch, useSelector } from 'react-redux'
 import { fetchState } from './redux/actions/mainStateActions'
 import { useKeyDown } from './helpers/useKeyListener'
 import { TVPage } from './components/pages/mainPage/MainPage'
-import { getChooseNav } from './redux/selectors/mainStateSelector'
 import styles from './Styles.module.scss'
+import { getChooseNav } from './redux/reducer/mainState'
 
 export default function Routes() {
   const menu = useSelector(getChooseNav)
