@@ -1,37 +1,37 @@
-@import '../../../../utilities/variables';
-@import '../../../../utilities/corners';
+@import "../../../../styles/variables";
+@import "../../../../styles/corners";
 
 @mixin spetialLI {
-	position: relative;
-	margin-bottom: 42px;
-	&::before {
-		position: absolute;
-		content: '';
-		left: -12%;
-		right: 0;
-		bottom: 0;
-		top: 56px;
-		width: 110%;
-		height: 1px;
-		background-color: #fff;
-	}
+  position: relative;
+  margin-bottom: 42px;
+  &::before {
+    position: absolute;
+    content: "";
+    left: -12%;
+    right: 0;
+    bottom: 0;
+    top: 56px;
+    width: 110%;
+    height: 1px;
+    background-color: #fff;
+  }
 }
 
 .movies-types {
-	&__list {
-		@include defaultStyleList;
+  &__list {
+    @include defaultStyleList;
 
-		&.active {
-			@include activeLi;
-		}
-		&:nth-child(1) {
-			@include spetialLI;
-		}
-		&:nth-child(5) {
-			@include spetialLI;
-		}
-	}
-	&__lable {
-		margin-left: 10px;
-	}
+    &.active {
+      @include activeLi;
+    }
+    &:nth-child(1) {
+      @include spetialLI;
+    }
+    &:nth-child(5) {
+      @include spetialLI;
+    }
+  }
+  &__lable {
+    margin-left: 10px;
+  }
 }

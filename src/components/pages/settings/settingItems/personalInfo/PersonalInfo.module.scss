@@ -1,31 +1,32 @@
-@import '../../../../../utilities/variables';
+@import "../../../../../styles/variables";
 
 .personalInfo {
-	padding: 20px;
+  padding: 20px;
 }
 .styleLi {
-	width: 70%;
-	display: flex;
-	justify-content: space-between;
-	padding: 1rem;
-	margin-bottom: 1rem;
-	align-items: center;
-	border: $borderTransparent;
-	& select,
-	input {
-		color: #eefafe;
-		width: 70%;
-		height: 2rem;
-		background-color: inherit;
-	}
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  align-items: center;
+  border: $borderTransparent;
+  & select,
+  input {
+    color: #eefafe;
+    width: 70%;
+    height: 2rem;
+    background-color: inherit;
+  }
 }
 .styleUl {
-	display: flex;
-	width: 70%;
-	flex-direction: column;
-	padding: 2rem;
+  display: flex;
+  width: 70%;
+  flex-direction: column;
+  padding: 2rem;
 }
 
 .active {
-	border: $borderActive;
+  display: flex;
+  border: $borderActive;
 }

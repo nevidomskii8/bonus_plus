@@ -1,32 +1,32 @@
-@import '/src/utilities/_variables';
+@import "/src/styles/_variables";
 
 .schedule {
-	&__head {
-		width: 100%;
-		display: flex;
-		font-size: 30px;
-		margin-bottom: 20px;
-		& img {
-			width: 40%;
-			margin-right: 20px;
-		}
-	}
-	&__title {
-		margin-bottom: 20px;
-		font-size: 20px;
-		text-transform: uppercase;
-	}
-	&__ul {
-		margin-left: 20px;
-	}
-	&__li {
-		margin-left: 40px;
-		border: $borderTransparent;
-		width: 90%;
-		font-size: 28px;
-		padding: 1px;
-		&.active {
-			border: $borderActive;
-		}
-	}
+  &__head {
+    width: 100%;
+    display: flex;
+    font-size: 30px;
+    margin-bottom: 20px;
+    & img {
+      width: 40%;
+      margin-right: 20px;
+    }
+  }
+  &__title {
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  &__ul {
+    margin-left: 20px;
+  }
+  &__li {
+    margin-left: 40px;
+    border: $borderTransparent;
+    width: 90%;
+    font-size: 28px;
+    padding: 1px;
+    &.active {
+      border: $borderActive;
+    }
+  }
 }

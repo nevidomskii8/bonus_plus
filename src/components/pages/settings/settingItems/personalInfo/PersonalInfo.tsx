@@ -1,14 +1,15 @@
 import { useEffect, useState } from "react";
-import { useSelector } from "react-redux";
-import { getFocusActive, getFocusSection } from "../../../../../redux/reducer/mainState";
+import { useDispatch, useSelector } from "react-redux";
+import { getFocusActive, getFocusSection, setFocusSection } from "../../../../../redux/reducer/mainState";
 import styles from "./personalInfo.module.scss";
 
 const persInfo: string = styles.personalInfo;
 const styleLI: string = styles.styleLi;
-const styleUl: string = styles.styleUl;
+const { styleUl } = styles;
 const activeLi: string = styles.active;
 
 export const PersonalInfo = () => {
+  const dispatch = useDispatch()
   const focusSection = useSelector(getFocusSection);
   const [currentFocus, setCurrentFocus] = useState("name");
   const [isActive, setIsActive] = useState(false);
@@ -17,16 +18,20 @@ export const PersonalInfo = () => {
   const personalDate = "Персональные данные (335588)";
 
   useEffect(() => {
-    focusSection === "setup-detail" ? setIsActive(true) : setIsActive(false);
-    console.log(focusSection);
+    focusSection === "presonal_info" ? setIsActive(true) : setIsActive(false);
   }, [focusSection]);
 
   useEffect(() => {
     isActive && setCurrentFocus(isActiveFocus);
   }, [isActiveFocus]);
 
+  useEffect(() => {
+    dispatch(setFocusSection("presonal_info"))
+  }, [])
+
+
   return (
-    <div className={`${persInfo}`}>
+    <div className={`presonal_info focusable ${focusSection === "presonal_info" && isActive ? "focused" : ""} ${persInfo}`}>
       <h2> {personalDate} </h2>
 
       <h3>Введите ваши персональные данные и выбирте место вашего проживания</h3>

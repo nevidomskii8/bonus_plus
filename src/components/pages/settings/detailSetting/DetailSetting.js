@@ -32,18 +32,19 @@ const DetailSetting = () => {
   useEffect(() => {
     setIsActive(true);
     setCurrentChoose("collections");
-    console.log(active);
   }, []);
 
   return (
-    <div className={`setup-detail focusable ${focusSection === "setup-detail" ? "focused" : ""}`}>
+    // <div className={`setup-detail focusable ${focusSection === "setup-detail" ? "focused" : ""}`}>
+    <>
       {state === "presonal_info" && <PersonalInfo />}
       {state === "parent_control" && <ParContol />}
       {state === "time_area" && <TimeArea />}
       {state === "for_tv" && <ForTV />}
       {state === "info_video" && <InfoVideo />}
       {state === "connect" && <Connect />}
-    </div>
+    </>
+    // </div>
   );
 };
 

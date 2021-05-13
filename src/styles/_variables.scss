@@ -1,0 +1,27 @@
+$bacgroundTypeOfList: linear-gradient(
+  to left bottom,
+  #000428,
+  #02163a,
+  #05214d,
+  #072e60,
+  #073b75,
+  #073b75,
+  #073b75,
+  #073b75,
+  #072e60,
+  #05214d,
+  #02163a,
+  #000428
+);
+$bacgroundNavigation: #002642;
+
+$focusedBorder: #2a93d6 4px solid;
+$activeLi: #2a93d6;
+$focusedBackgraund: rgba(
+  $color: #fff,
+  $alpha: 0.1,
+);
+$defaultBorderTop: solid 4px transparent;
+
+$borderTransparent: 1px solid transparent;
+$borderActive: 1px solid #2a93d6;
