@@ -1,10 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
-import {
-  getFocusActive,
-  getFocusSection,
-  getStateSettingList,
-} from "../../../../redux/reducer/mainState";
+import { getFocusActive, getFocusSection, getStateSettingList } from "../../../../redux/reducer/mainState";
 import { Connect } from "../settingItems/connectAccaunt/ConnectAccaunt";
 import { ForTV } from "../settingItems/forTV/ForTV";
 import { InfoVideo } from "../settingItems/infoVidio/InfoVideo";

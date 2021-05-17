@@ -1,11 +1,7 @@
 import { useEffect, useState } from "react";
 import { FormattedMessage } from "react-intl";
 import { useDispatch, useSelector } from "react-redux";
-import {
-  getFocusActive,
-  getFocusSection,
-  setFocusSection,
-} from "../../../../redux/reducer/mainState";
+import { getFocusActive, getFocusSection, setFocusSection } from "../../../../redux/reducer/mainState";
 import "./ChanalGanres.scss";
 
 const ChanalGanres = () => {
@@ -56,33 +52,11 @@ const ChanalGanres = () => {
         <li className={`tv-page_list 10 ${currentChoose === "10" && isActive ? "active" : ""}`}>
           <FormattedMessage id="app.tv.news" />
         </li>
-        <li className={`tv-page_list 9 ${currentChoose === "9" && isActive ? "active" : ""}`}>
-          HD
-        </li>
-        <li
-          className={`tv-page_list favorite ${
-            currentChoose === "favorite" && isActive ? "active" : ""
-          }`}
-        >
-          Любимые
-        </li>
-        <li
-          className={`tv-page_list records ${
-            currentChoose === "records" && isActive ? "active" : ""
-          }`}
-        >
-          В записи
-        </li>
-        <li
-          className={`tv-page_list custom ${
-            currentChoose === "custom" && isActive ? "active" : ""
-          }`}
-        >
-          Пользовательские
-        </li>
-        <li className={`tv-page_list home ${currentChoose === "home" && isActive ? "active" : ""}`}>
-          Домашние
-        </li>
+        <li className={`tv-page_list 9 ${currentChoose === "9" && isActive ? "active" : ""}`}>HD</li>
+        <li className={`tv-page_list favorite ${currentChoose === "favorite" && isActive ? "active" : ""}`}>Любимые</li>
+        <li className={`tv-page_list records ${currentChoose === "records" && isActive ? "active" : ""}`}>В записи</li>
+        <li className={`tv-page_list custom ${currentChoose === "custom" && isActive ? "active" : ""}`}>Пользовательские</li>
+        <li className={`tv-page_list home ${currentChoose === "home" && isActive ? "active" : ""}`}>Домашние</li>
         {/* <li><FormattedMessage id="app.tv.likes" /> </li>
                 <li><FormattedMessage id="app.tv.recorders" /> </li>
                 <li><FormattedMessage id="app.tv.users" /> </li>

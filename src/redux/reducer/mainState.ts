@@ -14,6 +14,7 @@ const initialState: MainStateModel = {
   scheduleState: "",
   stateCarusel: 0,
   stateSettingList: "",
+  isKeyBoard: false,
 };
 
 const stateSlice = createSlice({
@@ -41,6 +42,9 @@ const stateSlice = createSlice({
     setStateSettingList: (state, action: PayloadAction<string>) => {
       state.stateSettingList = action.payload;
     },
+    setIsKeyBoard: (state, action: PayloadAction<boolean>) => {
+      state.isKeyBoard = action.payload;
+    },
   },
   extraReducers: (builder) => {
     builder
@@ -62,6 +66,7 @@ export const getChooseGenre = (state: RootState) => state.state.choosedGenre;
 export const getScheduleState = (state: RootState) => state.state.scheduleState;
 export const getStateCarusel = (state: RootState) => state.state.stateCarusel;
 export const getStateSettingList = (state: RootState) => state.state.stateSettingList;
+export const getIsKeyBoard = (state: RootState) => state.state.isKeyBoard;
 
 export const {
   setFocusSection,
@@ -71,6 +76,7 @@ export const {
   setScheduleState,
   setStateCarusel,
   setStateSettingList,
+  setIsKeyBoard,
 } = stateSlice.actions;
 
 export default stateSlice.reducer;

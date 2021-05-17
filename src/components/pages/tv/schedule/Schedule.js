@@ -1,10 +1,6 @@
 import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
-import {
-  getFocusActive,
-  getFocusSection,
-  getScheduleState,
-} from "../../../../redux/reducer/mainState";
+import { getFocusActive, getFocusSection, getScheduleState } from "../../../../redux/reducer/mainState";
 import "./Schedule.scss";
 
 const Schedule = () => {

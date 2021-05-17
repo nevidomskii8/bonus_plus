@@ -1,15 +1,22 @@
-import { useDispatch } from "react-redux";
+/* eslint-disable no-console */
+import { useEffect, useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
 import {
   setChooseGanre,
   setChooseNav,
   setFocusActive,
   setFocusSection,
+  setIsKeyBoard,
   setStateCarusel,
   setStateSettingList,
+  getIsKeyBoard,
 } from "../redux/reducer/mainState";
 
 export const useKeyDown = () => {
   const dispatch = useDispatch();
+  const [isPlugIn, setIsPlugIn] = useState(false);
+  const isKeyBoard = useSelector(getIsKeyBoard);
+
   const handleKeyDown = (event) => {
     const focused = document.querySelectorAll(".focused");
     const activeLi = document.querySelector(".active");
@@ -20,11 +27,7 @@ export const useKeyDown = () => {
       if (focused[0].classList.contains("isCarusel")) {
         activeLi.parentElement.nextSibling
           ? dispatch(setStateCarusel(activeLi.parentElement.nextSibling.children[0].classList[2]))
-          : dispatch(
-              setStateCarusel(
-                activeLi.parentElement.parentElement.children[0].children[0].classList[2]
-              )
-            );
+          : dispatch(setStateCarusel(activeLi.parentElement.parentElement.children[0].children[0].classList[2]));
       }
       if (activeLi?.nextSibling) {
         dispatch(setFocusActive(activeLi?.nextSibling.classList[1]));
@@ -37,14 +40,8 @@ export const useKeyDown = () => {
       if (focused[0].classList.contains("isCarusel")) {
         const length = activeLi.parentElement.parentElement.children.length - 1;
         activeLi.parentElement.previousSibling
-          ? dispatch(
-              setStateCarusel(activeLi.parentElement.previousSibling.children[0].classList[2])
-            )
-          : dispatch(
-              setStateCarusel(
-                activeLi.parentElement.parentElement.children[length].children[0].classList[2]
-              )
-            );
+          ? dispatch(setStateCarusel(activeLi.parentElement.previousSibling.children[0].classList[2]))
+          : dispatch(setStateCarusel(activeLi.parentElement.parentElement.children[length].children[0].classList[2]));
       }
 
       if (activeLi?.previousSibling) {
@@ -90,6 +87,9 @@ export const useKeyDown = () => {
         case "item-genres-detail":
           console.log("item-genres-detail");
           return;
+        case "parent_control":
+          dispatch(setIsKeyBoard(true));
+          return;
         case "setting":
           dispatch(setStateSettingList(activeLi.classList[1]));
           return;
@@ -98,5 +98,19 @@ export const useKeyDown = () => {
       }
     }
   };
-  return handleKeyDown;
+
+  useEffect(() => {
+    setIsPlugIn(!isKeyBoard);
+  }, [isKeyBoard]);
+
+  useEffect(() => {
+    if (isPlugIn) {
+      window.addEventListener("keydown", handleKeyDown);
+    } else {
+      return window.removeEventListener("keydown", handleKeyDown);
+    }
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [isPlugIn]);
+
+  return { setIsPlugIn };
 };

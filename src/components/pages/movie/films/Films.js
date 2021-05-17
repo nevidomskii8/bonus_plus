@@ -24,43 +24,21 @@ const Films = () => {
 
   return (
     <div className={`films focusable isCarusel ${focusSection === "films" ? "focused" : ""}`}>
-      <Carousel
-        axis="vertical"
-        showThumbs={false}
-        selectedItem={selectedItem}
-        showStatus={false}
-        showArrows={false}
-        centerMode={false}
-      >
+      <Carousel axis="vertical" showThumbs={false} selectedItem={selectedItem} showStatus={false} showArrows={false} centerMode={false}>
         <div className={`carusel_sl cur 0 ${+selectedItem === 0 && isActive ? "active" : ""}`}>
-          <img
-            src="http://195.78.244.201/bonus/parsers/posterimage/valley_of_the_gods.jpg"
-            alt=""
-          />
+          <img src="http://195.78.244.201/bonus/parsers/posterimage/valley_of_the_gods.jpg" alt="" />
         </div>
         <div className={`carusel_sl cur 1 ${+selectedItem === 1 && isActive ? "active" : ""}`}>
-          <img
-            src="http://195.78.244.201/bonus/parsers/posterimage/valley_of_the_gods.jpg"
-            alt=""
-          />
+          <img src="http://195.78.244.201/bonus/parsers/posterimage/valley_of_the_gods.jpg" alt="" />
         </div>
         <div className={`carusel_sl cur 2 ${+selectedItem === 2 && isActive ? "active" : ""}`}>
-          <img
-            src="http://195.78.244.201/bonus/parsers/posterimage/valley_of_the_gods.jpg"
-            alt=""
-          />
+          <img src="http://195.78.244.201/bonus/parsers/posterimage/valley_of_the_gods.jpg" alt="" />
         </div>
         <div className={`carusel_sl cur 3 ${+selectedItem === 3 && isActive ? "active" : ""}`}>
-          <img
-            src="http://195.78.244.201/bonus/parsers/posterimage/valley_of_the_gods.jpg"
-            alt=""
-          />
+          <img src="http://195.78.244.201/bonus/parsers/posterimage/valley_of_the_gods.jpg" alt="" />
         </div>
         <div className={`carusel_sl cur 4 ${+selectedItem === 4 && isActive ? "active" : ""}`}>
-          <img
-            src="http://195.78.244.201/bonus/parsers/posterimage/valley_of_the_gods.jpg"
-            alt=""
-          />
+          <img src="http://195.78.244.201/bonus/parsers/posterimage/valley_of_the_gods.jpg" alt="" />
         </div>
       </Carousel>
     </div>

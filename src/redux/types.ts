@@ -9,4 +9,5 @@ export interface MainStateModel {
   scheduleState: string;
   stateCarusel: number;
   stateSettingList: string;
+  isKeyBoard: boolean;
 }

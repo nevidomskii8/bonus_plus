@@ -9,7 +9,7 @@ const { styleUl } = styles;
 const activeLi: string = styles.active;
 
 export const PersonalInfo = () => {
-  const dispatch = useDispatch()
+  const dispatch = useDispatch();
   const focusSection = useSelector(getFocusSection);
   const [currentFocus, setCurrentFocus] = useState("name");
   const [isActive, setIsActive] = useState(false);
@@ -26,9 +26,8 @@ export const PersonalInfo = () => {
   }, [isActiveFocus]);
 
   useEffect(() => {
-    dispatch(setFocusSection("presonal_info"))
-  }, [])
-
+    dispatch(setFocusSection("presonal_info"));
+  }, []);
 
   return (
     <div className={`presonal_info focusable ${focusSection === "presonal_info" && isActive ? "focused" : ""} ${persInfo}`}>
@@ -42,9 +41,7 @@ export const PersonalInfo = () => {
           <input type="text" id="name" name="userName" />
         </li>
 
-        <li
-          className={`${styleLI} surName ${currentFocus === "surName" ? `active ${activeLi}` : ""}`}
-        >
+        <li className={`${styleLI} surName ${currentFocus === "surName" ? `active ${activeLi}` : ""}`}>
           <label htmlFor="surName">Имя</label>
           <input type="text" id="surName" name="userSurName" />
         </li>
@@ -54,9 +51,7 @@ export const PersonalInfo = () => {
           <input type="email" id="email" name="userEmail" />
         </li>
 
-        <li
-          className={`${styleLI} country ${currentFocus === "country" ? `active ${activeLi}` : ""}`}
-        >
+        <li className={`${styleLI} country ${currentFocus === "country" ? `active ${activeLi}` : ""}`}>
           <label htmlFor="country">Страна</label>
           <select name="country" id="country">
             <option value="Ukraine">Украина</option>
