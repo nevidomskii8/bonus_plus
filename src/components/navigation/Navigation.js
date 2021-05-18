@@ -26,37 +26,40 @@ const Navigation = () => {
     isActive && setCurrentChoose(active);
   }, [active]);
 
+  const check = focusSection === "navigation";
+  const focus = check ? "show" : "hidden";
+
   return (
-    <div className={`navigation focusable ${focusSection === "navigation" ? "focused" : ""}`}>
-      <div className="navigation__logo" />
+    <div className={`navigation focusable ${check ? "focused" : ""}`}>
+      <div className="navigation__logo">{check && <span> BONUS-TV</span>}</div>
       <ul className="navigation__menu">
         <li className={`navigation__item-nav tv ${currentChoose === "tv" && isActive ? "active" : ""}`}>
           <TVSVG className="navigation__svg navigation__svg--tv" />
-          <span className={`${focusSection === "navigation" ? "show" : "hidden"}`}>Телевиденье</span>
+          <span className={focus}>Телевиденье</span>
         </li>
         <li className={`navigation__item-nav movie-types ${currentChoose === "movie-types" && isActive ? "active" : ""}`}>
           <PlaySVG className="navigation__svg navigation__svg--records" />
-          <span className={`${focusSection === "navigation" ? "show" : "hidden"}`}>Кино</span>
+          <span className={focus}>Кино</span>
         </li>
         <li className={`navigation__item-nav serialize ${currentChoose === "serialize" && isActive ? "active" : ""}`}>
           <Serialize className="navigation__svg navigation__svg--records" />
-          <span className={`${focusSection === "navigation" ? "show" : "hidden"}`}>Сериалы</span>
+          <span className={focus}>Сериалы</span>
         </li>
         <li className={`navigation__item-nav setup ${currentChoose === "setup" && isActive ? "active" : ""}`}>
           <SettingSVG className="navigation__svg navigation__svg--setup" />
-          <span className={`${focusSection === "navigation" ? "show" : "hidden"}`}>Настройки</span>
+          <span className={focus}>Настройки</span>
         </li>
         <li className={`navigation__item-nav paycard ${currentChoose === "paycard" && isActive ? "active" : ""}`}>
           <PayCard className="navigation__svg navigation__svg--info" />
-          <span className={`${focusSection === "navigation" ? "show" : "hidden"}`}>Оплата услуг</span>
+          <span className={focus}>Оплата услуг</span>
         </li>
         <li className={`navigation__item-nav youtube ${currentChoose === "youtube" && isActive ? "active" : ""}`}>
           <Youtube className="navigation__svg navigation__svg--info" />
-          <span className={`${focusSection === "navigation" ? "show" : "hidden"}`}>Youtube</span>
+          <span className={focus}>Youtube</span>
         </li>
         <li className={`navigation__item-nav radio ${currentChoose === "radio" && isActive ? "active" : ""}`}>
           <InfoSVG className="navigation__svg navigation__svg--info" />
-          <span className={`${focusSection === "navigation" ? "show" : "hidden"}`}>Радио</span>
+          <span className={focus}>Радио</span>
         </li>
       </ul>
       <select className="navigation__lang" value={context.locale} onChange={context.selectLanguage}>

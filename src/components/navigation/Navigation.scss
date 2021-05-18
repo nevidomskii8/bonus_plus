@@ -78,9 +78,18 @@ $marginLeftSvg: 25%;
   &__logo {
     position: absolute;
     top: 10px;
+    left: 12px;
     background-image: url("../../assets/images/menu-logo.png");
     background-repeat: no-repeat;
     width: 54px;
     height: 54px;
+    & span {
+      position: fixed;
+      left: 70px;
+      top: 30px;
+      font-weight: 900;
+      font-size: 150%;
+      color: #8093a1;
+    }
   }
 }
